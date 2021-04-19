@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!-- Avid Send To Template (.stt) file -->
+
+<overwriteProtection>on</overwriteProtection>
+
+<templateNickName>Avid DS</templateNickName>
+
+<supportedPlatforms>
+	<entry>mac</entry>
+	<entry>pc</entry>
+</supportedPlatforms>
+
+<supportedProjectTypes></supportedProjectTypes>
+
+<supportedModels></supportedModels>
+
+<supportedExportFormats>
+	<entry>AAF</entry>
+	<entry>AFE</entry>
+</supportedExportFormats>
+
+<supportedMediaObjects></supportedMediaObjects>
+
+<supportedAudioFileFormats></supportedAudioFileFormats>
+
+<supportedAudioSampleRates></supportedAudioSampleRates>
+
+<supportedAudioBitRates></supportedAudioBitRates>
+
+<destinationDirectoryMac></destinationDirectoryMac>
+<destinationDirectoryPC></destinationDirectoryPC>
+
+<exportSetup>
+	<exportAutoLaunchInfo>
+		<visibility>off</visibility>
+		<application></application>
+		<autoLaunch>off</autoLaunch>
+		<autoLoad>off</autoLoad>
+	</exportAutoLaunchInfo>
+
+	<revealExportedFiles>off</revealExportedFiles>
+	
+	<exportSetting1Setup>
+		<checkbox>on</checkbox>
+		<exportSetting>Avid DS</exportSetting>
+	</exportSetting1Setup>
+	
+	<exportSetting2Setup>
+		<checkbox>off</checkbox>
+		<exportSetting></exportSetting>
+	</exportSetting2Setup>
+
+	<useQTforMPEGencodingOnMac>off</useQTforMPEGencodingOnMac>
+</exportSetup>
+
+<exportMetaSyncTrackInfo>
+	<visibility>off</visibility>
+	<exportMetaSyncTrack>off</exportMetaSyncTrack>
+	<convertToXML>off</convertToXML>
+	<revealMetaSyncFile>off</revealMetaSyncFile>
+
+	<metaSyncAutoLaunchInfo>
+		<application></application>
+		<autoLaunch>off</autoLaunch>
+		<autoLoad>off</autoLoad>
+	</metaSyncAutoLaunchInfo>
+</exportMetaSyncTrackInfo>

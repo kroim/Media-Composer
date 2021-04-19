@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- Avid Send To Template (.stt) file -->
+
+<templateNickName>Consolidate</templateNickName>
+
+<supportedPlatforms></supportedPlatforms>
+
+<supportedModels></supportedModels>
+
+<supportedProjectTypes></supportedProjectTypes>
+
+<supportedExportFormats></supportedExportFormats>
+
+<supportedMediaObjects></supportedMediaObjects>
+
+<supportedAudioFileFormats></supportedAudioFileFormats>
+
+<supportedAudioSampleRates></supportedAudioSampleRates>
+
+<supportedAudioBitRates></supportedAudioBitRates>
+
+<destinationDirectoryPC>C:\Users\OLEKSA~1.GNY\AppData\Local\Temp\</destinationDirectoryPC>
+
+<exportSetup>
+	<exportAutoLaunchInfo>
+		<visibility>on</visibility>
+		<application>DigiDelivery</application>
+		<autoLaunch>off</autoLaunch>
+		<autoLoad>off</autoLoad>
+	<includeLinkedMedia>on</includeLinkedMedia>
+	</exportAutoLaunchInfo>
+
+	<revealExportedFiles>off</revealExportedFiles>
+
+	<exportSetting1Setup>
+		<checkbox>on</checkbox>
+		<exportSetting>Consolidate</exportSetting>
+	</exportSetting1Setup>
+
+	<exportSetting2Setup>
+		<checkbox>off</checkbox>
+		<exportSetting>Consolidate</exportSetting>
+	</exportSetting2Setup>
+
+	<useQTforMPEGencodingOnMac>off</useQTforMPEGencodingOnMac>
+</exportSetup>
+
+<squeezeSettingsBag></squeezeSettingsBag>
+<sonicBurnType>0</sonicBurnType>
+<sonicDirectBurn>off</sonicDirectBurn>

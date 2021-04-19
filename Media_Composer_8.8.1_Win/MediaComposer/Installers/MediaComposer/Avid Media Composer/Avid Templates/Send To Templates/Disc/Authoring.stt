@@ -1,0 +1,83 @@
+<!--
+ Copyright 2013 by Avid Technology, Inc.
+-->
+
+<?xml version="1.0"?>
+<!-- Avid Send To Template (.stt) file -->
+
+<overwriteProtection>on</overwriteProtection>
+
+<templateNickName>Authoring</templateNickName>
+
+<supportedPlatforms>
+	<entry>mac</entry>
+	<entry>pc</entry>
+</supportedPlatforms>
+
+<supportedModels></supportedModels>
+
+<supportedProjectTypes></supportedProjectTypes>
+
+<supportedExportFormats>
+	<entry>QuickTime Reference</entry>
+	<entry>QuickTime Movie</entry>
+</supportedExportFormats>
+
+<supportedMediaObjects></supportedMediaObjects>
+
+<supportedAudioFileFormats>
+	<entry>WAVE</entry>
+	<entry>AIFF-C</entry>
+	<entry>OMF (WAVE)</entry>
+	<entry>OMF (AIFF-C)</entry>
+</supportedAudioFileFormats>
+
+<supportedAudioSampleRates>
+	<entry>48000</entry>
+</supportedAudioSampleRates>
+
+<supportedAudioBitRates>
+	<entry>16</entry>
+</supportedAudioBitRates>
+
+<destinationDirectoryMac></destinationDirectoryMac>
+<destinationDirectoryPC></destinationDirectoryPC>
+
+<sonicDirectBurn>off</sonicDirectBurn>
+<sonicBurnType>0</sonicBurnType>
+
+<exportSetup>
+	<exportAutoLaunchInfo>
+		<visibility>on</visibility>
+		<application>Disc Authoring</application>
+		<autoLaunch>on</autoLaunch>
+		<autoLoad>on</autoLoad>
+	</exportAutoLaunchInfo>
+
+	<revealExportedFiles>off</revealExportedFiles>
+	
+	<exportSetting1Setup>
+		<checkbox>on</checkbox>
+		<exportSetting>QuickTime Reference DV Codec</exportSetting>
+	</exportSetting1Setup>
+
+	<exportSetting2Setup>
+		<checkbox>off</checkbox>
+		<exportSetting></exportSetting>
+	</exportSetting2Setup>
+
+	<useQTforMPEGencodingOnMac>off</useQTforMPEGencodingOnMac>
+</exportSetup>
+
+<exportMetaSyncTrackInfo>
+	<visibility>on</visibility>
+	<exportMetaSyncTrack>on</exportMetaSyncTrack>
+	<convertToXML>on</convertToXML>
+	<revealMetaSyncFile>off</revealMetaSyncFile>
+
+	<metaSyncAutoLaunchInfo>
+		<application></application>
+		<autoLaunch>off</autoLaunch>
+		<autoLoad>off</autoLoad>
+	</metaSyncAutoLaunchInfo>
+</exportMetaSyncTrackInfo>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!-- Avid Send To Template (.stt) file -->
+
+<templateNickName>Avid Video - Consolidate Audio</templateNickName>
+
+<supportedPlatforms></supportedPlatforms>
+
+<supportedModels></supportedModels>
+
+<supportedProjectTypes>
+	<entry>23.976p NTSC</entry>
+	<entry>24p NTSC</entry>
+	<entry>30i NTSC</entry>
+	<entry>24p PAL</entry>
+	<entry>25p PAL</entry>
+	<entry>25i PAL</entry>
+</supportedProjectTypes>
+
+<supportedExportFormats></supportedExportFormats>
+
+<supportedMediaObjects></supportedMediaObjects>
+
+<supportedAudioFileFormats></supportedAudioFileFormats>
+
+<supportedAudioSampleRates></supportedAudioSampleRates>
+
+<supportedAudioBitRates></supportedAudioBitRates>
+
+<destinationDirectoryPC></destinationDirectoryPC>
+
+<exportSetup>
+	<exportAutoLaunchInfo>
+		<visibility>on</visibility>
+		<application>DigiDelivery</application>
+		<autoLaunch>on</autoLaunch>
+		<autoLoad>off</autoLoad>
+	<includeLinkedMedia>on</includeLinkedMedia>
+	</exportAutoLaunchInfo>
+
+	<revealExportedFiles>off</revealExportedFiles>
+
+	<exportSetting1Setup>
+		<checkbox>on</checkbox>
+		<exportSetting>Export To Pro Tools</exportSetting>
+	</exportSetting1Setup>
+
+	<exportSetting2Setup>
+		<checkbox>off</checkbox>
+		<exportSetting></exportSetting>
+	</exportSetting2Setup>
+
+	<useQTforMPEGencodingOnMac>off</useQTforMPEGencodingOnMac>
+</exportSetup>
+
+<exportMetaSyncTrackInfo>
+	<visibility>on</visibility>
+	<exportMetaSyncTrack>off</exportMetaSyncTrack>
+	<MetaSyncFileType>XML</MetaSyncFileType>
+	<revealMetaSyncFile>off</revealMetaSyncFile>
+
+	<metaSyncAutoLaunchInfo>
+		<application>DigiDelivery</application>
+		<autoLaunch>off</autoLaunch>
+		<autoLoad>on</autoLoad>
+	</metaSyncAutoLaunchInfo>
+</exportMetaSyncTrackInfo>
+<squeezeSettingsBag></squeezeSettingsBag>
