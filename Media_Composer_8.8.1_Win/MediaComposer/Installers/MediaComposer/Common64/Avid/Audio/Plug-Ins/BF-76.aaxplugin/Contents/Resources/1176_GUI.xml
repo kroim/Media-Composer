@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="" id="">
+  <bounds x="0" y="0" width="640" height="203"/>
+  <image id="background" src="Misc/backdrop.png" x="0" y="0"/>
+
+  <view type="Knob" id="Input Level Knob">
+    <parameter id="Input"/>
+    <bounds x="22" y="48" width="92" height="93"/>
+    <image id="knob" src="Large_Knob/1176knob%04d.png"/>
+  </view>
+
+  <view type="Knob" id="Output Level Knob">
+    <parameter id="Output"/>
+    <bounds x="145" y="48" width="92" height="93"/>
+    <image id="knob" src="Large_Knob/1176knob%04d.png"/>
+  </view>
+
+  <view type="Knob" id="Attack Knob">
+    <parameter id="Attack"/>
+    <bounds x="266" y="31" width="59" height="60"/>
+    <image id="knob" src="Small_Knob/LilKnob%04d.png"/>
+  </view>
+
+  <view type="Knob" id="Release Knob">
+    <parameter id="Release"/>
+    <bounds x="266" y="124" width="59" height="60"/>
+    <image id="knob" src="Small_Knob/LilKnob%04d.png"/>
+  </view>
+
+  <view type="Button" id="Ratio button">
+    <parameter id="Compression Ratio"/>
+    <bounds x="354" y="34" width="30" height="137"/>
+    <image_list id="state">
+      <image id="" src="Ratio_Buttons/push_4.png"/>
+      <image id="" src="Ratio_Buttons/push_8.png"/>
+      <image id="" src="Ratio_Buttons/push_12.png"/>
+      <image id="" src="Ratio_Buttons/push_20.png"/>
+      <image id="" src="Ratio_Buttons/push_all.png"/>
+    </image_list>
+    <range min="0" max="4" segments="5"/>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="Meter button">
+    <parameter id="Meter"/>
+    <bounds x="577" y="34" width="30" height="137"/>
+    <image_list id="state">
+      <image id="" src="Meter_Buttons/meter_off.png"/>
+      <image id="" src="Meter_Buttons/meter_24.png"/>
+      <image id="" src="Meter_Buttons/meter_18.png"/>
+      <image id="" src="Meter_Buttons/meter_gr.png"/>
+    </image_list>
+    <range min="0" max="3" segments="4"/>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Meter" id="NeedleMeter">
+    <meter id="" type="needle"/>
+    <bounds x="393" y="54" width="173" height="69"/>
+    <image_list id="background">
+      <image src="Needle/meter_bg.png"/>
+      <image src="Needle/meter_bg_disabled.png"/>
+    </image_list>
+    <image_list id="meter" src="Needle/Needle_1176_%03d.png" x="15" y="17"/>
+    <taper_delegate id="meter">
+      <taper input="3.2"		output="299"/>
+      <taper input="3.0"		output="294"/>
+      <taper input="2.0"		output="251"/>
+      <taper input="1.0"		output="222"/>
+      <taper input="0.5"		output="205"/>
+      <taper input="0.0"		output="189"/>
+      <taper input="-0.5"		output="176"/>
+      <taper input="-1.0"		output="162"/>
+      <taper input="-2.0"		output="137"/>
+      <taper input="-3.0"		output="117"/>
+      <taper input="-4.0"		output="97"/>
+      <taper input="-5.0"		output="82"/>
+      <taper input="-6.0"		output="69"/>
+      <taper input="-7.0"		output="57"/>
+      <taper input="-10.0"	output="31"/>
+      <taper input="-20.0"	output="5"/>
+      <taper input="-24.0"	output="0"/>
+    </taper_delegate>
+  </view>
+
+</view>

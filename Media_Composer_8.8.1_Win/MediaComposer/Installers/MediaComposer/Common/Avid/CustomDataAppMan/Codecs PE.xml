@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product UIName="Codecs PE">
+  <EntitlementList>
+    <Entitlement>
+      <FNC DisplayName="Codecs PE">
+        <ProductCode>{C5A79F18-4DFD-AA65-2903-591F0C45C320}</ProductCode>
+        <ProductVersion>2.0.0</ProductVersion>
+      </FNC>
+    </Entitlement>
+  </EntitlementList>
+  <VersionInfo>
+    <Windows>
+      <Is64Bits>No</Is64Bits>
+      <RegistryPath>HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Avid Technology\Avid Codecs PE</RegistryPath>
+    </Windows>
+    <Mac>
+	<BundleID />
+	<PackageBundleID>com.avid.avidcodecspe.pkg</PackageBundleID>
+    </Mac>
+  </VersionInfo>
+  <OnDemand>Yes</OnDemand>
+  <LinkName>Codecs PE</LinkName>
+  <ParentLinkName />
+  <IconID>Codecs PE</IconID>
+  <NeedRegistration>No</NeedRegistration>
+</Product>
