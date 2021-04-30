@@ -1,0 +1,1920 @@
+<?xml version='1.0' encoding='US-ASCII' standalone='yes'?>
+<PageTables vers='7.4.0.119'>
+	<PageTableLayouts>
+		<Plugin manID='AVID' prodID='ChSt' plugID='C50R'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C50R'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C51R'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C51R'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C51T'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C51T'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C5Ti'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C5Ti'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C60R'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C60R'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C61R'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C61R'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C61T'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C61T'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C6Ti'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C6Ti'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C70R'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C70R'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C70r'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C70r'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C71R'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C71R'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C71T'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C71T'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C71r'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C71r'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C71t'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C71t'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C7Ti'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C7Ti'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='C7ti'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='C7ti'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CLSR'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CLSR'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CLTi'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CLTi'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CLsT'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CLsT'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CMRT'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CMRT'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CMTi'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CMTi'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CQTi'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CQTi'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CQuR'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CQuR'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CSRT'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CSRT'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='CSTi'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='CSTi'-->
+		<Plugin manID='AVID' prodID='ChSt' plugID='ClcR'>
+			<Desc> </Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='ChSt' plugID='ClcR'-->
+		<PTLayout name='PageTable 1'>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="Cmp Release Time" inOutButtonID="Dynamics On/Off" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="Cmp Attack Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="Cmp Ratio" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="Cmp Threshold" inOutButtonID="Cmp In/Out" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="Exp Depth" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="Exp Hold Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="Cmp Knee" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="Cmp Gain Makeup" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="Exp Release Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="Exp Attack Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="Exp Ratio" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="Exp Threshold" inOutButtonID="Exp In/Out" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="Filter 2 Frequency" inOutButtonID="Filter 2 In/Out" selectButtonID="Filter 2 Type"/>
+					<Cell row='2' col='4' knobID="Filter 2 Slope 12/24dB" inOutButtonID="" selectButtonID="Filter 2 Listen In/Out"/>
+					<Cell row='3' col='4' knobID="Filter 1 Frequency" inOutButtonID="Filter 1 In/Out" selectButtonID="Filter 1 Type"/>
+					<Cell row='4' col='4' knobID="Filter 1 Slope 12/24dB" inOutButtonID="Filters On/Off" selectButtonID="Filter 1 Listen In/Out"/>
+					<Cell row='1' col='5' knobID="EQ Tab" inOutButtonID="EQ On/Off" selectButtonID="Dynamics Tab"/>
+					<Cell row='2' col='5' knobID="EQ Low Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="EQ Low Frequency" inOutButtonID="" selectButtonID="EQ Low Type"/>
+					<Cell row='4' col='5' knobID="EQ Low Gain" inOutButtonID="EQ Low In/Out" selectButtonID="EQ Low Listen In/Out"/>
+					<Cell row='1' col='6' knobID="Input Trim" inOutButtonID="Phase Switch In/Out" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="EQ Low-Mid Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="EQ Low-Mid Frequency" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="EQ Low-Mid Gain" inOutButtonID="EQ Low-Mid In/Out" selectButtonID="EQ Low-Mid Listen In/Out"/>
+					<Cell row='1' col='7' knobID="Fader Volume" inOutButtonID="Master Bypass" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="EQ High-Mid Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="EQ High-Mid Frequency" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="EQ High-Mid Gain" inOutButtonID="EQ High-Mid In/Out" selectButtonID="EQ High-Mid Listen In/Out"/>
+					<Cell row='1' col='8' knobID="Process Order" inOutButtonID="" selectButtonID="Order Tab"/>
+					<Cell row='2' col='8' knobID="EQ High Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="EQ High Frequency" inOutButtonID="" selectButtonID="EQ High Type"/>
+					<Cell row='4' col='8' knobID="EQ High Gain" inOutButtonID="EQ High In/Out" selectButtonID="EQ High Listen In/Out"/>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<Cell row='1' col='1' knobID="Input Trim" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="Fader Volume" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="Cmp Depth" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="Exp Knee" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="Exp Hysteresis" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="Sc Filter Type" inOutButtonID="Sc Filter In/Out" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="Sc Filter Frequency" inOutButtonID="" selectButtonID="Sc Listen In/Out"/>
+					<Cell row='3' col='3' knobID="Sc Detector Type Avg/Pk" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="Sc Source" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="Filter 2 Q" inOutButtonID="" selectButtonID="Filter 2 Type"/>
+					<Cell row='2' col='4' knobID="Filter 2 Frequency" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="Filter 1 Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='4' knobID="Filter 1 Frequency" inOutButtonID="" selectButtonID="Filter 1 Type"/>
+					<Cell row='1' col='5' knobID="Meters Tab" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="Dynamics Reveal" inOutButtonID="Dynamics Reveal" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="EQ Reveal" inOutButtonID="EQ Reveal" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="Phase Switch In/Out" inOutButtonID="Phase Switch In/Out" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="Dynamics Range" inOutButtonID="Dynamics Range" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="EQ Range" inOutButtonID="EQ Range" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="Fader Volume On/Off" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="Fader Volume Pre/Post" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='2'-->
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="EQ High Frequency" inOutButtonID="EQ High Type" selectButtonID="EQ High Q"/>
+					<Cell row='2' col='1' knobID="EQ High Gain" inOutButtonID="EQ High In/Out" selectButtonID="EQ High Listen In/Out"/>
+					<Cell row='3' col='1' knobID="EQ High-Mid Frequency" inOutButtonID="EQ On/Off" selectButtonID="EQ High-Mid Q"/>
+					<Cell row='4' col='1' knobID="EQ High-Mid Gain" inOutButtonID="EQ High-Mid In/Out" selectButtonID="EQ High-Mid Listen In/Out"/>
+					<Cell row='5' col='1' knobID="EQ Low-Mid Frequency" inOutButtonID="EQ On/Off" selectButtonID="EQ Low-Mid Q"/>
+					<Cell row='6' col='1' knobID="EQ Low-Mid Gain" inOutButtonID="EQ Low-Mid In/Out" selectButtonID="EQ Low-Mid Listen In/Out"/>
+					<Cell row='7' col='1' knobID="EQ Low Frequency" inOutButtonID="EQ Low Type" selectButtonID="EQ Low Q"/>
+					<Cell row='8' col='1' knobID="EQ Low Gain" inOutButtonID="EQ Low In/Out" selectButtonID="EQ Low Listen In/Out"/>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<Cell row='1' col='1' knobID="Filters On/Off" inOutButtonID="Filters On/Off" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="Filter 2 Type" inOutButtonID="Filter 2 In/Out" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="Filter 2 Q" inOutButtonID="Filter 2 Slope 12/24dB" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="Filter 2 Frequency" inOutButtonID="Filter 2 Listen In/Out" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Filters On/Off" inOutButtonID="Filters On/Off" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="Filter 1 Type" inOutButtonID="Filter 1 In/Out" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="Filter 1 Q" inOutButtonID="Filter 1 Slope 12/24dB" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="Filter 1 Frequency" inOutButtonID="Filter 1 Listen In/Out" selectButtonID=""/>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<Cell row='1' col='1' knobID="Cmp Release Time" inOutButtonID="Dynamics On/Off" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="Cmp Attack Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="Cmp Ratio" inOutButtonID="" selectButtonID="Cmp Knee"/>
+					<Cell row='4' col='1' knobID="Cmp Threshold" inOutButtonID="Cmp In/Out" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Exp Release Time" inOutButtonID="" selectButtonID="Exp Hold Time"/>
+					<Cell row='6' col='1' knobID="Exp Attack Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="Exp Ratio" inOutButtonID="" selectButtonID="Exp Knee"/>
+					<Cell row='8' col='1' knobID="Exp Threshold" inOutButtonID="Exp In/Out" selectButtonID=""/>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<Cell row='1' col='1' knobID="Exp Hysteresis" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="Exp Hold Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="Exp Depth" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="Exp Release Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Exp Attack Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="Exp Knee" inOutButtonID="" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="Exp Ratio" inOutButtonID="" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="Exp Threshold" inOutButtonID="Exp In/Out" selectButtonID=""/>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="Cmp Gain Makeup" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="Cmp Depth" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="Cmp Release Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Cmp Attack Time" inOutButtonID="" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="Cmp Knee" inOutButtonID="" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="Cmp Ratio" inOutButtonID="" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="Cmp Threshold" inOutButtonID="Cmp In/Out" selectButtonID=""/>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="EQ On/Off" inOutButtonID="EQ On/Off" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="EQ Tab" inOutButtonID="" selectButtonID="Dynamics Tab"/>
+					<Cell row='4' col='1' knobID="Process Order" inOutButtonID="Process Order" selectButtonID="Order Tab"/>
+					<Cell row='5' col='1' knobID="Sc Filter Type" inOutButtonID="Sc Listen In/Out" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="Sc Filter Frequency" inOutButtonID="Sc Filter In/Out" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="Sc Source" inOutButtonID="" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="Sc Detector Type Avg/Pk" inOutButtonID="Sc Detector Type Avg/Pk" selectButtonID=""/>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<Cell row='1' col='1' knobID="Dynamics Reveal" inOutButtonID="Dynamics Reveal" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="Dynamics Range" inOutButtonID="Dynamics Range" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="EQ Reveal" inOutButtonID="EQ Reveal" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="EQ Range" inOutButtonID="EQ Range" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Input Trim" inOutButtonID="" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="Phase Switch In/Out" inOutButtonID="Phase Switch In/Out" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="Fader Volume Pre/Post" inOutButtonID="Fader Volume Pre/Post" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="Fader Volume" inOutButtonID="Fader Volume On/Off" selectButtonID="Meters Tab"/>
+				</Page><!--num='7'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>EQ Low-Mid Q</ID>
+					<ID>EQ Low-Mid Frequency</ID>
+					<ID>EQ Low-Mid Gain</ID>
+					<ID>EQ Low Q</ID>
+					<ID>EQ Low Frequency</ID>
+					<ID>EQ Low Gain</ID>
+					<ID>EQ Tab</ID>
+					<ID>EQ Low-Mid Listen In/Out</ID>
+					<ID>EQ Low-Mid In/Out</ID>
+					<ID>EQ Low Type</ID>
+					<ID>EQ Low Listen In/Out</ID>
+					<ID>EQ Low In/Out</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>EQ High Q</ID>
+					<ID>EQ High Frequency</ID>
+					<ID>EQ High Gain</ID>
+					<ID>EQ High-Mid Q</ID>
+					<ID>EQ High-Mid Frequency</ID>
+					<ID>EQ High-Mid Gain</ID>
+					<ID>EQ High Type</ID>
+					<ID>EQ High Listen In/Out</ID>
+					<ID>EQ High In/Out</ID>
+					<ID>EQ Tab</ID>
+					<ID>EQ High-Mid Listen In/Out</ID>
+					<ID>EQ High-Mid In/Out</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Filter 1 Type</ID>
+					<ID>Filter 1 Q</ID>
+					<ID>Filter 1 Frequency</ID>
+					<ID>Filter 2 Type</ID>
+					<ID>Filter 2 Q</ID>
+					<ID>Filter 2 Frequency</ID>
+					<ID>Filter 1 In/Out</ID>
+					<ID>Filter 1 Slope 12/24dB</ID>
+					<ID>Filter 1 Listen In/Out</ID>
+					<ID>Filter 2 In/Out</ID>
+					<ID>Filter 2 Slope 12/24dB</ID>
+					<ID>Filter 2 Listen In/Out</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Cmp Depth</ID>
+					<ID>Cmp Release Time</ID>
+					<ID>Cmp Attack Time</ID>
+					<ID>Cmp Knee</ID>
+					<ID>Cmp Threshold</ID>
+					<ID>Cmp Ratio</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Meters Tab</ID>
+					<ID>Dynamics Reveal</ID>
+					<ID>Dynamics Tab</ID>
+					<ID>Cmp In/Out</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID> </ID>
+					<ID>Meters Tab</ID>
+					<ID>Dynamics Reveal</ID>
+					<ID>Dynamics Tab</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID>Cmp Gain Makeup</ID>
+					<ID> </ID>
+					<ID>Meters Tab</ID>
+					<ID>Dynamics Reveal</ID>
+					<ID>Dynamics Tab</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID> </ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>Exp Depth</ID>
+					<ID>Exp Release Time</ID>
+					<ID>Exp Attack Time</ID>
+					<ID>Exp Knee</ID>
+					<ID>Exp Threshold</ID>
+					<ID>Exp Ratio</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Dynamics Reveal</ID>
+					<ID>Dynamics Tab</ID>
+					<ID>Exp In/Out</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID> </ID>
+					<ID>Dynamics Tab</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID> </ID>
+					<ID>Exp Hysteresis</ID>
+					<ID>Exp Hold Time</ID>
+					<ID> </ID>
+					<ID>Dynamics Tab</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>Dynamics Tab</ID>
+					<ID> </ID>
+					<ID>Sc Filter Type</ID>
+					<ID>Sc Filter Frequency</ID>
+					<ID>Sc Detector Type Avg/Pk</ID>
+					<ID>Sc Source</ID>
+					<ID>Dynamics Tab</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Sc Filter In/Out</ID>
+					<ID> </ID>
+					<ID>Sc Listen In/Out</ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>Input Trim</ID>
+					<ID>Process Order</ID>
+					<ID>Filters On/Off</ID>
+					<ID>EQ On/Off</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID>Fader Volume</ID>
+					<ID>Phase Switch In/Out</ID>
+					<ID>Fader Volume Pre/Post</ID>
+					<ID>Filters On/Off</ID>
+					<ID>EQ On/Off</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID>Fader Volume On/Off</ID>
+				</Page><!--num='9'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>EQ Low Gain</ID>
+					<ID>EQ Low Frequency</ID>
+					<ID>EQ Low Q</ID>
+					<ID>EQ Tab</ID>
+					<ID>EQ Low-Mid Gain</ID>
+					<ID>EQ Low-Mid Frequency</ID>
+					<ID>EQ Low-Mid Q</ID>
+					<ID>Fader Volume</ID>
+					<ID>EQ Low In/Out</ID>
+					<ID>EQ Low Listen In/Out</ID>
+					<ID>EQ Low Type</ID>
+					<ID>EQ Reveal</ID>
+					<ID>EQ Low-Mid In/Out</ID>
+					<ID>EQ Low-Mid Listen In/Out</ID>
+					<ID> </ID>
+					<ID>EQ On/Off</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>EQ High-Mid Gain</ID>
+					<ID>EQ High-Mid Frequency</ID>
+					<ID>EQ High-Mid Q</ID>
+					<ID> </ID>
+					<ID>EQ High Gain</ID>
+					<ID>EQ High Frequency</ID>
+					<ID>EQ High Q</ID>
+					<ID>Input Trim</ID>
+					<ID>EQ High-Mid In/Out</ID>
+					<ID>EQ High-Mid Listen In/Out</ID>
+					<ID> </ID>
+					<ID>EQ Range</ID>
+					<ID>EQ High In/Out</ID>
+					<ID>EQ High Listen In/Out</ID>
+					<ID>EQ High Type</ID>
+					<ID>Phase Switch In/Out</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Filter 1 Frequency</ID>
+					<ID>Filter 1 Q</ID>
+					<ID>Filter 1 Type</ID>
+					<ID>Filter 2 Frequency</ID>
+					<ID>Filter 2 Q</ID>
+					<ID>Filter 2 Type</ID>
+					<ID>EQ Tab</ID>
+					<ID>Filters On/Off</ID>
+					<ID>Filter 1 Listen In/Out</ID>
+					<ID>Filter 1 Slope 12/24dB</ID>
+					<ID>Filter 1 In/Out</ID>
+					<ID>Filter 2 Listen In/Out</ID>
+					<ID>Filter 2 Slope 12/24dB</ID>
+					<ID>Filter 2 In/Out</ID>
+					<ID>EQ Reveal</ID>
+					<ID>Filters On/Off</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Cmp Ratio</ID>
+					<ID>Cmp Threshold</ID>
+					<ID>Cmp Knee</ID>
+					<ID>Cmp Attack Time</ID>
+					<ID>Cmp Release Time</ID>
+					<ID>Cmp Depth</ID>
+					<ID>Cmp Gain Makeup</ID>
+					<ID>Dynamics Tab</ID>
+					<ID>Cmp In/Out</ID>
+					<ID>Meters Tab</ID>
+					<ID>Dynamics Range</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Dynamics On/Off</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>Exp Ratio</ID>
+					<ID>Exp Threshold</ID>
+					<ID>Exp Knee</ID>
+					<ID>Exp Attack Time</ID>
+					<ID>Exp Release Time</ID>
+					<ID>Exp Depth</ID>
+					<ID>Exp Hold Time</ID>
+					<ID>Exp Hysteresis</ID>
+					<ID>Exp In/Out</ID>
+					<ID>Meters Tab</ID>
+					<ID>Dynamics Range</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Dynamics On/Off</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>Sc Source</ID>
+					<ID>Sc Detector Type Avg/Pk</ID>
+					<ID>Sc Filter Frequency</ID>
+					<ID>Sc Filter Type</ID>
+					<ID> </ID>
+					<ID>Meters Tab</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID> </ID>
+					<ID>Sc Filter In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Meters Tab</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>Input Trim</ID>
+					<ID> </ID>
+					<ID>Process Order</ID>
+					<ID>Filters On/Off</ID>
+					<ID>EQ On/Off</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID> </ID>
+					<ID>Fader Volume</ID>
+					<ID>Phase Switch In/Out</ID>
+					<ID> </ID>
+					<ID>Fader Volume Pre/Post</ID>
+					<ID>Filters On/Off</ID>
+					<ID>EQ On/Off</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID> </ID>
+					<ID>Fader Volume On/Off</ID>
+				</Page><!--num='7'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='DgCP' pgsz='20'>
+				<Page num='1'>
+					<ID>Cmp Threshold</ID>
+					<ID>Cmp Ratio</ID>
+					<ID>Cmp Attack Time</ID>
+					<ID>Cmp Release Time</ID>
+					<ID>Cmp Knee</ID>
+					<ID>Cmp Gain Makeup</ID>
+					<ID>Sc Filter In/Out</ID>
+					<ID>Sc Filter Type</ID>
+					<ID>Sc Filter Frequency</ID>
+					<ID> </ID>
+					<ID>Cmp In/Out</ID>
+					<ID> </ID>
+					<ID>Cmp Depth</ID>
+					<ID> </ID>
+					<ID>Sc Source</ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID>Input Trim</ID>
+					<ID>Fader Volume</ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+			</PageTable><!--type='DgCP' pgsz='20'-->
+			<PageTable type='DgEQ' pgsz='43'>
+				<Page num='1'>
+					<ID>Filter 1 In/Out</ID>
+					<ID>Filter 1 Type</ID>
+					<ID>Filter 1 Frequency</ID>
+					<ID>Filter 1 Q</ID>
+					<ID>EQ Low In/Out</ID>
+					<ID>EQ Low Type</ID>
+					<ID>EQ Low Gain</ID>
+					<ID>EQ Low Frequency</ID>
+					<ID>EQ Low Q</ID>
+					<ID>EQ Low-Mid In/Out</ID>
+					<ID> </ID>
+					<ID>EQ Low-Mid Gain</ID>
+					<ID>EQ Low-Mid Frequency</ID>
+					<ID>EQ Low-Mid Q</ID>
+					<ID>Filter 1 Listen In/Out</ID>
+					<ID>EQ Low Listen In/Out</ID>
+					<ID>Filter 2 Listen In/Out</ID>
+					<ID>EQ Low-Mid Listen In/Out</ID>
+					<ID>EQ High-Mid Listen In/Out</ID>
+					<ID>EQ High-Mid In/Out</ID>
+					<ID>EQ High Listen In/Out</ID>
+					<ID>EQ High-Mid Gain</ID>
+					<ID>EQ High-Mid Frequency</ID>
+					<ID>EQ High-Mid Q</ID>
+					<ID>EQ High In/Out</ID>
+					<ID>EQ High Type</ID>
+					<ID>EQ High Gain</ID>
+					<ID>EQ High Frequency</ID>
+					<ID>EQ High Q</ID>
+					<ID>Filter 2 In/Out</ID>
+					<ID>Filter 2 Type</ID>
+					<ID>Filter 2 Frequency</ID>
+					<ID>Filter 2 Q</ID>
+					<ID>Input Trim</ID>
+					<ID>Fader Volume</ID>
+					<ID>EQ Tab</ID>
+					<ID>Filter 1 Slope 12/24dB</ID>
+					<ID>EQ Low Q</ID>
+					<ID>EQ Low-Mid Q</ID>
+					<ID> </ID>
+					<ID>EQ High-Mid Q</ID>
+					<ID>EQ High Q</ID>
+					<ID>Filter 2 Slope 12/24dB</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='DgEQ' pgsz='43'-->
+			<PageTable type='DgGT' pgsz='21'>
+				<Page num='1'>
+					<ID>Exp Threshold</ID>
+					<ID>Exp Ratio</ID>
+					<ID>Exp Depth</ID>
+					<ID>Exp Attack Time</ID>
+					<ID>Exp Release Time</ID>
+					<ID>Exp Hysteresis</ID>
+					<ID>Exp Hold Time</ID>
+					<ID>Sc Filter In/Out</ID>
+					<ID>Sc Filter Type</ID>
+					<ID>Sc Filter Frequency</ID>
+					<ID> </ID>
+					<ID>Exp In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Exp Knee</ID>
+					<ID>Sc Source</ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID>Input Trim</ID>
+					<ID>Fader Volume</ID>
+					<ID> </ID>
+					<ID>Exp Knee</ID>
+				</Page><!--num='1'-->
+			</PageTable><!--type='DgGT' pgsz='21'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>EQ Low In/Out</ID>
+					<ID>EQ Low Gain</ID>
+					<ID>EQ Low Q</ID>
+					<ID>EQ Low Type</ID>
+					<ID>EQ Low Frequency</ID>
+					<ID> </ID>
+					<ID>EQ Low-Mid In/Out</ID>
+					<ID>EQ Low-Mid Gain</ID>
+					<ID>EQ Low-Mid Q</ID>
+					<ID>EQ Low-Mid Frequency</ID>
+					<ID>EQ High-Mid In/Out</ID>
+					<ID>EQ High-Mid Gain</ID>
+					<ID>EQ High-Mid Q</ID>
+					<ID>EQ High-Mid Frequency</ID>
+					<ID> </ID>
+					<ID>EQ High In/Out</ID>
+					<ID>EQ High Gain</ID>
+					<ID>EQ High Q</ID>
+					<ID>EQ High Type</ID>
+					<ID>EQ High Frequency</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Master Bypass</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Filter 1 Listen In/Out</ID>
+					<ID>Filter 1 Frequency</ID>
+					<ID>Filter 1 Slope 12/24dB</ID>
+					<ID>Filter 1 Q</ID>
+					<ID>Filter 1 In/Out</ID>
+					<ID>Filter 1 Type</ID>
+					<ID> </ID>
+					<ID>Filter 2 Listen In/Out</ID>
+					<ID>Filter 2 Frequency</ID>
+					<ID>Filter 2 Slope 12/24dB</ID>
+					<ID>Filter 2 Q</ID>
+					<ID>Filter 2 In/Out</ID>
+					<ID>Filter 2 Type</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Master Bypass</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Cmp In/Out</ID>
+					<ID>Cmp Ratio</ID>
+					<ID>Cmp Threshold</ID>
+					<ID>Cmp Knee</ID>
+					<ID>Cmp Attack Time</ID>
+					<ID>Cmp Release Time</ID>
+					<ID>Cmp Depth</ID>
+					<ID>Cmp Gain Makeup</ID>
+					<ID> </ID>
+					<ID>Exp In/Out</ID>
+					<ID>Exp Ratio</ID>
+					<ID>Exp Threshold</ID>
+					<ID>Exp Knee</ID>
+					<ID>Exp Attack Time</ID>
+					<ID>Exp Release Time</ID>
+					<ID>Exp Depth</ID>
+					<ID>Exp Hold Time</ID>
+					<ID> </ID>
+					<ID>Sc Detector Type Avg/Pk</ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID>Sc Source</ID>
+					<ID>Sc Filter Frequency</ID>
+					<ID>Sc Filter In/Out</ID>
+					<ID>Sc Filter Type</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Dynamics On/Off</ID>
+					<ID>EQ On/Off</ID>
+					<ID>Filters On/Off</ID>
+					<ID>Process Order</ID>
+					<ID>Fader Volume</ID>
+					<ID>Phase Switch In/Out</ID>
+					<ID>Input Trim</ID>
+					<ID>Master Bypass</ID>
+					<ID>Input Trim</ID>
+					<ID>Master Bypass</ID>
+					<ID> </ID>
+					<ID>Dynamics Reveal</ID>
+					<ID>EQ Reveal</ID>
+					<ID>Meters Tab</ID>
+					<ID>Order Tab</ID>
+					<ID>Dynamics Tab</ID>
+					<ID>EQ Tab</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='4'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>EQ Low In/Out</ID>
+					<ID>EQ Low Gain</ID>
+					<ID>EQ Low Frequency</ID>
+					<ID>EQ Low Type</ID>
+					<ID>EQ Low Q</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>EQ Low-Mid In/Out</ID>
+					<ID>EQ Low-Mid Gain</ID>
+					<ID>EQ Low-Mid Frequency</ID>
+					<ID>EQ Low-Mid Q</ID>
+					<ID>EQ High-Mid In/Out</ID>
+					<ID>EQ High-Mid Gain</ID>
+					<ID>EQ High-Mid Frequency</ID>
+					<ID>EQ High-Mid Q</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>EQ High In/Out</ID>
+					<ID>EQ High Gain</ID>
+					<ID>EQ High Type</ID>
+					<ID>EQ High Frequency</ID>
+					<ID>EQ High Q</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Filter 1 Listen In/Out</ID>
+					<ID>Filter 1 Frequency</ID>
+					<ID>Filter 1 Slope 12/24dB</ID>
+					<ID>Filter 1 Q</ID>
+					<ID>Filter 1 In/Out</ID>
+					<ID>Filter 1 Type</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>Filter 2 Listen In/Out</ID>
+					<ID>Filter 2 Frequency</ID>
+					<ID>Filter 2 Slope 12/24dB</ID>
+					<ID>Filter 2 Q</ID>
+					<ID>Filter 2 In/Out</ID>
+					<ID>Filter 2 Type</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>Cmp In/Out</ID>
+					<ID>Cmp Ratio</ID>
+					<ID>Cmp Threshold</ID>
+					<ID>Cmp Knee</ID>
+					<ID>Cmp Attack Time</ID>
+					<ID>Cmp Release Time</ID>
+					<ID>Cmp Depth</ID>
+					<ID>Cmp Gain Makeup</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>Exp In/Out</ID>
+					<ID>Exp Ratio</ID>
+					<ID>Exp Threshold</ID>
+					<ID>Exp Knee</ID>
+					<ID>Exp Attack Time</ID>
+					<ID>Exp Release Time</ID>
+					<ID>Exp Depth</ID>
+					<ID>Exp Hold Time</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>Exp Hysteresis</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>Sc Detector Type Avg/Pk</ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID>Sc Source</ID>
+					<ID>Sc Filter Frequency</ID>
+					<ID>Sc Filter In/Out</ID>
+					<ID>Sc Filter Type</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>Dynamics On/Off</ID>
+					<ID>EQ On/Off</ID>
+					<ID>Filters On/Off</ID>
+					<ID>Process Order</ID>
+					<ID>Fader Volume</ID>
+					<ID>Phase Switch In/Out</ID>
+					<ID>Input Trim</ID>
+					<ID>Master Bypass</ID>
+				</Page><!--num='10'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<Page num='1'>
+					<ID>Master Bypass</ID>
+					<ID>Phase Switch In/Out</ID>
+					<ID>Fader Volume Pre/Post</ID>
+					<ID>Process Order</ID>
+					<ID>Input Trim</ID>
+					<ID>Fader Volume</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>EQ On/Off</ID>
+					<ID>Filters On/Off</ID>
+					<ID>Dynamics On/Off</ID>
+					<ID>Fader Volume On/Off</ID>
+					<ID>Input Trim</ID>
+					<ID>Fader Volume</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Exp In/Out</ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Exp Ratio</ID>
+					<ID>Exp Threshold</ID>
+					<ID>Exp Attack Time</ID>
+					<ID>Exp Depth</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Exp In/Out</ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Exp Hold Time</ID>
+					<ID>Exp Knee</ID>
+					<ID>Exp Release Time</ID>
+					<ID>Exp Hysteresis</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>Cmp In/Out</ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Cmp Ratio</ID>
+					<ID>Cmp Threshold</ID>
+					<ID>Cmp Knee</ID>
+					<ID>Cmp Attack Time</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>Cmp In/Out</ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Cmp Release Time</ID>
+					<ID>Cmp Depth</ID>
+					<ID>Cmp Gain Makeup</ID>
+					<ID> </ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>Sc Listen In/Out</ID>
+					<ID>Sc Detector Type Avg/Pk</ID>
+					<ID>Sc Filter In/Out</ID>
+					<ID> </ID>
+					<ID>Sc Source</ID>
+					<ID>Sc Filter Frequency</ID>
+					<ID>Sc Filter Type</ID>
+					<ID> </ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>EQ Low In/Out</ID>
+					<ID>EQ Low Listen In/Out</ID>
+					<ID>EQ Low Type</ID>
+					<ID> </ID>
+					<ID>EQ Low Frequency</ID>
+					<ID>EQ Low Gain</ID>
+					<ID>EQ Low Q</ID>
+					<ID> </ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>EQ Low-Mid In/Out</ID>
+					<ID>EQ Low-Mid Listen In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>EQ Low-Mid Frequency</ID>
+					<ID>EQ Low-Mid Gain</ID>
+					<ID>EQ Low-Mid Q</ID>
+					<ID> </ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>EQ High-Mid In/Out</ID>
+					<ID>EQ High-Mid Listen In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>EQ High-Mid Frequency</ID>
+					<ID>EQ High-Mid Gain</ID>
+					<ID>EQ Low-Mid Q</ID>
+					<ID> </ID>
+				</Page><!--num='10'-->
+				<Page num='11'>
+					<ID>EQ High In/Out</ID>
+					<ID>EQ High Listen In/Out</ID>
+					<ID>EQ High Type</ID>
+					<ID> </ID>
+					<ID>EQ High Frequency</ID>
+					<ID>EQ High Gain</ID>
+					<ID>EQ High Q</ID>
+					<ID> </ID>
+				</Page><!--num='11'-->
+				<Page num='12'>
+					<ID>Filter 1 In/Out</ID>
+					<ID>Filter 1 Listen In/Out</ID>
+					<ID>Filter 1 Slope 12/24dB</ID>
+					<ID> </ID>
+					<ID>Filter 1 Type</ID>
+					<ID>Filter 1 Frequency</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='12'-->
+				<Page num='13'>
+					<ID>Filter 2 In/Out</ID>
+					<ID>Filter 2 Listen In/Out</ID>
+					<ID>Filter 2 Slope 12/24dB</ID>
+					<ID> </ID>
+					<ID>Filter 2 Type</ID>
+					<ID>Filter 2 Frequency</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='13'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>EQ Low Gain</ID>
+					<ID>EQ Low Frequency</ID>
+					<ID>EQ Low Q</ID>
+					<ID>EQ Tab</ID>
+					<ID>EQ Low-Mid Gain</ID>
+					<ID>EQ Low-Mid Frequency</ID>
+					<ID>EQ Low-Mid Q</ID>
+					<ID>EQ On/Off</ID>
+					<ID>EQ Low In/Out</ID>
+					<ID>EQ Low Listen In/Out</ID>
+					<ID>EQ Low Type</ID>
+					<ID>EQ Reveal</ID>
+					<ID>EQ Low-Mid In/Out</ID>
+					<ID>EQ Low-Mid Listen In/Out</ID>
+					<ID> </ID>
+					<ID>EQ On/Off</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>EQ High-Mid Gain</ID>
+					<ID>EQ High-Mid Frequency</ID>
+					<ID>EQ High-Mid Q</ID>
+					<ID>EQ Tab</ID>
+					<ID>EQ High Gain</ID>
+					<ID>EQ High Frequency</ID>
+					<ID>EQ High Q</ID>
+					<ID>EQ On/Off</ID>
+					<ID>EQ High-Mid In/Out</ID>
+					<ID>EQ High-Mid Listen In/Out</ID>
+					<ID> </ID>
+					<ID>EQ Reveal</ID>
+					<ID>EQ High In/Out</ID>
+					<ID>EQ High Listen In/Out</ID>
+					<ID>EQ High Type</ID>
+					<ID>EQ On/Off</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Filter 1 Frequency</ID>
+					<ID>Filter 1 Q</ID>
+					<ID>Filter 1 Type</ID>
+					<ID>Filter 2 Frequency</ID>
+					<ID>Filter 2 Q</ID>
+					<ID>Filter 2 Type</ID>
+					<ID>EQ Tab</ID>
+					<ID>Filters On/Off</ID>
+					<ID>Filter 1 Listen In/Out</ID>
+					<ID>Filter 1 Slope 12/24dB</ID>
+					<ID>Filter 1 In/Out</ID>
+					<ID>Filter 2 Listen In/Out</ID>
+					<ID>Filter 2 Slope 12/24dB</ID>
+					<ID>Filter 2 In/Out</ID>
+					<ID>EQ Reveal</ID>
+					<ID>Filters On/Off</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Cmp Ratio</ID>
+					<ID>Cmp Threshold</ID>
+					<ID>Cmp Knee</ID>
+					<ID>Cmp Attack Time</ID>
+					<ID>Cmp Release Time</ID>
+					<ID>Cmp Depth</ID>
+					<ID>Cmp Gain Makeup</ID>
+					<ID>Dynamics Tab</ID>
+					<ID>Cmp In/Out</ID>
+					<ID>Meters Tab</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Dynamics On/Off</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>Exp Ratio</ID>
+					<ID>Exp Threshold</ID>
+					<ID>Exp Knee</ID>
+					<ID>Exp Attack Time</ID>
+					<ID>Exp Release Time</ID>
+					<ID>Exp Depth</ID>
+					<ID>Exp Hold Time</ID>
+					<ID>Exp Hysteresis</ID>
+					<ID>Exp In/Out</ID>
+					<ID>Meters Tab</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Dynamics On/Off</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>Sc Source</ID>
+					<ID>Sc Detector Type Avg/Pk</ID>
+					<ID>Sc Filter Frequency</ID>
+					<ID>Sc Filter Type</ID>
+					<ID> </ID>
+					<ID>Meters Tab</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Sc Listen In/Out</ID>
+					<ID> </ID>
+					<ID>Sc Filter In/Out</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Meters Tab</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>Fader Volume</ID>
+					<ID> </ID>
+					<ID>Dynamics On/Off</ID>
+					<ID>EQ On/Off</ID>
+					<ID>Filters On/Off</ID>
+					<ID>Process Order</ID>
+					<ID> </ID>
+					<ID>Input Trim</ID>
+					<ID>Fader Volume On/Off</ID>
+					<ID> </ID>
+					<ID>Dynamics On/Off</ID>
+					<ID>EQ On/Off</ID>
+					<ID>Filters On/Off</ID>
+					<ID>Fader Volume Pre/Post</ID>
+					<ID> </ID>
+					<ID>Phase Switch In/Out</ID>
+				</Page><!--num='7'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>EQ Low In/Out</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>EQ Low Gain</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>EQ Low Q</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>EQ Low Type</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>EQ Low Frequency</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>EQ Low Listen In/Out</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>EQ Low-Mid In/Out</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>EQ Low-Mid Gain</ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>EQ Low-Mid Q</ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>EQ Low-Mid Frequency</ID>
+				</Page><!--num='10'-->
+				<Page num='11'>
+					<ID>EQ Low-Mid Listen In/Out</ID>
+				</Page><!--num='11'-->
+				<Page num='12'>
+					<ID>EQ High-Mid In/Out</ID>
+				</Page><!--num='12'-->
+				<Page num='13'>
+					<ID>EQ High-Mid Gain</ID>
+				</Page><!--num='13'-->
+				<Page num='14'>
+					<ID>EQ High-Mid Q</ID>
+				</Page><!--num='14'-->
+				<Page num='15'>
+					<ID>EQ High-Mid Frequency</ID>
+				</Page><!--num='15'-->
+				<Page num='16'>
+					<ID>EQ High-Mid Listen In/Out</ID>
+				</Page><!--num='16'-->
+				<Page num='17'>
+					<ID>EQ High In/Out</ID>
+				</Page><!--num='17'-->
+				<Page num='18'>
+					<ID>EQ High Gain</ID>
+				</Page><!--num='18'-->
+				<Page num='19'>
+					<ID>EQ High Q</ID>
+				</Page><!--num='19'-->
+				<Page num='20'>
+					<ID>EQ High Type</ID>
+				</Page><!--num='20'-->
+				<Page num='21'>
+					<ID>EQ High Frequency</ID>
+				</Page><!--num='21'-->
+				<Page num='22'>
+					<ID>EQ High Listen In/Out</ID>
+				</Page><!--num='22'-->
+				<Page num='23'>
+					<ID>Filter 1 Listen In/Out</ID>
+				</Page><!--num='23'-->
+				<Page num='24'>
+					<ID>Filter 1 Frequency</ID>
+				</Page><!--num='24'-->
+				<Page num='25'>
+					<ID>Filter 1 Slope 12/24dB</ID>
+				</Page><!--num='25'-->
+				<Page num='26'>
+					<ID>Filter 1 Q</ID>
+				</Page><!--num='26'-->
+				<Page num='27'>
+					<ID>Filter 1 In/Out</ID>
+				</Page><!--num='27'-->
+				<Page num='28'>
+					<ID>Filter 1 Type</ID>
+				</Page><!--num='28'-->
+				<Page num='29'>
+					<ID>Filter 2 Listen In/Out</ID>
+				</Page><!--num='29'-->
+				<Page num='30'>
+					<ID>Filter 2 Frequency</ID>
+				</Page><!--num='30'-->
+				<Page num='31'>
+					<ID>Filter 2 Slope 12/24dB</ID>
+				</Page><!--num='31'-->
+				<Page num='32'>
+					<ID>Filter 2 Q</ID>
+				</Page><!--num='32'-->
+				<Page num='33'>
+					<ID>Filter 2 In/Out</ID>
+				</Page><!--num='33'-->
+				<Page num='34'>
+					<ID>Filter 2 Type</ID>
+				</Page><!--num='34'-->
+				<Page num='35'>
+					<ID>Cmp In/Out</ID>
+				</Page><!--num='35'-->
+				<Page num='36'>
+					<ID>Cmp Ratio</ID>
+				</Page><!--num='36'-->
+				<Page num='37'>
+					<ID>Cmp Threshold</ID>
+				</Page><!--num='37'-->
+				<Page num='38'>
+					<ID>Cmp Knee</ID>
+				</Page><!--num='38'-->
+				<Page num='39'>
+					<ID>Cmp Attack Time</ID>
+				</Page><!--num='39'-->
+				<Page num='40'>
+					<ID>Cmp Release Time</ID>
+				</Page><!--num='40'-->
+				<Page num='41'>
+					<ID>Cmp Depth</ID>
+				</Page><!--num='41'-->
+				<Page num='42'>
+					<ID>Cmp Gain Makeup</ID>
+				</Page><!--num='42'-->
+				<Page num='43'>
+					<ID>Exp Hysteresis</ID>
+				</Page><!--num='43'-->
+				<Page num='44'>
+					<ID>Exp Hold Time</ID>
+				</Page><!--num='44'-->
+				<Page num='45'>
+					<ID>Exp Depth</ID>
+				</Page><!--num='45'-->
+				<Page num='46'>
+					<ID>Exp Release Time</ID>
+				</Page><!--num='46'-->
+				<Page num='47'>
+					<ID>Exp Attack Time</ID>
+				</Page><!--num='47'-->
+				<Page num='48'>
+					<ID>Exp Knee</ID>
+				</Page><!--num='48'-->
+				<Page num='49'>
+					<ID>Exp Threshold</ID>
+				</Page><!--num='49'-->
+				<Page num='50'>
+					<ID>Exp Ratio</ID>
+				</Page><!--num='50'-->
+				<Page num='51'>
+					<ID>Exp In/Out</ID>
+				</Page><!--num='51'-->
+				<Page num='52'>
+					<ID>Sc Detector Type Avg/Pk</ID>
+				</Page><!--num='52'-->
+				<Page num='53'>
+					<ID>Sc Listen In/Out</ID>
+				</Page><!--num='53'-->
+				<Page num='54'>
+					<ID>Sc Source</ID>
+				</Page><!--num='54'-->
+				<Page num='55'>
+					<ID>Sc Filter Frequency</ID>
+				</Page><!--num='55'-->
+				<Page num='56'>
+					<ID>Sc Filter In/Out</ID>
+				</Page><!--num='56'-->
+				<Page num='57'>
+					<ID>Sc Filter Type</ID>
+				</Page><!--num='57'-->
+				<Page num='58'>
+					<ID>Dynamics On/Off</ID>
+				</Page><!--num='58'-->
+				<Page num='59'>
+					<ID>EQ On/Off</ID>
+				</Page><!--num='59'-->
+				<Page num='60'>
+					<ID>Filters On/Off</ID>
+				</Page><!--num='60'-->
+				<Page num='61'>
+					<ID>Process Order</ID>
+				</Page><!--num='61'-->
+				<Page num='62'>
+					<ID>Fader Volume</ID>
+				</Page><!--num='62'-->
+				<Page num='63'>
+					<ID>Fader Volume Pre/Post</ID>
+				</Page><!--num='63'-->
+				<Page num='64'>
+					<ID>Fader Volume On/Off</ID>
+				</Page><!--num='64'-->
+				<Page num='65'>
+					<ID>Phase Switch In/Out</ID>
+				</Page><!--num='65'-->
+				<Page num='66'>
+					<ID>Input Trim</ID>
+				</Page><!--num='66'-->
+				<Page num='67'>
+					<ID>Master Bypass</ID>
+				</Page><!--num='67'-->
+				<Page num='68'>
+					<ID>Dynamics Reveal</ID>
+				</Page><!--num='68'-->
+				<Page num='69'>
+					<ID>EQ Reveal</ID>
+				</Page><!--num='69'-->
+				<Page num='70'>
+					<ID>Meters Tab</ID>
+				</Page><!--num='70'-->
+				<Page num='71'>
+					<ID>Order Tab</ID>
+				</Page><!--num='71'-->
+				<Page num='72'>
+					<ID>Dynamics Tab</ID>
+				</Page><!--num='72'-->
+				<Page num='73'>
+					<ID>EQ Tab</ID>
+				</Page><!--num='73'-->
+				<Page num='74'>
+					<ID>EQ Range</ID>
+				</Page><!--num='74'-->
+				<Page num='75'>
+					<ID>Dynamics Range</ID>
+				</Page><!--num='75'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 1'-->
+	</PageTableLayouts>
+	<ControlNamesVariations>
+		<Ctrl ID='Cmp Attack Time'>
+			<name typ='PgTL' sz='4'>cAtk</name>
+			<name typ='PgTL' sz='6'>cAttak</name>
+			<name typ='PgTL' sz='8'>c Attack</name>
+			<name typ='PgTL' sz='13'>c Attack Time</name>
+		</Ctrl><!--ID='Cmp Attack Time'-->
+		<Ctrl ID='Cmp Depth'>
+			<name typ='PgTL' sz='4'>cDpt</name>
+			<name typ='PgTL' sz='6'>cDepth</name>
+			<name typ='PgTL' sz='7'>c Depth</name>
+		</Ctrl><!--ID='Cmp Depth'-->
+		<Ctrl ID='Cmp Gain Makeup'>
+			<name typ='PgTL' sz='4'>cGmu</name>
+			<name typ='PgTL' sz='6'>cMakup</name>
+			<name typ='PgTL' sz='8'>c Makeup</name>
+			<name typ='PgTL' sz='13'>c Gain Makeup</name>
+		</Ctrl><!--ID='Cmp Gain Makeup'-->
+		<Ctrl ID='Cmp In/Out'>
+			<name typ='PgTL' sz='4'>c In</name>
+			<name typ='PgTL' sz='6'>cInOut</name>
+			<name typ='PgTL' sz='8'>c In/Out</name>
+		</Ctrl><!--ID='Cmp In/Out'-->
+		<Ctrl ID='Cmp Knee'>
+			<name typ='PgTL' sz='4'>cKne</name>
+			<name typ='PgTL' sz='6'>c Knee</name>
+		</Ctrl><!--ID='Cmp Knee'-->
+		<Ctrl ID='Cmp Ratio'>
+			<name typ='PgTL' sz='4'>cRat</name>
+			<name typ='PgTL' sz='6'>cRatio</name>
+			<name typ='PgTL' sz='7'>c Ratio</name>
+		</Ctrl><!--ID='Cmp Ratio'-->
+		<Ctrl ID='Cmp Release Time'>
+			<name typ='PgTL' sz='4'>cRel</name>
+			<name typ='PgTL' sz='6'>cReles</name>
+			<name typ='PgTL' sz='7'>c Reles</name>
+			<name typ='PgTL' sz='14'>c Release Time</name>
+		</Ctrl><!--ID='Cmp Release Time'-->
+		<Ctrl ID='Cmp Threshold'>
+			<name typ='PgTL' sz='4'>cThr</name>
+			<name typ='PgTL' sz='6'>cThres</name>
+			<name typ='PgTL' sz='7'>c Thres</name>
+			<name typ='PgTL' sz='11'>c Threshold</name>
+		</Ctrl><!--ID='Cmp Threshold'-->
+		<Ctrl ID='Dynamics On/Off'>
+			<name typ='PgTL' sz='4'>Dyn</name>
+			<name typ='PgTL' sz='5'>DynOn</name>
+			<name typ='PgTL' sz='6'>DynOn </name>
+			<name typ='PgTL' sz='10'>Dyn On/Off</name>
+		</Ctrl><!--ID='Dynamics On/Off'-->
+		<Ctrl ID='Dynamics Range'>
+			<name typ='PgTL' sz='4'>DyRn</name>
+			<name typ='PgTL' sz='5'>DyRng</name>
+			<name typ='PgTL' sz='8'>DynRange</name>
+		</Ctrl><!--ID='Dynamics Range'-->
+		<Ctrl ID='Dynamics Reveal'>
+			<name typ='PgTL' sz='4'>DyRe</name>
+			<name typ='PgTL' sz='6'>DynRvl</name>
+			<name typ='PgTL' sz='7'>Dyn Rvl</name>
+		</Ctrl><!--ID='Dynamics Reveal'-->
+		<Ctrl ID='Dynamics Tab'>
+			<name typ='PgTL' sz='4'>DyTb</name>
+			<name typ='PgTL' sz='6'>DynTab</name>
+		</Ctrl><!--ID='Dynamics Tab'-->
+		<Ctrl ID='EQ High Frequency'>
+			<name typ='PgTL' sz='4'>HiF</name>
+			<name typ='PgTL' sz='5'>Hi Fq</name>
+			<name typ='PgTL' sz='6'>Hi Frq</name>
+			<name typ='PgTL' sz='14'>High Frequency</name>
+		</Ctrl><!--ID='EQ High Frequency'-->
+		<Ctrl ID='EQ High Gain'>
+			<name typ='PgTL' sz='4'>HiG</name>
+			<name typ='PgTL' sz='5'>Hi G</name>
+			<name typ='PgTL' sz='7'>Hi Gain</name>
+			<name typ='PgTL' sz='9'>High Gain</name>
+		</Ctrl><!--ID='EQ High Gain'-->
+		<Ctrl ID='EQ High In/Out'>
+			<name typ='PgTL' sz='4'>HiIn</name>
+			<name typ='PgTL' sz='6'>Hi    </name>
+			<name typ='PgTL' sz='7'>HiInOut</name>
+			<name typ='PgTL' sz='11'>High In/Out</name>
+		</Ctrl><!--ID='EQ High In/Out'-->
+		<Ctrl ID='EQ High Listen In/Out'>
+			<name typ='PgTL' sz='4'>HiLs</name>
+			<name typ='PgTL' sz='5'>Hi Lsn</name>
+			<name typ='PgTL' sz='7'>Hi Lisn</name>
+			<name typ='PgTL' sz='18'>High Listen In/Out</name>
+		</Ctrl><!--ID='EQ High Listen In/Out'-->
+		<Ctrl ID='EQ High Q'>
+			<name typ='PgTL' sz='4'>HiQ</name>
+			<name typ='PgTL' sz='5'>Hi Q </name>
+			<name typ='PgTL' sz='6'>High Q</name>
+		</Ctrl><!--ID='EQ High Q'-->
+		<Ctrl ID='EQ High-Mid Frequency'>
+			<name typ='PgTL' sz='4'>HmF</name>
+			<name typ='PgTL' sz='6'>H-M Fq</name>
+			<name typ='PgTL' sz='7'>H-M Frq</name>
+			<name typ='PgTL' sz='18'>High-Mid Frequency</name>
+		</Ctrl><!--ID='EQ High-Mid Frequency'-->
+		<Ctrl ID='EQ High-Mid Gain'>
+			<name typ='PgTL' sz='4'>HmG</name>
+			<name typ='PgTL' sz='5'>H-M G</name>
+			<name typ='PgTL' sz='8'>H-M Gain</name>
+			<name typ='PgTL' sz='13'>High-Mid Gain</name>
+		</Ctrl><!--ID='EQ High-Mid Gain'-->
+		<Ctrl ID='EQ High-Mid In/Out'>
+			<name typ='PgTL' sz='4'>HmIn</name>
+			<name typ='PgTL' sz='6'>H-M   </name>
+			<name typ='PgTL' sz='7'>HmInOut</name>
+			<name typ='PgTL' sz='15'>High-Mid In/Out</name>
+		</Ctrl><!--ID='EQ High-Mid In/Out'-->
+		<Ctrl ID='EQ High-Mid Listen In/Out'>
+			<name typ='PgTL' sz='4'>HmLs</name>
+			<name typ='PgTL' sz='6'>H-M Ls</name>
+			<name typ='PgTL' sz='8'>H-M Lisn</name>
+			<name typ='PgTL' sz='22'>High-Mid Listen In/Out</name>
+		</Ctrl><!--ID='EQ High-Mid Listen In/Out'-->
+		<Ctrl ID='EQ High-Mid Q'>
+			<name typ='PgTL' sz='4'>HmQ</name>
+			<name typ='PgTL' sz='5'>H-M Q</name>
+			<name typ='PgTL' sz='10'>High-Mid Q</name>
+		</Ctrl><!--ID='EQ High-Mid Q'-->
+		<Ctrl ID='EQ HighType'>
+			<name typ='PgTL' sz='4'>HiTp</name>
+			<name typ='PgTL' sz='5'>Hi Tp</name>
+			<name typ='PgTL' sz='6'>Hi Typ</name>
+			<name typ='PgTL' sz='9'>High Type</name>
+		</Ctrl><!--ID='EQ HighType'-->
+		<Ctrl ID='EQ Low Frequency'>
+			<name typ='PgTL' sz='4'>LoF</name>
+			<name typ='PgTL' sz='6'>Low Fq</name>
+			<name typ='PgTL' sz='8'>Low Frq </name>
+			<name typ='PgTL' sz='13'>Low Frequency</name>
+		</Ctrl><!--ID='EQ Low Frequency'-->
+		<Ctrl ID='EQ Low Gain'>
+			<name typ='PgTL' sz='4'>LoG</name>
+			<name typ='PgTL' sz='6'>Low G </name>
+		</Ctrl><!--ID='EQ Low Gain'-->
+		<Ctrl ID='EQ Low In/Out'>
+			<name typ='PgTL' sz='4'>LoIn</name>
+			<name typ='PgTL' sz='6'>LowIn </name>
+			<name typ='PgTL' sz='8'>LowInOut</name>
+			<name typ='PgTL' sz='10'>Low In/Out</name>
+		</Ctrl><!--ID='EQ Low In/Out'-->
+		<Ctrl ID='EQ Low Listen In/Out'>
+			<name typ='PgTL' sz='4'>LoLi</name>
+			<name typ='PgTL' sz='6'>LowLsn</name>
+			<name typ='PgTL' sz='8'>Low Lisn</name>
+			<name typ='PgTL' sz='17'>Low Listen In/Out</name>
+		</Ctrl><!--ID='EQ Low Listen In/Out'-->
+		<Ctrl ID='EQ Low Q'>
+			<name typ='PgTL' sz='4'>LoQ</name>
+			<name typ='PgTL' sz='5'>Low Q</name>
+		</Ctrl><!--ID='EQ Low Q'-->
+		<Ctrl ID='EQ Low-Mid Frequency'>
+			<name typ='PgTL' sz='4'>LmF</name>
+			<name typ='PgTL' sz='6'>L-M Fq</name>
+			<name typ='PgTL' sz='7'>L-M Frq</name>
+			<name typ='PgTL' sz='17'>Low-Mid Frequency</name>
+		</Ctrl><!--ID='EQ Low-Mid Frequency'-->
+		<Ctrl ID='EQ Low-Mid Gain'>
+			<name typ='PgTL' sz='4'>LmG</name>
+			<name typ='PgTL' sz='5'>L-M G</name>
+			<name typ='PgTL' sz='8'>L-M Gain</name>
+			<name typ='PgTL' sz='12'>Low-Mid Gain</name>
+		</Ctrl><!--ID='EQ Low-Mid Gain'-->
+		<Ctrl ID='EQ Low-Mid In/Out'>
+			<name typ='PgTL' sz='4'>LmIn</name>
+			<name typ='PgTL' sz='6'>L-M   </name>
+			<name typ='PgTL' sz='7'>LmInOut</name>
+			<name typ='PgTL' sz='14'>Low-Mid In/Out</name>
+		</Ctrl><!--ID='EQ Low-Mid In/Out'-->
+		<Ctrl ID='EQ Low-Mid Listen In/Out'>
+			<name typ='PgTL' sz='4'>LmLs</name>
+			<name typ='PgTL' sz='6'>L-MLsn</name>
+			<name typ='PgTL' sz='8'>L-M Lisn</name>
+			<name typ='PgTL' sz='21'>Low-Mid Listen In/Out</name>
+		</Ctrl><!--ID='EQ Low-Mid Listen In/Out'-->
+		<Ctrl ID='EQ Low-Mid Q'>
+			<name typ='PgTL' sz='4'>LmQ</name>
+			<name typ='PgTL' sz='5'>L-M Q</name>
+			<name typ='PgTL' sz='9'>Low-Mid Q</name>
+		</Ctrl><!--ID='EQ Low-Mid Q'-->
+		<Ctrl ID='EQ LowType'>
+			<name typ='PgTL' sz='4'>LoTp</name>
+			<name typ='PgTL' sz='6'>Low Tp</name>
+			<name typ='PgTL' sz='7'>LowTyp </name>
+			<name typ='PgTL' sz='8'>Low Type</name>
+		</Ctrl><!--ID='EQ LowType'-->
+		<Ctrl ID='EQ On/Off'>
+			<name typ='PgTL' sz='4'>EqOn</name>
+			<name typ='PgTL' sz='5'>EqOn </name>
+		</Ctrl><!--ID='EQ On/Off'-->
+		<Ctrl ID='EQ Range'>
+			<name typ='PgTL' sz='4'>EqRn</name>
+			<name typ='PgTL' sz='5'>EqRng</name>
+			<name typ='PgTL' sz='7'>EqRange</name>
+		</Ctrl><!--ID='EQ Range'-->
+		<Ctrl ID='EQ Reveal'>
+			<name typ='PgTL' sz='4'>EqRe</name>
+			<name typ='PgTL' sz='6'>EqRevl</name>
+			<name typ='PgTL' sz='7'>EQ Revl</name>
+		</Ctrl><!--ID='EQ Reveal'-->
+		<Ctrl ID='EQ Tab'>
+			<name typ='PgTL' sz='4'>EqTb</name>
+			<name typ='PgTL' sz='5'>EQTab</name>
+		</Ctrl><!--ID='EQ Tab'-->
+		<Ctrl ID='Exp Attack Time'>
+			<name typ='PgTL' sz='4'>xAtk</name>
+			<name typ='PgTL' sz='6'>xAttak</name>
+			<name typ='PgTL' sz='8'>x Attack</name>
+			<name typ='PgTL' sz='13'>x Attack Time</name>
+		</Ctrl><!--ID='Exp Attack Time'-->
+		<Ctrl ID='Exp Depth'>
+			<name typ='PgTL' sz='4'>xDpt</name>
+			<name typ='PgTL' sz='6'>xDepth</name>
+			<name typ='PgTL' sz='7'>x Depth</name>
+		</Ctrl><!--ID='Exp Depth'-->
+		<Ctrl ID='Exp Hold Time'>
+			<name typ='PgTL' sz='4'>xHld</name>
+			<name typ='PgTL' sz='6'>x Hold</name>
+			<name typ='PgTL' sz='11'>x Hold Time</name>
+		</Ctrl><!--ID='Exp Hold Time'-->
+		<Ctrl ID='Exp Hysteresis'>
+			<name typ='PgTL' sz='4'>xHys</name>
+			<name typ='PgTL' sz='6'>xHyste</name>
+			<name typ='PgTL' sz='7'>x Hyste</name>
+			<name typ='PgTL' sz='12'>x Hysteresis</name>
+		</Ctrl><!--ID='Exp Hysteresis'-->
+		<Ctrl ID='Exp In/Out'>
+			<name typ='PgTL' sz='4'>xIn</name>
+			<name typ='PgTL' sz='6'>xInOut</name>
+			<name typ='PgTL' sz='8'>x In/Out</name>
+		</Ctrl><!--ID='Exp In/Out'-->
+		<Ctrl ID='Exp Knee'>
+			<name typ='PgTL' sz='4'>xKne</name>
+			<name typ='PgTL' sz='6'>xKnee </name>
+			<name typ='PgTL' sz='7'>x Knee </name>
+		</Ctrl><!--ID='Exp Knee'-->
+		<Ctrl ID='Exp Ratio'>
+			<name typ='PgTL' sz='4'>xRat</name>
+			<name typ='PgTL' sz='6'>xRatio</name>
+			<name typ='PgTL' sz='7'>x Ratio</name>
+		</Ctrl><!--ID='Exp Ratio'-->
+		<Ctrl ID='Exp Release Time'>
+			<name typ='PgTL' sz='4'>xRel</name>
+			<name typ='PgTL' sz='6'>xRelea</name>
+			<name typ='PgTL' sz='9'>x Release</name>
+			<name typ='PgTL' sz='14'>x Release Time</name>
+		</Ctrl><!--ID='Exp Release Time'-->
+		<Ctrl ID='Exp Threshold'>
+			<name typ='PgTL' sz='4'>xThr</name>
+			<name typ='PgTL' sz='6'>xThres</name>
+			<name typ='PgTL' sz='8'>x Thresh</name>
+			<name typ='PgTL' sz='11'>x Threshold</name>
+		</Ctrl><!--ID='Exp Threshold'-->
+		<Ctrl ID='Fader Volume'>
+			<name typ='PgTL' sz='4'>Vol</name>
+			<name typ='PgTL' sz='6'>Output</name>
+		</Ctrl><!--ID='Fader Volume'-->
+		<Ctrl ID='Fader Volume On/Off'>
+			<name typ='PgTL' sz='4'>vOff</name>
+			<name typ='PgTL' sz='5'>VolOn</name>
+			<name typ='PgTL' sz='6'>VolOn </name>
+			<name typ='PgTL' sz='13'>Volume On/Off</name>
+		</Ctrl><!--ID='Fader Volume On/Off'-->
+		<Ctrl ID='Fader Volume Pre/Post'>
+			<name typ='PgTL' sz='4'>vPre</name>
+			<name typ='PgTL' sz='6'>VolPre</name>
+			<name typ='PgTL' sz='15'>Volume Pre/Post</name>
+		</Ctrl><!--ID='Fader Volume Pre/Post'-->
+		<Ctrl ID='Filter 1 Frequency'>
+			<name typ='PgTL' sz='4'>F1fr</name>
+			<name typ='PgTL' sz='5'>F1 Fq</name>
+			<name typ='PgTL' sz='6'>F1 Frq</name>
+			<name typ='PgTL' sz='14'>Flt1 Frequency</name>
+		</Ctrl><!--ID='Filter 1 Frequency'-->
+		<Ctrl ID='Filter 1 In/Out'>
+			<name typ='PgTL' sz='4'>F1In</name>
+			<name typ='PgTL' sz='5'>F1 InF1 In</name>
+			<name typ='PgTL' sz='11'>Flt1 In/Out</name>
+		</Ctrl><!--ID='Filter 1 In/Out'-->
+		<Ctrl ID='Filter 1 Listen In/Out'>
+			<name typ='PgTL' sz='4'>F1Ls</name>
+			<name typ='PgTL' sz='5'>F1 Lsn</name>
+			<name typ='PgTL' sz='7'>F1 List</name>
+			<name typ='PgTL' sz='18'>Flt1 Listen In/Out</name>
+		</Ctrl><!--ID='Filter 1 Listen In/Out'-->
+		<Ctrl ID='Filter 1 Q'>
+			<name typ='PgTL' sz='3'>F1Q</name>
+			<name typ='PgTL' sz='4'>F1 Q</name>
+			<name typ='PgTL' sz='5'>F1 Q </name>
+			<name typ='PgTL' sz='6'>Flt1 Q</name>
+		</Ctrl><!--ID='Filter 1 Q'-->
+		<Ctrl ID='Filter 1 Slope 12/24dB'>
+			<name typ='PgTL' sz='4'>F1Sp</name>
+			<name typ='PgTL' sz='6'>F1 Slp</name>
+			<name typ='PgTL' sz='7'>F1 Slop</name>
+			<name typ='PgTL' sz='18'>Flt1 Slope 12/24dB</name>
+		</Ctrl><!--ID='Filter 1 Slope 12/24dB'-->
+		<Ctrl ID='Filter 1 Type'>
+			<name typ='PgTL' sz='4'>F1tp</name>
+			<name typ='PgTL' sz='5'>F1 Tp</name>
+			<name typ='PgTL' sz='7'>F1 Type</name>
+			<name typ='PgTL' sz='9'>Flt1 Type</name>
+		</Ctrl><!--ID='Filter 1 Type'-->
+		<Ctrl ID='Filter 2 Frequency'>
+			<name typ='PgTL' sz='4'>F2fr</name>
+			<name typ='PgTL' sz='5'>F2Frq</name>
+			<name typ='PgTL' sz='6'>F2 Frq</name>
+			<name typ='PgTL' sz='14'>Flt2 Frequency</name>
+		</Ctrl><!--ID='Filter 2 Frequency'-->
+		<Ctrl ID='Filter 2 In/Out'>
+			<name typ='PgTL' sz='4'>F2In</name>
+			<name typ='PgTL' sz='5'>F2 InF2 In</name>
+			<name typ='PgTL' sz='11'>Flt2 In/Out</name>
+		</Ctrl><!--ID='Filter 2 In/Out'-->
+		<Ctrl ID='Filter 2 Listen In/Out'>
+			<name typ='PgTL' sz='4'>F2Ls</name>
+			<name typ='PgTL' sz='5'>F2 Lsn</name>
+			<name typ='PgTL' sz='7'>F2 List</name>
+			<name typ='PgTL' sz='18'>Flt2 Listen In/Out</name>
+		</Ctrl><!--ID='Filter 2 Listen In/Out'-->
+		<Ctrl ID='Filter 2 Q'>
+			<name typ='PgTL' sz='3'>F2Q</name>
+			<name typ='PgTL' sz='4'>F2 Q</name>
+			<name typ='PgTL' sz='5'>F2 Q </name>
+			<name typ='PgTL' sz='6'>Flt2 Q</name>
+		</Ctrl><!--ID='Filter 2 Q'-->
+		<Ctrl ID='Filter 2 Slope 12/24dB'>
+			<name typ='PgTL' sz='4'>F2Sp</name>
+			<name typ='PgTL' sz='6'>F2 Slp</name>
+			<name typ='PgTL' sz='7'>F2 Slop</name>
+			<name typ='PgTL' sz='18'>Flt2 Slope 12/24dB</name>
+		</Ctrl><!--ID='Filter 2 Slope 12/24dB'-->
+		<Ctrl ID='Filter 2 Type'>
+			<name typ='PgTL' sz='4'>F2tp</name>
+			<name typ='PgTL' sz='5'>F2 Tp</name>
+			<name typ='PgTL' sz='7'>F2 Type</name>
+			<name typ='PgTL' sz='9'>Flt2 Type</name>
+		</Ctrl><!--ID='Filter 2 Type'-->
+		<Ctrl ID='Filters On/Off'>
+			<name typ='PgTL' sz='4'>FlOn</name>
+			<name typ='PgTL' sz='5'>FltOn</name>
+			<name typ='PgTL' sz='6'>FltOn </name>
+			<name typ='PgTL' sz='10'>Flt On/Off</name>
+		</Ctrl><!--ID='Filters On/Off'-->
+		<Ctrl ID='Input Trim'>
+			<name typ='PgTL' sz='4'>Trim</name>
+			<name typ='PgTL' sz='6'>InTrim</name>
+			<name typ='PgTL' sz='7'>In Trim</name>
+		</Ctrl><!--ID='Input Trim'-->
+		<Ctrl ID='Master Bypass'>
+			<name typ='PgTL' sz='4'>Byps</name>
+			<name typ='PgTL' sz='6'>Bypass</name>
+		</Ctrl><!--ID='Master Bypass'-->
+		<Ctrl ID='Meters Tab'>
+			<name typ='PgTL' sz='4'>MtTb</name>
+			<name typ='PgTL' sz='6'>MtrTab</name>
+			<name typ='PgTL' sz='8'>MeterTab</name>
+		</Ctrl><!--ID='Meters Tab'-->
+		<Ctrl ID='Order Tab'>
+			<name typ='PgTL' sz='4'>OdTb</name>
+			<name typ='PgTL' sz='6'>OrdTab</name>
+			<name typ='PgTL' sz='8'>OrderTab</name>
+		</Ctrl><!--ID='Order Tab'-->
+		<Ctrl ID='Phase Switch In/Out'>
+			<name typ='PgTL' sz='4'>Phas</name>
+			<name typ='PgTL' sz='5'>Phase</name>
+			<name typ='PgTL' sz='6'>Phase </name>
+			<name typ='PgTL' sz='12'>Phase In/Out</name>
+		</Ctrl><!--ID='Phase Switch In/Out'-->
+		<Ctrl ID='Process Order'>
+			<name typ='PgTL' sz='4'>Ordr</name>
+			<name typ='PgTL' sz='5'>Order</name>
+			<name typ='PgTL' sz='6'>Order </name>
+			<name typ='PgTL' sz='10'>Proc Order</name>
+		</Ctrl><!--ID='Process Order'-->
+		<Ctrl ID='Sc Detector Type Avg/Pk'>
+			<name typ='PgTL' sz='4'>Type</name>
+			<name typ='PgTL' sz='6'>sDetec</name>
+			<name typ='PgTL' sz='8'>s Detect</name>
+			<name typ='PgTL' sz='22'>s Detector Type Avg/Pk</name>
+		</Ctrl><!--ID='Sc Detector Type Avg/Pk'-->
+		<Ctrl ID='Sc Filter Frequency'>
+			<name typ='PgTL' sz='4'>DFfr</name>
+			<name typ='PgTL' sz='6'>sFltFq</name>
+			<name typ='PgTL' sz='7'>s FltFq</name>
+			<name typ='PgTL' sz='8'>s Flt Fq</name>
+			<name typ='PgTL' sz='9'>s Flt Frq</name>
+			<name typ='PgTL' sz='18'>s Filter Frequency</name>
+		</Ctrl><!--ID='Sc Filter Frequency'-->
+		<Ctrl ID='Sc Filter In/Out'>
+			<name typ='PgTL' sz='4'>FtIO</name>
+			<name typ='PgTL' sz='6'>sFltIn</name>
+			<name typ='PgTL' sz='7'>s FltIn</name>
+			<name typ='PgTL' sz='8'>s Flt In</name>
+			<name typ='PgTL' sz='15'>s Filter In/Out</name>
+		</Ctrl><!--ID='Sc Filter In/Out'-->
+		<Ctrl ID='Sc Filter Type'>
+			<name typ='PgTL' sz='4'>DFtp</name>
+			<name typ='PgTL' sz='6'>sFltTp</name>
+			<name typ='PgTL' sz='7'>s FltTp</name>
+			<name typ='PgTL' sz='8'>s Flt Tp</name>
+			<name typ='PgTL' sz='13'>s Filter Type</name>
+		</Ctrl><!--ID='Sc Filter Type'-->
+		<Ctrl ID='Sc Listen In/Out'>
+			<name typ='PgTL' sz='4'>Lisn</name>
+			<name typ='PgTL' sz='6'>sListn</name>
+			<name typ='PgTL' sz='8'>s Listen</name>
+			<name typ='PgTL' sz='15'>s Listen In/Out</name>
+		</Ctrl><!--ID='Sc Listen In/Out'-->
+		<Ctrl ID='Sc Source'>
+			<name typ='PgTL' sz='4'>SC</name>
+			<name typ='PgTL' sz='6'>sSourc</name>
+			<name typ='PgTL' sz='8'>s Source</name>
+		</Ctrl><!--ID='Sc Source'-->
+	</ControlNamesVariations>
+	<Editor vers='1.3.7.1'>
+		<PluginList>
+			<TDM>
+				<PluginID manID='AVID' prodID='ChSt' plugID='CMTi'>
+					<MenuStr>AAX DSP: Channel Strip, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CMTi'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='CSTi'>
+					<MenuStr>AAX DSP: Channel Strip, 2 in X 2 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CSTi'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='CLTi'>
+					<MenuStr>AAX DSP: Channel Strip, 3 in X 3 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CLTi'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='CQTi'>
+					<MenuStr>AAX DSP: Channel Strip, Quad in X Quad out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CQTi'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='CLsT'>
+					<MenuStr>AAX DSP: Channel Strip, LCRS in X LCRS out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CLsT'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C5Ti'>
+					<MenuStr>AAX DSP: Channel Strip, 5 in X 5 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C5Ti'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C51T'>
+					<MenuStr>AAX DSP: Channel Strip, 5.1 in X 5.1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C51T'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C6Ti'>
+					<MenuStr>AAX DSP: Channel Strip, 6 in X 6 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C6Ti'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C61T'>
+					<MenuStr>AAX DSP: Channel Strip, 6.1 in X 6.1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C61T'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C7Ti'>
+					<MenuStr>AAX DSP: Channel Strip, 7 in X 7 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C7Ti'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C71T'>
+					<MenuStr>AAX DSP: Channel Strip, 7.1 in X 7.1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C71T'-->
+			</TDM>
+			<RTAS>
+				<PluginID manID='AVID' prodID='ChSt' plugID='CMRT'>
+					<MenuStr>AAX Native: Channel Strip, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CMRT'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='CSRT'>
+					<MenuStr>AAX Native: Channel Strip, 2 in X 2 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CSRT'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='ClcR'>
+					<MenuStr>AAX Native: Channel Strip, 3 in X 3 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='ClcR'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='CQuR'>
+					<MenuStr>AAX Native: Channel Strip, Quad in X Quad out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CQuR'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='CLSR'>
+					<MenuStr>AAX Native: Channel Strip, LCRS in X LCRS out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='CLSR'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C50R'>
+					<MenuStr>AAX Native: Channel Strip, 5 in X 5 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C50R'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C51R'>
+					<MenuStr>AAX Native: Channel Strip, 5.1 in X 5.1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C51R'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C60R'>
+					<MenuStr>AAX Native: Channel Strip, 6 in X 6 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C60R'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C61R'>
+					<MenuStr>AAX Native: Channel Strip, 6.1 in X 6.1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C61R'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C70R'>
+					<MenuStr>AAX Native: Channel Strip, 7 in X 7 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C70R'-->
+				<PluginID manID='AVID' prodID='ChSt' plugID='C71R'>
+					<MenuStr>AAX Native: Channel Strip, 7.1 in X 7.1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='ChSt' plugID='C71R'-->
+			</RTAS>
+		</PluginList>
+		<DiscCtrls>
+			<CtrlID>Cmp In/Out</CtrlID>
+			<CtrlID>Dynamics On/Off</CtrlID>
+			<CtrlID>Dynamics Range</CtrlID>
+			<CtrlID>Dynamics Reveal</CtrlID>
+			<CtrlID>Dynamics Tab</CtrlID>
+			<CtrlID>EQ High In/Out</CtrlID>
+			<CtrlID>EQ High Listen In/Out</CtrlID>
+			<CtrlID>EQ High Type</CtrlID>
+			<CtrlID>EQ High-Mid In/Out</CtrlID>
+			<CtrlID>EQ High-Mid Listen In/Out</CtrlID>
+			<CtrlID>EQ Low In/Out</CtrlID>
+			<CtrlID>EQ Low Listen In/Out</CtrlID>
+			<CtrlID>EQ Low Type</CtrlID>
+			<CtrlID>EQ Low-Mid In/Out</CtrlID>
+			<CtrlID>EQ Low-Mid Listen In/Out</CtrlID>
+			<CtrlID>EQ On/Off</CtrlID>
+			<CtrlID>EQ Range</CtrlID>
+			<CtrlID>EQ Reveal</CtrlID>
+			<CtrlID>EQ Tab</CtrlID>
+			<CtrlID>Exp In/Out</CtrlID>
+			<CtrlID>Filter 1 In/Out</CtrlID>
+			<CtrlID>Filter 1 Listen In/Out</CtrlID>
+			<CtrlID>Filter 1 Slope 12/24dB</CtrlID>
+			<CtrlID>Filter 1 Type</CtrlID>
+			<CtrlID>Filter 2 In/Out</CtrlID>
+			<CtrlID>Filter 2 Listen In/Out</CtrlID>
+			<CtrlID>Filter 2 Slope 12/24dB</CtrlID>
+			<CtrlID>Filter 2 Type</CtrlID>
+			<CtrlID>Filters On/Off</CtrlID>
+			<CtrlID>Master Bypass</CtrlID>
+			<CtrlID>Meters Tab</CtrlID>
+			<CtrlID>Order Tab</CtrlID>
+			<CtrlID>Phase Switch In/Out</CtrlID>
+			<CtrlID>Sc Detector Type Avg/Pk</CtrlID>
+			<CtrlID>Sc Filter In/Out</CtrlID>
+			<CtrlID>Sc Listen In/Out</CtrlID>
+		</DiscCtrls>
+	</Editor><!--vers='1.3.7.1'-->
+</PageTables><!--vers='7.4.0.119'-->
