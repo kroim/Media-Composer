@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Stereo Output Meters">
+	<bounds x="0" y="0" width="89" height="217"/>
+	<stem_format output="Stereo"/>
+    <image_list id="background" src="Meters/chanstrip_bg_meter_Stereo.png"/>
+
+	<view type="Meter" id="Left Meter">
+		<meter id="OuM1" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="31" y="6" width="7" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_Stereo_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Right Meter">
+		<meter id="OuM2" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="46" y="6" width="7" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_Stereo_fill.png"/>
+	</view>
+
+</view>

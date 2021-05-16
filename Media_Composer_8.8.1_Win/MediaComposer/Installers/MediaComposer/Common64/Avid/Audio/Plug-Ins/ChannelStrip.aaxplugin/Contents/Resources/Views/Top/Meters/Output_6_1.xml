@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="6.1 Output Meters">
+	<bounds x="0" y="0" width="89" height="217"/>
+	<stem_format output="6.1"/>
+    <image_list id="background" src="Meters/chanstrip_bg_meter_6_1.png"/>
+
+	<view type="Meter" id="Left Meter">
+		<meter id="OuM1" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="7" y="6" width="3" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_6_1_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Center Meter">
+		<meter id="OuM2" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="17" y="6" width="3" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_6_1_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Right Meter">
+		<meter id="OuM3" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="27" y="6" width="3" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_6_1_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Left Surround Meter">
+		<meter id="OuM4" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="37" y="6" width="3" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_6_1_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Center Surround Meter">
+		<meter id="OuM5" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="47" y="6" width="3" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_6_1_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Right Surround Meter">
+		<meter id="OuM6" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="57" y="6" width="3" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_6_1_fill.png"/>
+	</view>
+
+	<view type="Meter" id="LFE Meter">
+		<meter id="OuM7" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="67" y="6" width="3" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_6_1_fill.png"/>
+	</view>
+
+</view>

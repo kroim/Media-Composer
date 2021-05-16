@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="LCRS Output Meters">
+	<bounds x="0" y="0" width="89" height="217"/>
+	<stem_format output="LCRS"/>
+    <image_list id="background" src="Meters/chanstrip_bg_meter_LCRS.png"/>
+
+	<view type="Meter" id="Left Meter">
+		<meter id="OuM1" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="21" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_LCRS_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Center Meter">
+		<meter id="OuM2" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="34" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_LCRS_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Right Meter">
+		<meter id="OuM3" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="47" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_LCRS_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Sub Meter">
+		<meter id="OuM4" type="full_on" peak="1"/>
+		<taper_delegate id="meter" src="./Taper.xml"/>
+		<bounds x="60" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_meter_LCRS_fill.png"/>
+	</view>
+
+</view>
