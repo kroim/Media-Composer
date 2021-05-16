@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Gain Reduction Meters">
+	<bounds x="4" y="3" width="103" height="231"/>
+	<image_list id="background" src="Meters/chanstrip_reductmeter_header.png"/>
+	<intercepts_mouse value="false"/>
+
+
+	<view type="View" id="Gain Reduction Section">
+		<bounds x="7" y="36" width="89" height="188"/>
+		<intercepts_mouse value="false"/>
+
+		<include src="./GainReduction_Mono.xml"/>
+		<include src="./GainReduction_Stereo.xml"/>
+		<include src="./GainReduction_LCR.xml"/>
+		<include src="./GainReduction_LCRS.xml"/>
+		<include src="./GainReduction_Quad.xml"/>
+		<include src="./GainReduction_5_0.xml"/>
+		<include src="./GainReduction_5_1.xml"/>
+		<include src="./GainReduction_6_0.xml"/>
+		<include src="./GainReduction_6_1.xml"/>
+		<include src="./GainReduction_7_0_SDDS.xml"/>
+		<include src="./GainReduction_7_1_SDDS.xml"/>
+		<include src="./GainReduction_7_0_DTS.xml"/>
+		<include src="./GainReduction_7_1_DTS.xml"/>
+
+		<view type="View" id="Meter Glass Reflection">
+			<bounds x="0" y="0" width="89" height="188"/>
+			<image_list id="background" src="Meters/chanstrip_glass_reflect.png" x="1" y="-16"/>
+			<intercepts_mouse value="false"/>
+		</view>
+
+	</view>
+
+</view>

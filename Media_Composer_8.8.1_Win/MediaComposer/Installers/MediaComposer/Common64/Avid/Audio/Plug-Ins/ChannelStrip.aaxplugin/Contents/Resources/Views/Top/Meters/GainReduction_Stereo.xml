@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Stereo Gain Reduction Meters">
+	<bounds x="0" y="0" width="89" height="217"/>
+	<stem_format input="Stereo"/>
+    <image_list id="background" src="Meters/chanstrip_bg_gr_meter_Stereo.png"/>
+
+	<view type="Meter" id="Left Meter">
+		<meter id="Gnr1" type="full_on" peak="1" reversed="true"/>
+		<taper_delegate id="meter" src="./Taper_GR.xml"/>
+		<bounds x="31" y="6" width="7" height="197"/>
+		<image id="meter" src="Meters/chanstrip_gr_meter_Stereo_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Right Meter">
+		<meter id="Gnr2" type="full_on" peak="1" reversed="true"/>
+		<taper_delegate id="meter" src="./Taper_GR.xml"/>
+		<bounds x="46" y="6" width="7" height="197"/>
+		<image id="meter" src="Meters/chanstrip_gr_meter_Stereo_fill.png"/>
+	</view>
+
+</view>
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="">
+  <bounds x="11" y="39" width="89" height="188"/>
+
+  <include src="./Input_Mono.xml"/>
+  <include src="./Input_Stereo.xml"/>
+  <include src="./Input_LCR.xml"/>
+  <include src="./Input_LCRS.xml"/>
+  <include src="./Input_Quad.xml"/>
+  <include src="./Input_5_0.xml"/>
+  <include src="./Input_5_1.xml"/>
+  <include src="./Input_6_0.xml"/>
+  <include src="./Input_6_1.xml"/>
+  <include src="./Input_7_0_SDDS.xml"/>
+  <include src="./Input_7_1_SDDS.xml"/>
+  <include src="./Input_7_0_DTS.xml"/>
+  <include src="./Input_7_1_DTS.xml"/>
+
+</view>
