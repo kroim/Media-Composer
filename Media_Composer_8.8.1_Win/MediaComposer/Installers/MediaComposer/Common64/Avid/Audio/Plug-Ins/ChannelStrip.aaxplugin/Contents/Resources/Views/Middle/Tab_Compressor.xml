@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Compressor Section">
+  <bounds x="0" y="0" width="453" height="140"/>
+  <image_list id="background" src="chanstrip_bg_complimit.png" x="0" y="0"/>
+
+  <view type="Knob" id="Cmp Ratio Knob">
+    <parameter id="Cmp Ratio"/>
+    <bounds x="15" y="39" width="72" height="104"/>
+    <image id="hit_area" src="BigKnob/knob_big_default_clip.png"/>
+    <image_list id="knob" src="BigKnob/knob_big_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="9">
+      <image id="red" src="Automation/auto_bigknob_red.png"/>
+      <image id="blue" src="Automation/auto_bigknob_blue.png"/>
+      <image id="green" src="Automation/auto_bigknob_green.png"/>
+      <image id="yellow" src="Automation/auto_bigknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Cmp Threshold Knob">
+    <parameter id="Cmp Threshold"/>
+    <tracking fine="600"/>
+    <bounds x="99" y="27" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7">
+      <image id="red" src="Automation/auto_smallknob_red.png"/>
+      <image id="blue" src="Automation/auto_smallknob_blue.png"/>
+      <image id="green" src="Automation/auto_smallknob_green.png"/>
+      <image id="yellow" src="Automation/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Cmp Attack Knob">
+    <parameter id="Cmp Attack Time"/>
+    <bounds x="210" y="27" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7">
+      <image id="red" src="Automation/auto_smallknob_red.png"/>
+      <image id="blue" src="Automation/auto_smallknob_blue.png"/>
+      <image id="green" src="Automation/auto_smallknob_green.png"/>
+      <image id="yellow" src="Automation/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Cmp Depth Knob">
+    <parameter id="Cmp Depth"/>
+    <tracking fine="1080"/>
+    <bounds x="320" y="27" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7">
+      <image id="red" src="Automation/auto_smallknob_red.png"/>
+      <image id="blue" src="Automation/auto_smallknob_blue.png"/>
+      <image id="green" src="Automation/auto_smallknob_green.png"/>
+      <image id="yellow" src="Automation/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+
+
+
+  <view type="Knob" id="Cmp Knee Knob">
+    <parameter id="Cmp Knee"/>
+    <tracking fine="300"/>
+    <bounds x="167" y="77" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7">
+      <image id="red" src="Automation/auto_smallknob_red.png"/>
+      <image id="blue" src="Automation/auto_smallknob_blue.png"/>
+      <image id="green" src="Automation/auto_smallknob_green.png"/>
+      <image id="yellow" src="Automation/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Cmp Release Knob">
+    <parameter id="Cmp Release Time"/>
+    <bounds x="278" y="77" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7">
+      <image id="red" src="Automation/auto_smallknob_red.png"/>
+      <image id="blue" src="Automation/auto_smallknob_blue.png"/>
+      <image id="green" src="Automation/auto_smallknob_green.png"/>
+      <image id="yellow" src="Automation/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Cmp Gain Knob">
+    <parameter id="Cmp Gain Makeup"/>
+    <tracking fine="300"/>
+    <bounds x="388" y="77" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7">
+      <image id="red" src="Automation/auto_smallknob_red.png"/>
+      <image id="blue" src="Automation/auto_smallknob_blue.png"/>
+      <image id="green" src="Automation/auto_smallknob_green.png"/>
+      <image id="yellow" src="Automation/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+
+
+
+  <view type="EditText" id="Cmp Ratio Text">
+    <parameter id="Cmp Ratio"/>
+    <bounds x="20" y="108" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+  <view type="EditText" id="Cmp Threshold Text">
+    <parameter id="Cmp Threshold"/>
+    <tracking fine="600"/>
+    <bounds x="143" y="39" width="51" height="19"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="3" left="3" bottom="3" right="3"/>
+  </view>
+
+  <view type="EditText" id="Cmp Attack Text">
+    <parameter id="Cmp Attack Time"/>
+    <bounds x="254" y="39" width="51" height="19"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="3" left="3" bottom="3" right="3"/>
+  </view>
+
+  <view type="EditText" id="Cmp Depth Text">
+    <parameter id="Cmp Depth"/>
+    <tracking fine="1080"/>
+    <bounds x="364" y="39" width="51" height="19"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="3" left="3" bottom="3" right="3"/>
+  </view>
+
+
+  <view type="EditText" id="Cmp Knee Text">
+    <parameter id="Cmp Knee"/>
+    <tracking fine="300"/>
+    <bounds x="124" y="89" width="51" height="19"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="3" left="3" bottom="3" right="3"/>
+  </view>
+
+  <view type="EditText" id="Cmp Release Text">
+    <parameter id="Cmp Release Time"/>
+    <bounds x="235" y="89" width="51" height="19"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="3" left="3" bottom="3" right="3"/>
+  </view>
+
+  <view type="EditText" id="Cmp Gain Text">
+    <parameter id="Cmp Gain Makeup"/>
+    <tracking fine="300"/>
+    <bounds x="345" y="89" width="51" height="19"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="3" left="3" bottom="3" right="3"/>
+  </view>
+
+</view>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="All Side Chain Section">
+  <bounds x="10" y="111" width="433" height="25"/>
+
+  <view type="Knob" id="Filter Freq Knob">
+    <parameter id="Sc Filter Frequency"/>
+    <bounds x="0" y="0" width="61" height="23"/>
+    <image_list id="highlight" stretch="true">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="Filter Freq Static Text">
+    <parameter id="Sc Filter Frequency"/>
+    <bounds x="0" y="9" width="61" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="Button" id="Sc Filter In/Out">
+    <parameter id="Sc Filter In/Out"/>
+    <bounds x="66" y="2" width="33" height="23"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_all_btn_filter_pwr_off.png"/>
+	  <image id="" src="chanstrip_all_btn_filter_pwr_on.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="2" width="29" height="19" stretch="true">
+      <image id="red" src="Automation/auto_filttype2_red.png"/>
+      <image id="blue" src="Automation/auto_filttype2_blue.png"/>
+      <image id="green" src="Automation/auto_filttype2_green.png"/>
+      <image id="yellow" src="Automation/auto_filttype2_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="Filter Button">
+    <parameter id="Sc Filter Type"/>
+    <bounds x="101" y="2" width="139" height="23"/>
+    <image_list id="state">
+      <image id="" src="chanstrip_all_btn_type_HPF.png"/>
+      <image id="" src="chanstrip_all_btn_type_LPF.png"/>
+      <image id="" src="chanstrip_all_btn_type_BPF.png"/>
+      <image id="" src="chanstrip_all_btn_type_Notch.png"/>
+    </image_list>
+    <image_list id="highlight" x="3" y="2" width="133" height="19" stretch="true">
+      <image id="red" src="Automation/auto_filttype2_red.png"/>
+      <image id="blue" src="Automation/auto_filttype2_blue.png"/>
+      <image id="green" src="Automation/auto_filttype2_green.png"/>
+      <image id="yellow" src="Automation/auto_filttype2_yellow.png"/>
+    </image_list>
+    <segments range="4"/>
+  </view>
+
+  <view type="Button" id="SC RMS Button">
+    <parameter id="Sc Detector Type Avg/Pk"/>
+    <bounds x="242" y="2" width="88" height="23"/>
+    <image_list id="state">
+      <image id="" src="chanstrip_btn_peak_on.png"/>
+      <image id="" src="chanstrip_btn_avg_on.png"/>
+    </image_list>
+    <image_list id="highlight" x="2" y="2">
+      <image id="red" src="Automation/auto_detection_red.png"/>
+      <image id="blue" src="Automation/auto_detection_blue.png"/>
+      <image id="green" src="Automation/auto_detection_green.png"/>
+      <image id="yellow" src="Automation/auto_detection_yellow.png"/>
+    </image_list>
+    <segments range="2"/>
+  </view>
+
+  <view type="Popup" id="SC Key Popup">
+    <parameter id="Sc Source"/>
+    <bounds x="335" y="4" width="98" height="19"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_source_red.png"/>
+      <image id="blue" src="Automation/auto_source_blue.png"/>
+      <image id="green" src="Automation/auto_source_green.png"/>
+      <image id="yellow" src="Automation/auto_source_yellow.png"/>
+    </image_list>
+  </view>
+
+</view>

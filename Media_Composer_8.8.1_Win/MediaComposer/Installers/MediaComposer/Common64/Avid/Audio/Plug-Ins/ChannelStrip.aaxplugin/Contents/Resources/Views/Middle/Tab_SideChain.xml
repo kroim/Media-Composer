@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Side Chain Section">
+  <bounds x="0" y="0" width="453" height="140"/>
+  <image_list id="background" src="chanstrip_bg_sidechain.png" x="0" y="0"/>
+
+  <view type="Popup" id="SC Key Popup">
+    <parameter id="Sc Source"/>
+    <bounds x="27" y="45" width="121" height="19"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_source2_red.png"/>
+      <image id="blue" src="Automation/auto_source2_blue.png"/>
+      <image id="green" src="Automation/auto_source2_green.png"/>
+      <image id="yellow" src="Automation/auto_source2_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Button" id="SC RMS Button">
+    <parameter id="Sc Detector Type Avg/Pk"/>
+    <bounds x="29" y="94" width="116" height="19"/>
+    <image_list id="state">
+      <image id="" src="chanstrip_btn_detect_peak.png"/>
+      <image id="" src="chanstrip_btn_detect_avg.png"/>
+    </image_list>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_detection2_red.png"/>
+      <image id="blue" src="Automation/auto_detection2_blue.png"/>
+      <image id="green" src="Automation/auto_detection2_green.png"/>
+      <image id="yellow" src="Automation/auto_detection2_yellow.png"/>
+    </image_list>
+    <segments range="2"/>
+  </view>
+
+  <view type="Knob" id="Sc Filter Frequency Knob">
+    <parameter id="Sc Filter Frequency"/>
+    <bounds x="177" y="39" width="72" height="104"/>
+    <image id="hit_area" src="BigKnob/knob_big_default_clip.png"/>
+    <image_list id="knob" src="BigKnob/knob_big_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="9">
+      <image id="red" src="Automation/auto_bigknob_red.png"/>
+      <image id="blue" src="Automation/auto_bigknob_blue.png"/>
+      <image id="green" src="Automation/auto_bigknob_green.png"/>
+      <image id="yellow" src="Automation/auto_bigknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="Filter Freq Text">
+    <parameter id="Sc Filter Frequency"/>
+    <text string="10.0 kHz"/>
+    <bounds x="182" y="108" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+  <view type="Button" id="Sc Filter In/Out">
+    <parameter id="Sc Filter In/Out"/>
+    <bounds x="266" y="42" width="38" height="20"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_btn_filter_pwr_off.png"/>
+	  <image id="" src="chanstrip_btn_filter_pwr_on.png"/>
+	</image_list>
+    <image_list id="highlight" x="0" y="0" stretch="true">
+      <image id="red" src="Automation/auto_detection2_red.png"/>
+      <image id="blue" src="Automation/auto_detection2_blue.png"/>
+      <image id="green" src="Automation/auto_detection2_green.png"/>
+      <image id="yellow" src="Automation/auto_detection2_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="Filter Button">
+    <parameter id="Sc Filter Type"/>
+    <bounds x="318" y="43" width="115" height="19"/>
+    <image_list id="state">
+      <image id="" src="chanstrip_btn_side_filttype_HPF.png"/>
+      <image id="" src="chanstrip_btn_side_filttype_LPF.png"/>
+      <image id="" src="chanstrip_btn_side_filttype_BPF.png"/>
+      <image id="" src="chanstrip_btn_side_filttype_notch.png"/>
+    </image_list>
+    <image_list id="highlight" stretch="true">
+      <image id="red" src="Automation/auto_detection2_red.png"/>
+      <image id="blue" src="Automation/auto_detection2_blue.png"/>
+      <image id="green" src="Automation/auto_detection2_green.png"/>
+      <image id="yellow" src="Automation/auto_detection2_yellow.png"/>
+    </image_list>
+    <segments range="4"/>
+  </view>
+
+	<view type="View" id="">
+		<bounds x="267" y="76" width="169" height="51"/>
+		<show_if parameter="Dynamics On/Off" operator="=" value="1"/>
+		<image_list id="background" src="background_sc_disabled.png"/>
+		<intercepts_mouse value="false"/>
+	</view>
+
+  <view type="EQ Graph" id="Side Chain Filter Graph">
+    <bounds x="267" y="76" width="437" height="215"/>
+ 
+    <taper_delegate id="freq" type="log">
+      <taper input=   "20.0" output= "4.0"/> 
+      <taper input=  "100.0" output= "41.0"/>
+      <taper input= "1000.0" output= "93.0"/>
+      <taper input= "5000.0" output="131.0"/>
+      <taper input="10000.0" output="146.0"/>
+      <taper input="20000.0" output="164.0"/>
+    </taper_delegate>
+
+    <taper_delegate id="gain" type="linear">
+      <taper input=  "0.0" output="17.0"/>
+      <taper input="-8.0" output="44.0"/>
+    </taper_delegate>
+
+    <band id="Side Chain Filter">
+	  <image_list id="background" src="Dot_Blue_Square.png"/>
+	  <color id="fill" red="109" green="241" blue="255" alpha="255">
+		  <color red="109" green="241" blue="255" alpha="40" x="0" y ="26"/>
+		  <color red="109" green="241" blue="255" alpha="20" x="0" y ="203"/>
+      </color>
+
+	  <field id="bypass"	parameter="Dynamics On/Off"/>
+      <field id="in/out"	parameter="Sc Filter In/Out"/>
+      <field id="gain"		value="0.0"/>
+      <field id="freq"		parameter="Sc Filter Frequency"/>
+      <field id="q"			value="1.0"/>
+      <field id="type"		parameter="Sc Filter Type"/>
+    </band>
+
+  </view>	
+
+</view>

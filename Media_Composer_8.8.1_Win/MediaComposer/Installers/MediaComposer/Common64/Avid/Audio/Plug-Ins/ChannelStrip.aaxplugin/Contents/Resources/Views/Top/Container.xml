@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Top Section">
+	<bounds x="0" y="0" width="453" height="238"/>
+	<image_list id="background" src="background.png" x="0" y="0"/>
+	<intercepts_mouse value="false"/>
+
+	<view type="View" id="Dynamics Background">
+		<bounds x="112" y="66" width="229" height="170"/>
+
+		<layout_if>
+			<layout_if parameter="Dynamics On/Off" operator="=" value="0"/>
+			<layout_if parameter="Dynamics Range" operator="=" value="0"/>
+			<image_list id="background" src="background_dyn_disabled_18.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="Dynamics On/Off" operator="=" value="0"/>
+			<layout_if parameter="Dynamics Range" operator="=" value="1"/>
+			<image_list id="background" src="background_dyn_disabled_36.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="Dynamics On/Off" operator="=" value="1"/>
+			<layout_if parameter="Dynamics Range" operator="=" value="0"/>
+			<image_list id="background" src="background_dyn_enabled_18.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="Dynamics On/Off" operator="=" value="1"/>
+			<layout_if parameter="Dynamics Range" operator="=" value="1"/>
+			<image_list id="background" src="background_dyn_enabled_36.png"/>
+		</layout_if>
+
+		<intercepts_mouse value="false"/>
+	</view>
+
+	<view type="Button" id="Dynamics Range Button">
+		<parameter id="Dynamics Range"/>
+		<bounds x="334" y="52" width="21" height="18"/>
+		<toggles value="1"/>
+	</view>
+
+
+	<include src="./Header.xml"/>
+	<include src="./Meters/Inputs.xml"/>
+	<include src="./Meters/GainReductions.xml"/>
+	<include src="./Meters/Outputs.xml"/>
+	<include src="./Dynamics_Graph.xml"/>
+	<include src="./Order.xml"/>
+	<include src="./Order_Popup.xml"/>
+
+</view>

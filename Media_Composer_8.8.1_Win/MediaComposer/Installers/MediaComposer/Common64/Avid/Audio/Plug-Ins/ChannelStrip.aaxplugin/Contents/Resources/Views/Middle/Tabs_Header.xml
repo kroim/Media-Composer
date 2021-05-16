@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Dynamics Tabs">
+  <bounds x="0" y="0" width="453" height="15"/>
+
+
+  <view type="Tab" id="Compressor Tab">
+    <parameter id="Dynamics Tab"/>
+    <tab_view id="Compressor Section" type="tab"/>
+    <bounds x="124" y="0" width="150" height="15"/>
+	<group id="Dynamics Tabs" value="1"/>
+  </view>
+
+  <view type="Tab" id="Expander Tab">
+    <parameter id="Dynamics Tab"/>
+    <tab_view id="Expander Section" type="tab"/>
+    <bounds x="16" y="0" width="110" height="15"/>
+	<group id="Dynamics Tabs" value="0"/>
+  </view>
+
+  <view type="Tab" id="Side Chain Tab">
+    <parameter id="Dynamics Tab"/>
+    <tab_view id="Side Chain Section" type="tab"/>
+    <bounds x="232" y="0" width="150" height="15"/>
+	<group id="Dynamics Tabs" value="2"/>
+  </view>
+
+  <view type="Tab" id="All Tab">
+    <parameter id="Dynamics Tab"/>
+    <tab_view id="All Section" type="tab"/>
+    <bounds x="340" y="0" width="150" height="15"/>
+	<group id="Dynamics Tabs" value="3"/>
+  </view>
+
+
+
+  <view type="Button" id="Exp In/Out">
+    <parameter id="Exp In/Out"/>
+	<bounds x="18" y="-2" width="17" height="18"/>
+	<image_list id="state">
+	  <image id="" src="PowerOff.png"/>
+	  <image id="" src="PowerOn.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="3">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="Cmp In/Out">
+    <parameter id="Cmp In/Out"/>
+	<bounds x="126" y="-2" width="17" height="18"/>
+	<image_list id="state">
+	  <image id="" src="PowerOff.png"/>
+	  <image id="" src="PowerOn.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="3">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="Sc Listen In/Out">
+    <parameter id="Sc Listen In/Out"/>
+	<bounds x="233" y="-1" width="15" height="17"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_btn_listen_out.png"/>
+	  <image id="" src="chanstrip_btn_listen_in.png"/>
+	</image_list>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+</view>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="5.0 Gain Reduction Meters">
+	<bounds x="0" y="0" width="89" height="217"/>
+	<stem_format input="5.0"/>
+    <image_list id="background" src="Meters/chanstrip_bg_gr_meter_5_0.png"/>
+
+	<view type="Meter" id="Left Meter">
+		<meter id="Gnr1" type="full_on" peak="1" reversed="true"/>
+		<taper_delegate id="meter" src="./Taper_GR.xml"/>
+		<bounds x="12" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_gr_meter_5_0_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Center Meter">
+		<meter id="Gnr2" type="full_on" peak="1" reversed="true"/>
+		<taper_delegate id="meter" src="./Taper_GR.xml"/>
+		<bounds x="25" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_gr_meter_5_0_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Right Meter">
+		<meter id="Gnr3" type="full_on" peak="1" reversed="true"/>
+		<taper_delegate id="meter" src="./Taper_GR.xml"/>
+		<bounds x="38" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_gr_meter_5_0_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Left Surround Meter">
+		<meter id="Gnr4" type="full_on" peak="1" reversed="true"/>
+		<taper_delegate id="meter" src="./Taper_GR.xml"/>
+		<bounds x="51" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_gr_meter_5_0_fill.png"/>
+	</view>
+
+	<view type="Meter" id="Right Surround Meter">
+		<meter id="Gnr5" type="full_on" peak="1" reversed="true"/>
+		<taper_delegate id="meter" src="./Taper_GR.xml"/>
+		<bounds x="64" y="6" width="4" height="197"/>
+		<image id="meter" src="Meters/chanstrip_gr_meter_5_0_fill.png"/>
+	</view>
+
+</view>

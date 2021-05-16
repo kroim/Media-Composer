@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="All Section">
+  <bounds x="0" y="0" width="453" height="140"/>
+  <image_list id="background" src="chanstrip_bg_all.png" x="0" y="0"/>
+
+  <include src="./All_Expander.xml"/>
+  <include src="./All_Compressor.xml"/>
+  <include src="./All_SideChain.xml"/>
+
+</view>

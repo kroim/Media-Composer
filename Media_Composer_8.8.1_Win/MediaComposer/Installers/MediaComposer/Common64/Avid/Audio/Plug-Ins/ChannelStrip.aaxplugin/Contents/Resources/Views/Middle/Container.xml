@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="Reveal" id="Middle Section">
+	<reveal id="Reveal Dynamics Button" width="453" height="14"/>
+    <parameter id="Dynamics Reveal"/>
+	<bounds x="0" y="238" width="453" height="140"/>
+	<image id="open" src="chanstrip_bg_dyn_open.png"/>
+	<image id="closed" src="chanstrip_bg_dyn_closed.png"/>
+
+	<include src="./Tab_Compressor.xml"/>
+	<include src="./Tab_Expander.xml"/>
+	<include src="./Tab_SideChain.xml"/>
+	<include src="./Tab_All.xml"/>
+	<include src="./Tabs_Header.xml"/>
+
+	<view type="Button" id="Reveal Dynamics Button">
+		<bounds x="0" y="0" width="17" height="17"/>
+		<image_list id="state" x="5" y="1">
+			<image id="" src="reveal_open.png"/>
+			<image id="" src="reveal_closed.png"/>
+		</image_list>
+		<toggles value="true"/>
+	</view>
+
+</view>

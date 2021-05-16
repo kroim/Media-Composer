@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Dynamics Graph Area">
+	<bounds x="112" y="67" width="229" height="198"/>
+
+	<view type="Dynamics Graph" id="Dynamics Graph">
+		<bounds x="4" y="34" width="194" height="114"/>
+
+		<cursor id="cmp ratio"      src="Cursors/cmp_ratio.png"      x="12" y="7"/>
+		<cursor id="cmp knee"       src="Cursors/cmp_knee.png"       x="12" y="7"/>
+		<cursor id="cmp threshold"  src="Cursors/cmp_threshold.png"  x="12" y="7"/>
+		<cursor id="cmp depth"      src="Cursors/cmp_depth.png"      x="12" y="7"/>
+
+		<cursor id="exp ratio"      src="Cursors/exp_ratio.png"      x="12" y="7"/>
+		<cursor id="exp knee"	    src="Cursors/exp_knee.png"       x="12" y="7"/>
+		<cursor id="exp threshold"  src="Cursors/exp_threshold.png"  x="12" y="7"/>
+		<cursor id="exp depth"      src="Cursors/exp_depth.png"      x="12" y="7"/>
+		<cursor id="exp hysteresis" src="Cursors/exp_hysteresis.png" x="12" y="7"/>
+
+		<field id="bypass"			parameter="Dynamics On/Off"/>
+
+		<field id="cmp in/out"     parameter="Cmp In/Out"/>
+		<field id="cmp ratio"      parameter="Cmp Ratio"/>
+		<field id="cmp knee"       parameter="Cmp Knee"/>
+		<field id="cmp threshold"  parameter="Cmp Threshold"/>
+		<field id="cmp depth"      parameter="Cmp Depth"/>
+		<tab_view id="Compressor Tab" type="cmp"/>
+
+		<field id="exp in/out"     parameter="Exp In/Out"/>
+		<field id="exp ratio"      parameter="Exp Ratio"/>
+		<field id="exp knee"	   parameter="Exp Knee"/>
+		<field id="exp threshold"  parameter="Exp Threshold"/>
+		<field id="exp depth"      parameter="Exp Depth"/>
+		<field id="exp hysteresis" parameter="Exp Hysteresis"/>
+		<tab_view id="Expander Tab" type="exp"/>
+
+		<meter id="sidechain input" src="ScIn"/>
+		<meter id="sidechain gain"  src="GCmb"/>
+		<image_list id="meter" src="Dot_Red_Small.png"/>
+		<dots value="6" min="0.1" max="0.4"/>
+
+		<taper_delegate id="threshold" type="linear">
+			<taper input="-80.0" output=  "9.0"/> 
+			<taper input=  "0.0" output="185.0"/>
+		</taper_delegate>
+
+
+		<layout_if parameter="Dynamics Range" operator="=" value="0">
+			<taper_delegate id="gain" type="linear">
+				<taper input=  "0.0" output=  "7.0"/>
+				<taper input="-18.0" output="107.0"/> 
+			</taper_delegate>
+		</layout_if>
+
+		<layout_if parameter="Dynamics Range" operator="=" value="1">
+			<taper_delegate id="gain" type="linear">
+				<taper input=  "0.0" output=  "7.0"/>
+				<taper input="-36.0" output="107.0"/> 
+			</taper_delegate>
+		</layout_if>
+
+		<color id="fill" red="109" green="241" blue="255" alpha="255">
+			<color red="109" green="241" blue="255" alpha="35" x="0" y ="7"/>
+			<color red="109" green="241" blue="255" alpha="10" x="0" y ="107"/>
+		</color>
+
+		<color id="threshold" red="213" green="129" blue="54" alpha="255"/>
+
+	</view>
+
+	<view type="Meter" id="Sidechain Input Meter">
+		<show_if parameter="Dynamics On/Off" operator="=" value="1"/>
+		<meter id="ScIn" type="full_on" peak="2" ignore_max="true"/>
+		<bounds x="13" y="26" width="177" height="2"/>
+		<image id="meter" src="Meters/chanstrip_meter_sidechain_input_fill.png"/>
+		<taper_delegate id="meter" type="linear">
+			<taper input=  "0.0" output="177.0"/>
+			<taper input="-12.0" output="151.0"/>
+			<taper input="-20.0" output="132.0"/>
+			<taper input="-40.0" output="88.0"/>
+			<taper input="-60.0" output="44.0"/>
+			<taper input="-80.0" output="0.0"/>
+		</taper_delegate>
+	</view>
+
+	<view type="Meter" id="Sidechain Gain Meter">
+		<bounds x="206" y="40" width="2" height="101"/>
+		<show_if parameter="Dynamics On/Off" operator="=" value="1"/>
+		<meter id="GCmb" type="full_on" peak="2" reversed="true" ignore_max="true"/>
+		<field id="cmp in/out"     parameter="Cmp In/Out"/>
+		<field id="cmp ratio"      parameter="Cmp Ratio"/>
+		<field id="cmp knee"       parameter="Cmp Knee"/>
+		<field id="exp in/out"     parameter="Exp In/Out"/>
+		<field id="exp ratio"      parameter="Exp Ratio"/>
+		<field id="exp knee"	   parameter="Exp Knee"/>
+		<image id="meter" src="Meters/chanstrip_meter_sidechain_gain_fill.png"/>
+		<image id="knee" src="Meters/chanstrip_meter_sidechain_knee_fill.png"/>
+
+		<layout_if parameter="Dynamics Range" operator="=" value="0">
+			<taper_delegate id="meter" type="linear">
+				<taper input=  "0.0" output="101.0"/>
+				<taper input="-18.0" output="0.0"/>
+			</taper_delegate>
+		</layout_if>
+
+		<layout_if parameter="Dynamics Range" operator="=" value="1">
+			<taper_delegate id="meter" type="linear">
+				<taper input=  "0.0" output="101.0"/>
+				<taper input="-36.0" output="0.0"/>
+			</taper_delegate>
+		</layout_if>
+
+	</view>
+
+</view>
+
+
+
+

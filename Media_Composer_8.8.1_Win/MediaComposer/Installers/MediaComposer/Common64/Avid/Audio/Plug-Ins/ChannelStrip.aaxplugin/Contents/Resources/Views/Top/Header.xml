@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Main Section">
+  <bounds x="0" y="0" width="453" height="50"/>
+  <intercepts_mouse value="false"/>
+
+  <view type="Knob" id="Input Trim Knob">
+    <parameter id="Input Trim"/>
+    <tracking fine="720"/>
+    <bounds x="12" y="23" width="72" height="16"/>
+	<image_list id="highlight" stretch="true">
+	  <image id="red" src="Automation/auto_vol_red.png"/>
+	  <image id="blue" src="Automation/auto_vol_blue.png"/>
+	  <image id="green" src="Automation/auto_vol_green.png"/>
+	  <image id="yellow" src="Automation/auto_vol_yellow.png"/>
+	</image_list>
+  </view>
+
+  <view type="Tab" id="Gain Reduction Meters Tab">
+    <parameter id="Meters Tab"/>
+    <tab_view id="Gain Reduction Meters" type="toggle"/>
+    <bounds x="92" y="0" width="21" height="18"/>
+  </view>
+
+  <view type="EditText" id="Trim Text">
+    <parameter id="Input Trim"/>
+    <tracking fine="720"/>
+    <bounds x="38" y="24" width="45" height="14"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="Tab" id="Order Tab">
+    <parameter id="Order Tab"/>
+    <tab_view id="Order Popup" type="toggle"/>
+    <bounds x="328" y="0" width="21" height="18"/>
+  </view>
+
+  <view type="Button" id="Phase In/Out">
+    <parameter id="Phase Switch In/Out"/>
+	<bounds x="83" y="23" width="16" height="16"/>
+	<image_list id="state" x="1" y="0">
+	  <image id="" src="chanstrip_btn_phase_off.png"/>
+	  <image id="" src="chanstrip_btn_phase_on.png"/>
+	</image_list>
+    <image_list id="highlight">
+      <image id="red" src="Automation/auto_phase_red.png"/>
+      <image id="blue" src="Automation/auto_phase_blue.png"/>
+      <image id="green" src="Automation/auto_phase_green.png"/>
+      <image id="yellow" src="Automation/auto_phase_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Knob" id="Volume Knob">
+    <parameter id="Fader Volume"/>
+    <tracking fine="1080"/>
+    <bounds x="354" y="23" width="87" height="16"/>
+	<image_list id="highlight" x="0" y="0">
+	  <image id="red" src="Automation/auto_vol_red.png"/>
+	  <image id="blue" src="Automation/auto_vol_blue.png"/>
+	  <image id="green" src="Automation/auto_vol_green.png"/>
+	  <image id="yellow" src="Automation/auto_vol_yellow.png"/>
+	</image_list>
+  </view>
+
+  <view type="EditText" id="Volume Text">
+    <parameter id="Fader Volume"/>
+    <tracking fine="1080"/>
+    <bounds x="380" y="24" width="60" height="14"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+  </view>
+
+</view>
