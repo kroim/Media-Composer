@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Filter2 Section">
+  <bounds x="0" y="234" width="453" height="49"/>
+  <image_list id="background" src="chanstrip_bg_filter2.png" x="0" y="0"/>
+
+  <view type="Button" id="Filter 2 Type Button">
+    <parameter id="Filter 2 Type"/>
+    <bounds x="15" y="20" width="162" height="19"/>
+    <image_list id="state">
+      <image id="" src="chanstrip_btn_filttype_HPF.png"/>
+      <image id="" src="chanstrip_btn_filttype_LPF.png"/>
+      <image id="" src="chanstrip_btn_filttype_BPF.png"/>
+      <image id="" src="chanstrip_btn_filttype_notch.png"/>
+    </image_list>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_filttype_red.png"/>
+      <image id="blue" src="Automation/auto_filttype_blue.png"/>
+      <image id="green" src="Automation/auto_filttype_green.png"/>
+      <image id="yellow" src="Automation/auto_filttype_yellow.png"/>
+    </image_list>
+    <segments range="4"/>
+  </view>
+
+  <view type="EditText" id="Filter 2 Freq Text">
+    <parameter id="Filter 2 Frequency"/>
+    <bounds x="234" y="21" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+  <view type="Knob" id="Filter 2 Freq Knob">
+    <parameter id="Filter 2 Frequency"/>
+    <bounds x="297" y="12" width="31" height="45"/>
+    <image_list id="knob" src="Knob_RealSmall/knob_smallest_default_%02d.png"/>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_tinyknob_red.png"/>
+      <image id="blue" src="Automation/auto_tinyknob_blue.png"/>
+      <image id="green" src="Automation/auto_tinyknob_green.png"/>
+      <image id="yellow" src="Automation/auto_tinyknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="Filter 2 Q Text">
+    <parameter id="Filter 2 Q"/>
+    <bounds x="347" y="21" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+  <view type="Knob" id="Filter 2 Q Knob">
+    <parameter id="Filter 2 Q"/>
+    <bounds x="410" y="12" width="31" height="45"/>
+    <image_list id="knob" src="Knob_RealSmall/knob_smallest_default_%02d.png"/>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_tinyknob_red.png"/>
+      <image id="blue" src="Automation/auto_tinyknob_blue.png"/>
+      <image id="green" src="Automation/auto_tinyknob_green.png"/>
+      <image id="yellow" src="Automation/auto_tinyknob_yellow.png"/>
+    </image_list>
+  </view>
+
+	<view type="View" id="Filter 2 Slope View">
+		<bounds x="328" y="15" width="117" height="30"/>
+		<show_if parameter="Filter 2 Type" operator="=" value="0"/>
+		<show_if parameter="Filter 2 Type" operator="=" value="1"/>
+		<image id="background" src="chanstrip_bg_slope.png"/>
+		<intercepts_mouse value="false"/>
+
+		<view type="Popup" id="Filter 2 Slope Popup">
+			<parameter id="Filter 2 Slope 12/24dB"/>
+			<bounds x="31" y="6" width="69" height="18"/>
+			<font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+			<justification horizontal="center" vertical="center"/>
+			<color id="text" red="207" green="216" blue="223" alpha="255"/>
+			<inset top="2" left="2" bottom="2" right="2"/>
+			<image_list id="highlight" x="6" stretch="true">
+				<image id="red" src="Automation/auto_eq_freqGainQ_red.png"/>
+				<image id="blue" src="Automation/auto_eq_freqGainQ_blue.png"/>
+				<image id="green" src="Automation/auto_eq_freqGainQ_green.png"/>
+				<image id="yellow" src="Automation/auto_eq_freqGainQ_yellow.png"/>
+			</image_list>
+		</view>
+
+	</view>
+
+</view>

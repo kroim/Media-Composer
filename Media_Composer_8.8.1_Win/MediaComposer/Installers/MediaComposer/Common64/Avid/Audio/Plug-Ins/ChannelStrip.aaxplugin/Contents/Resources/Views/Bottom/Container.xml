@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="Reveal" id="Bottom Section">
+	<reveal id="Reveal EQ Button" width="453" height="14"/>
+    <parameter id="EQ Reveal"/>
+	<bounds x="0" y="378" width="453" height="285"/>
+	<image_list id="background" src="background.png" x="0" y="-378"/>
+
+
+	<view type="Button" id="EQ Range Button">
+		<parameter id="EQ Range"/>
+		<bounds x="438" y="0" width="21" height="18"/>
+		<toggles value="1"/>
+	</view>
+
+	<view type="View" id="EQ Background">
+		<bounds x="8" y="17" width="437" height="215"/>
+
+		<layout_if>
+			<layout_if parameter="EQ On/Off" operator="=" value="0"/>
+			<layout_if parameter="EQ Range" operator="=" value="0"/>
+			<image_list id="background" src="background_eq_disabled_12.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="EQ On/Off" operator="=" value="0"/>
+			<layout_if parameter="EQ Range" operator="=" value="1"/>
+			<image_list id="background" src="background_eq_disabled_24.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="EQ On/Off" operator="=" value="1"/>
+			<layout_if parameter="EQ Range" operator="=" value="0"/>
+			<image_list id="background" src="background_eq_enabled_12.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="EQ On/Off" operator="=" value="1"/>
+			<layout_if parameter="EQ Range" operator="=" value="1"/>
+			<image_list id="background" src="background_eq_enabled_24.png"/>
+		</layout_if>
+
+		<intercepts_mouse value="false"/>
+	</view>
+
+	<view type="View" id="Enabled Filter View">
+		<bounds x="8" y="17" width="437" height="215"/>
+		<show_if parameter="EQ Tab" operator="=" value="4"/>
+		<show_if parameter="EQ Tab" operator="=" value="5"/>
+		<intercepts_mouse value="false"/>
+
+		<layout_if>
+			<layout_if parameter="Filters On/Off" operator="=" value="0"/>
+			<layout_if parameter="EQ Range" operator="=" value="0"/>
+			<image_list id="background" src="background_filter_disabled_12.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="Filters On/Off" operator="=" value="0"/>
+			<layout_if parameter="EQ Range" operator="=" value="1"/>
+			<image_list id="background" src="background_filter_disabled_24.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="Filters On/Off" operator="=" value="1"/>
+			<layout_if parameter="EQ Range" operator="=" value="0"/>
+			<image_list id="background" src="background_filter_12.png"/>
+		</layout_if>
+
+		<layout_if>
+			<layout_if parameter="Filters On/Off" operator="=" value="1"/>
+			<layout_if parameter="EQ Range" operator="=" value="1"/>
+			<image_list id="background" src="background_filter_24.png"/>
+		</layout_if>
+
+	</view>
+
+	<include src="./EQ_Graph.xml"/>
+	<include src="./Tab_LowFreq.xml"/>
+	<include src="./Tab_LowMidFreq.xml"/>
+	<include src="./Tab_HiMidFreq.xml"/>
+	<include src="./Tab_HiFreq.xml"/>
+	<include src="./Tab_Filter1.xml"/>
+	<include src="./Tab_Filter2.xml"/>
+	<include src="./Tabs_Header.xml"/>
+
+	<view type="Button" id="Reveal EQ Button">
+		<bounds x="0" y="0" width="17" height="17"/>
+		<image_list id="state" x="5" y="2">
+			<image id="" src="reveal_open.png"/>
+			<image id="" src="reveal_closed.png"/>
+		</image_list>
+		<toggles value="true"/>
+	</view>
+
+</view>

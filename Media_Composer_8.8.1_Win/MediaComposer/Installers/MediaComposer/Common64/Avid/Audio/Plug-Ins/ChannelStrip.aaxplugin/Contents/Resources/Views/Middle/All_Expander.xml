@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="All Expander Section">
+  <bounds x="10" y="29" width="433" height="23"/>
+
+  <view type="Knob" id="Exp Attack Knob">
+    <parameter id="Exp Attack Time"/>
+    <bounds x="0" y="0" width="53" height="23"/>
+    <image_list id="highlight" stretch="true">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Exp Release Knob">
+    <parameter id="Exp Release Time"/>
+    <bounds x="55" y="0" width="52" height="23"/>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Exp Threshold Knob">
+    <parameter id="Exp Threshold"/>
+    <tracking fine="700"/>
+    <bounds x="109" y="0" width="52" height="23"/>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Exp Ratio Knob">
+    <parameter id="Exp Ratio"/>
+    <bounds x="163" y="0" width="52" height="23"/>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Exp Knee Knob">
+    <parameter id="Exp Knee"/>
+    <tracking fine="300"/>
+    <bounds x="217" y="0" width="52" height="23"/>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Exp Depth Knob">
+    <parameter id="Exp Depth"/>
+    <tracking fine="1080"/>
+    <bounds x="271" y="0" width="52" height="23"/>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Exp Hold Knob">
+    <parameter id="Exp Hold Time"/>
+    <bounds x="325" y="0" width="52" height="23"/>
+    <image_list id="highlight" x="0" y="0">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Exp Hysteresis Knob">
+    <parameter id="Exp Hysteresis"/>
+    <tracking fine="300"/>
+    <bounds x="379" y="0" width="54" height="23"/>
+    <image_list id="highlight" stretch="true">
+      <image id="red" src="Automation/auto_attack_red.png"/>
+      <image id="blue" src="Automation/auto_attack_blue.png"/>
+      <image id="green" src="Automation/auto_attack_green.png"/>
+      <image id="yellow" src="Automation/auto_attack_yellow.png"/>
+    </image_list>
+  </view>
+
+
+
+
+
+
+  <view type="EditText" id="Exp Attack Static Text">
+    <parameter id="Exp Attack Time"/>
+    <bounds x="0" y="9" width="53" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="EditText" id="Exp Release Static Text">
+    <parameter id="Exp Release Time"/>
+    <bounds x="55" y="9" width="53" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="EditText" id="Exp Threshold Static Text">
+    <parameter id="Exp Threshold"/>
+    <tracking fine="700"/>
+    <bounds x="109" y="9" width="53" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="EditText" id="Exp Ratio Static Text">
+    <parameter id="Exp Ratio"/>
+    <bounds x="163" y="9" width="53" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="EditText" id="Exp Knee Static Text">
+    <parameter id="Exp Knee"/>
+    <tracking fine="300"/>
+    <bounds x="217" y="9" width="53" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+	<layout_if parameter="Exp Ratio" operator="!=" string="GATE">
+		<color id="text" red="173" green="198" blue="202" alpha="255"/>
+	</layout_if>
+	<layout_if parameter="Exp Ratio" operator="=" string="GATE">
+		<color id="text" red="91" green="95" blue="98" alpha="255"/>
+	</layout_if>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="EditText" id="Exp Depth Static Text">
+    <parameter id="Exp Depth"/>
+    <tracking fine="1080"/>
+    <bounds x="271" y="9" width="53" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="EditText" id="Exp Hold Static Text">
+    <parameter id="Exp Hold Time"/>
+    <bounds x="325" y="9" width="53" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="173" green="198" blue="202" alpha="255"/>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+  <view type="EditText" id="Exp Hysteresis Edit Text">
+    <parameter id="Exp Hysteresis"/>
+    <tracking fine="300"/>
+    <bounds x="379" y="9" width="53" height="15"/>
+    <font typeface="Arial" height="11" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+	<layout_if parameter="Exp Ratio" operator="=" string="GATE">
+		<color id="text" red="173" green="198" blue="202" alpha="255"/>
+	</layout_if>
+	<layout_if parameter="Exp Ratio" operator="!=" string="GATE">
+		<color id="text" red="91" green="95" blue="98" alpha="255"/>
+	</layout_if>
+    <inset top="1" left="1" bottom="1" right="1"/>
+  </view>
+
+</view>

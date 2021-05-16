@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Dynamics Tabs">
+  <bounds x="0" y="234" width="453" height="16"/>
+
+
+  <view type="Tab" id="Low Frequency Tab">
+    <tab_view id="Low Freq Section" type="tab"/>
+    <parameter id="EQ Tab"/>
+    <bounds x="0" y="0" width="75" height="16"/>
+	<group id="EQ/Filter Tabs" value="0"/>
+  </view>
+
+  <view type="Tab" id="Low Mid Frequency Tab">
+    <tab_view id="Low Mid Freq Section" type="tab"/>
+    <parameter id="EQ Tab"/>
+    <bounds x="75" y="0" width="75" height="16"/>
+	<group id="EQ/Filter Tabs" value="1"/>
+  </view>
+
+  <view type="Tab" id="Hi Mid Frequency Tab">
+    <tab_view id="Hi Mid Freq Section" type="tab"/>
+    <parameter id="EQ Tab"/>
+    <bounds x="150" y="0" width="75" height="16"/>
+	<group id="EQ/Filter Tabs" value="2"/>
+  </view>
+
+  <view type="Tab" id="Hi Frequency Tab">
+    <tab_view id="Hi Freq Section" type="tab"/>
+    <parameter id="EQ Tab"/>
+    <bounds x="235" y="0" width="75" height="16"/>
+	<group id="EQ/Filter Tabs" value="3"/>
+  </view>
+
+  <view type="Tab" id="Filter1 Tab">
+    <tab_view id="Filter1 Section" type="tab"/>
+    <parameter id="EQ Tab"/>
+    <bounds x="310" y="0" width="75" height="16"/>
+	<group id="EQ/Filter Tabs" value="4"/>
+  </view>
+
+  <view type="Tab" id="Filter2 Tab">
+    <tab_view id="Filter2 Section" type="tab"/>
+    <parameter id="EQ Tab"/>
+    <bounds x="385" y="0" width="75" height="16"/>
+	<group id="EQ/Filter Tabs" value="5"/>
+  </view>
+
+
+  <view type="Button" id="EQ Low Band In/Out">
+    <parameter id="EQ Low In/Out"/>
+	<bounds x="8" y="-1" width="17" height="18"/>
+	<image_list id="state">
+	  <image id="" src="PowerOff.png"/>
+	  <image id="" src="PowerOn.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="3">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="EQ Low Band Listen In/Out">
+    <parameter id="EQ Low Listen In/Out"/>
+	<bounds x="25" y="0" width="15" height="17"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_btn_listen_out.png"/>
+	  <image id="" src="chanstrip_btn_listen_in.png"/>
+	</image_list>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="EQ Low-Mid Band In/Out">
+    <parameter id="EQ Low-Mid In/Out"/>
+	<bounds x="80" y="-1" width="17" height="18"/>
+	<image_list id="state">
+	  <image id="" src="PowerOff.png"/>
+	  <image id="" src="PowerOn.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="3">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="EQ Low-Mid Band Listen In/Out">
+    <parameter id="EQ Low-Mid Listen In/Out"/>
+	<bounds x="97" y="0" width="15" height="17"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_btn_listen_out.png"/>
+	  <image id="" src="chanstrip_btn_listen_in.png"/>
+	</image_list>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="EQ High-Mid Band In/Out">
+    <parameter id="EQ High-Mid In/Out"/>
+	<bounds x="153" y="-1" width="17" height="18"/>
+	<image_list id="state">
+	  <image id="" src="PowerOff.png"/>
+	  <image id="" src="PowerOn.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="3">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="EQ High-Mid Band Listen In/Out">
+    <parameter id="EQ High-Mid Listen In/Out"/>
+	<bounds x="170" y="0" width="15" height="17"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_btn_listen_out.png"/>
+	  <image id="" src="chanstrip_btn_listen_in.png"/>
+	</image_list>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="EQ High Band In/Out">
+    <parameter id="EQ High In/Out"/>
+	<bounds x="225" y="-1" width="17" height="18"/>
+	<image_list id="state">
+	  <image id="" src="PowerOff.png"/>
+	  <image id="" src="PowerOn.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="3">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="EQ High Band Listen In/Out">
+    <parameter id="EQ High Listen In/Out"/>
+	<bounds x="242" y="0" width="15" height="17"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_btn_listen_out.png"/>
+	  <image id="" src="chanstrip_btn_listen_in.png"/>
+	</image_list>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+
+  <view type="Button" id="Filter 1 In/Out">
+    <parameter id="Filter 1 In/Out"/>
+	<bounds x="298" y="-1" width="17" height="18"/>
+	<image_list id="state">
+	  <image id="" src="PowerOff.png"/>
+	  <image id="" src="PowerOn.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="3">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="Filter 1 Listen In/Out">
+    <parameter id="Filter 1 Listen In/Out"/>
+	<bounds x="315" y="0" width="15" height="17"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_btn_listen_out.png"/>
+	  <image id="" src="chanstrip_btn_listen_in.png"/>
+	</image_list>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="Filter 2 In/Out">
+    <parameter id="Filter 2 In/Out"/>
+	<bounds x="371" y="-1" width="17" height="18"/>
+	<image_list id="state">
+	  <image id="" src="PowerOff.png"/>
+	  <image id="" src="PowerOn.png"/>
+	</image_list>
+    <image_list id="highlight" x="2" y="3">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+  <view type="Button" id="Filter 2 Listen In/Out">
+    <parameter id="Filter 2 Listen In/Out"/>
+	<bounds x="388" y="0" width="15" height="17"/>
+	<image_list id="state">
+	  <image id="" src="chanstrip_btn_listen_out.png"/>
+	  <image id="" src="chanstrip_btn_listen_in.png"/>
+	</image_list>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_small_box_red.png"/>
+      <image id="blue" src="Automation/auto_small_box_blue.png"/>
+      <image id="green" src="Automation/auto_small_box_green.png"/>
+      <image id="yellow" src="Automation/auto_small_box_yellow.png"/>
+    </image_list>
+	<toggles value="1"/>
+  </view>
+
+
+</view>

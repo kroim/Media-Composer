@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Low Mid Freq Section">
+  <bounds x="0" y="234" width="453" height="49"/>
+  <image_list id="background" src="chanstrip_bg_LMF.png" x="0" y="0"/>
+
+  <view type="Knob" id="EQ Low-Mid Band Freq Knob">
+    <parameter id="EQ Low-Mid Frequency"/>
+    <bounds x="170" y="12" width="31" height="45"/>
+    <image_list id="knob" src="Knob_RealSmall/knob_smallest_default_%02d.png"/>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_tinyknob_red.png"/>
+      <image id="blue" src="Automation/auto_tinyknob_blue.png"/>
+      <image id="green" src="Automation/auto_tinyknob_green.png"/>
+      <image id="yellow" src="Automation/auto_tinyknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="EQ Low-Mid Band Freq Text">
+    <parameter id="EQ Low-Mid Frequency"/>
+    <bounds x="107" y="21" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+  <view type="Knob" id="EQ Low-Mid Band Gain Knob">
+    <parameter id="EQ Low-Mid Gain"/>
+    <tracking fine="481"/>
+    <bounds x="297" y="12" width="31" height="45"/>
+    <image_list id="knob" src="Knob_RealSmall/knob_smallest_default_%02d.png"/>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_tinyknob_red.png"/>
+      <image id="blue" src="Automation/auto_tinyknob_blue.png"/>
+      <image id="green" src="Automation/auto_tinyknob_green.png"/>
+      <image id="yellow" src="Automation/auto_tinyknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="EQ Low-Mid Band Gain Text">
+    <parameter id="EQ Low-Mid Gain"/>
+    <tracking fine="481"/>
+    <bounds x="234" y="21" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+  <view type="Knob" id="EQ Low-Mid Band Q Knob">
+    <parameter id="EQ Low-Mid Q"/>
+    <bounds x="410" y="12" width="31" height="45"/>
+    <image_list id="knob" src="Knob_RealSmall/knob_smallest_default_%02d.png"/>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_tinyknob_red.png"/>
+      <image id="blue" src="Automation/auto_tinyknob_blue.png"/>
+      <image id="green" src="Automation/auto_tinyknob_green.png"/>
+      <image id="yellow" src="Automation/auto_tinyknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="EQ Low-Mid Band Q Text">
+    <parameter id="EQ Low-Mid Q"/>
+    <bounds x="347" y="21" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+</view>

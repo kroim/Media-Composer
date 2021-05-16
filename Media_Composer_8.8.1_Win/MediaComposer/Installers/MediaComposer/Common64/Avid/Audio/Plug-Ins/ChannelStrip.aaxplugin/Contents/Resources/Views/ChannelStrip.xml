@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="" id="">
+	<bounds x="0" y="0" width="453" height="680"/>
+
+	<include src="./Top/Container.xml"/>
+	<include src="./Middle/Container.xml"/>
+	<include src="./Bottom/Container.xml"/>
+
+
+	<view type="View" id="Footer">
+		<bounds x="0" y="663" width="453" height="17"/>
+		<image_list id="background" src="background.png" x="0" y="-663"/>
+	</view>
+
+
+</view>

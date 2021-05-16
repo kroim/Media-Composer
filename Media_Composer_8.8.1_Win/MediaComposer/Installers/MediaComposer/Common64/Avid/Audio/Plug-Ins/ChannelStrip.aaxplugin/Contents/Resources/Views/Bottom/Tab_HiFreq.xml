@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Hi Freq Section">
+  <bounds x="0" y="234" width="453" height="49"/>
+  <image_list id="background" src="chanstrip_bg_HF.png" x="0" y="0"/>
+
+  <view type="Button" id="EQ High Band Type Button">
+    <parameter id="EQ High Type"/>
+    <bounds x="15" y="19" width="55" height="21"/>
+    <image_list id="state">
+      <image id="" src="chanstrip_btn_eq_HF_peak.png"/>
+      <image id="" src="chanstrip_btn_eq_HF_shelf.png"/>
+    </image_list>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_eq_type_red.png"/>
+      <image id="blue" src="Automation/auto_eq_type_blue.png"/>
+      <image id="green" src="Automation/auto_eq_type_green.png"/>
+      <image id="yellow" src="Automation/auto_eq_type_yellow.png"/>
+    </image_list>
+    <segments range="2"/>
+  </view>
+
+  <view type="Knob" id="EQ High Band Freq Knob">
+    <parameter id="EQ High Frequency"/>
+    <bounds x="170" y="12" width="31" height="45"/>
+    <image_list id="knob" src="Knob_RealSmall/knob_smallest_default_%02d.png"/>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_tinyknob_red.png"/>
+      <image id="blue" src="Automation/auto_tinyknob_blue.png"/>
+      <image id="green" src="Automation/auto_tinyknob_green.png"/>
+      <image id="yellow" src="Automation/auto_tinyknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="EQ High Band Freq Text">
+    <parameter id="EQ High Frequency"/>
+    <bounds x="107" y="21" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+  <view type="Knob" id="EQ High Band Gain Knob">
+    <parameter id="EQ High Gain"/>
+    <tracking fine="481"/>
+    <bounds x="297" y="12" width="31" height="45"/>
+    <image_list id="knob" src="Knob_RealSmall/knob_smallest_default_%02d.png"/>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_tinyknob_red.png"/>
+      <image id="blue" src="Automation/auto_tinyknob_blue.png"/>
+      <image id="green" src="Automation/auto_tinyknob_green.png"/>
+      <image id="yellow" src="Automation/auto_tinyknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="EQ High Band Gain Text">
+    <parameter id="EQ High Gain"/>
+    <tracking fine="481"/>
+    <bounds x="234" y="21" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="207" green="216" blue="223" alpha="255"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+  <view type="Knob" id="EQ High Band Q Knob">
+    <parameter id="EQ High Q"/>
+    <bounds x="410" y="12" width="31" height="45"/>
+    <image_list id="knob" src="Knob_RealSmall/knob_smallest_default_%02d.png"/>
+    <image_list id="highlight" x="1" y="2">
+      <image id="red" src="Automation/auto_tinyknob_red.png"/>
+      <image id="blue" src="Automation/auto_tinyknob_blue.png"/>
+      <image id="green" src="Automation/auto_tinyknob_green.png"/>
+      <image id="yellow" src="Automation/auto_tinyknob_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="EditText" id="EQ High Band Q Text">
+    <parameter id="EQ High Q"/>
+    <bounds x="347" y="21" width="61" height="17"/>
+    <font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+	<layout_if parameter="EQ High Type" operator="!=" string="High-Shelf">
+		<color id="text" red="207" green="216" blue="223" alpha="255"/>
+	</layout_if>
+	<layout_if parameter="EQ High Type" operator="=" string="High-Shelf">
+		<color id="text" red="91" green="95" blue="98" alpha="255"/>
+	</layout_if>
+    <inset top="2" left="2" bottom="2" right="2"/>
+  </view>
+
+
+</view>
