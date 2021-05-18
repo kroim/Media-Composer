@@ -1,0 +1,2313 @@
+<?xml version='1.0' encoding='US-ASCII' standalone='yes'?>
+<PageTables vers='6.4.0.89'>
+	<PageTableLayouts>
+		<Plugin manID='AVID' prodID='DMds' plugID='DTSn'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 5</Layout>
+		</Plugin><!--manID='AVID' prodID='DMds' plugID='DTSn'-->
+		<Plugin manID='AVID' prodID='DMds' plugID='DTSt'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 5</Layout>
+		</Plugin><!--manID='AVID' prodID='DMds' plugID='DTSt'-->
+		<Plugin manID='AVID' prodID='DMfs' plugID='5D1n'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 4</Layout>
+		</Plugin><!--manID='AVID' prodID='DMfs' plugID='5D1n'-->
+		<Plugin manID='AVID' prodID='DMfs' plugID='5D1t'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 4</Layout>
+		</Plugin><!--manID='AVID' prodID='DMfs' plugID='5D1t'-->
+		<Plugin manID='AVID' prodID='DMls' plugID='LCRn'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='AVID' prodID='DMls' plugID='LCRn'-->
+		<Plugin manID='AVID' prodID='DMls' plugID='LCRt'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='AVID' prodID='DMls' plugID='LCRt'-->
+		<Plugin manID='AVID' prodID='DMrs' plugID='LCSn'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 3</Layout>
+		</Plugin><!--manID='AVID' prodID='DMrs' plugID='LCSn'-->
+		<Plugin manID='AVID' prodID='DMrs' plugID='LCSt'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 3</Layout>
+		</Plugin><!--manID='AVID' prodID='DMrs' plugID='LCSt'-->
+		<Plugin manID='AVID' prodID='DMsm' plugID='S2Mn'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='DMsm' plugID='S2Mn'-->
+		<Plugin manID='AVID' prodID='DMsm' plugID='S2Mt'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='DMsm' plugID='S2Mt'-->
+		<Plugin manID='AVID' prodID='DMss' plugID='SDSn'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 6</Layout>
+		</Plugin><!--manID='AVID' prodID='DMss' plugID='SDSn'-->
+		<Plugin manID='AVID' prodID='DMss' plugID='SDSt'>
+			<Desc>DownMixer 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 6</Layout>
+		</Plugin><!--manID='AVID' prodID='DMss' plugID='SDSt'-->
+		<PTLayout name='PageTable 1'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="R Gain" inOutButtonID="R Mute" selectButtonID="R Phase"/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="L Gain" inOutButtonID="L Mute" selectButtonID="L Phase"/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av41' pgsz='12'-->
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="L Phase" inOutButtonID="L Phase" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="L Mute" inOutButtonID="L Mute" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="L Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="R Phase" inOutButtonID="R Phase" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="R Mute" inOutButtonID="R Mute" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="R Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="R Gain" inOutButtonID="R Mute" selectButtonID="R Phase"/>
+					<Cell row='7' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="L Gain" inOutButtonID="L Mute" selectButtonID="L Phase"/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>R Gain</ID>
+					<ID>L Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID>L Mute</ID>
+					<ID>R Mute</ID>
+					<ID>L Phase</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>L Mute</ID>
+					<ID>L Phase</ID>
+					<ID>R Gain</ID>
+					<ID>R Mute</ID>
+					<ID>R Phase</ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>L Mute</ID>
+					<ID>L Phase</ID>
+					<ID>R Mute</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>L Mute</ID>
+					<ID>L Phase</ID>
+					<ID>R Gain</ID>
+					<ID>R Mute</ID>
+					<ID>R Phase</ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>L Mute</ID>
+					<ID>L Phase</ID>
+					<ID>R Gain</ID>
+					<ID>R Mute</ID>
+					<ID>R Phase</ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>L Mute</ID>
+					<ID>L Phase</ID>
+					<ID>R Gain</ID>
+					<ID>R Mute</ID>
+					<ID>R Phase</ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>L Mute</ID>
+					<ID>L Phase</ID>
+					<ID>R Mute</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>R Gain</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>R Mute</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>R Phase</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>Output Gain</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID> </ID>
+				</Page><!--num='8'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 1'-->
+		<PTLayout name='PageTable 2'>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="L Phase" inOutButtonID="L Phase" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="L Mute" inOutButtonID="L Mute" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="L Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="C Phase" inOutButtonID="C Phase" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="C Mute" inOutButtonID="C Mute" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="C Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="R Phase" inOutButtonID="R Phase" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="R Mute" inOutButtonID="R Mute" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="R Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="R Gain" inOutButtonID="R Mute" selectButtonID="R Phase"/>
+					<Cell row='7' col='1' knobID="C Gain" inOutButtonID="C Mute" selectButtonID="C Phase"/>
+					<Cell row='8' col='1' knobID="L Gain" inOutButtonID="L Mute" selectButtonID="L Phase"/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID> </ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID> </ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID> </ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Output Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>C Gain</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>C Mute</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>C Phase</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>R Gain</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>R Mute</ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>R Phase</ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>Output Gain</ID>
+				</Page><!--num='10'-->
+				<Page num='11'>
+					<ID> </ID>
+				</Page><!--num='11'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 2'-->
+		<PTLayout name='PageTable 3'>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="L Phase" inOutButtonID="L Phase" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="L Mute" inOutButtonID="L Mute" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="L Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="C Phase" inOutButtonID="C Phase" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="C Mute" inOutButtonID="C Mute" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="C Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="R Phase" inOutButtonID="R Phase" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="R Mute" inOutButtonID="R Mute" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="R Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='4' knobID="S Phase" inOutButtonID="S Phase" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="S Mute" inOutButtonID="S Mute" selectButtonID=""/>
+					<Cell row='4' col='4' knobID="S Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="S Gain" inOutButtonID="S Mute" selectButtonID="S Phase"/>
+					<Cell row='6' col='1' knobID="R Gain" inOutButtonID="R Mute" selectButtonID="R Phase"/>
+					<Cell row='7' col='1' knobID="C Gain" inOutButtonID="C Mute" selectButtonID="C Phase"/>
+					<Cell row='8' col='1' knobID="L Gain" inOutButtonID="L Mute" selectButtonID="L Phase"/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>S Gain</ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>S Mute</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>S Phase</ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>S Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>S Gain</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>S Phase</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>S Mute</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>S Phase</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>S Gain</ID>
+					<ID> </ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>S Mute</ID>
+					<ID> </ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>S Phase</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>S Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>S Mute</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>S Phase</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>S Gain</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>S Phase</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>S Mute</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>S Phase</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>C Gain</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>C Mute</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>C Phase</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>R Gain</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>R Mute</ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>R Phase</ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>S Gain</ID>
+				</Page><!--num='10'-->
+				<Page num='11'>
+					<ID>S Mute</ID>
+				</Page><!--num='11'-->
+				<Page num='12'>
+					<ID>S Phase</ID>
+				</Page><!--num='12'-->
+				<Page num='13'>
+					<ID>Output Gain</ID>
+				</Page><!--num='13'-->
+				<Page num='14'>
+					<ID> </ID>
+				</Page><!--num='14'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 3'-->
+		<PTLayout name='PageTable 4'>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="L Phase" inOutButtonID="L Phase" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="L Mute" inOutButtonID="L Mute" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="L Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="C Phase" inOutButtonID="C Phase" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="C Mute" inOutButtonID="C Mute" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="C Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="R Phase" inOutButtonID="R Phase" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="R Mute" inOutButtonID="R Mute" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="R Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='4' knobID="Ls Phase" inOutButtonID="Ls Phase" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="Ls Mute" inOutButtonID="Ls Mute" selectButtonID=""/>
+					<Cell row='4' col='4' knobID="Ls Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="Rs Phase" inOutButtonID="Rs Phase" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="Rs Mute" inOutButtonID="Rs Mute" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="Rs Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="LFE Phase" inOutButtonID="LFE Phase" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="LFE Mute" inOutButtonID="LFE Mute" selectButtonID=""/>
+					<Cell row='4' col='8' knobID="LFE Gain" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="LFE Gain" inOutButtonID="LFE Mute" selectButtonID="LFE Phase"/>
+					<Cell row='4' col='1' knobID="Rs Gain" inOutButtonID="Rs Mute" selectButtonID="Rs Phase"/>
+					<Cell row='5' col='1' knobID="Ls Gain" inOutButtonID="Ls Mute" selectButtonID="Ls Phase"/>
+					<Cell row='6' col='1' knobID="R Gain" inOutButtonID="R Mute" selectButtonID="R Phase"/>
+					<Cell row='7' col='1' knobID="C Gain" inOutButtonID="C Mute" selectButtonID="C Phase"/>
+					<Cell row='8' col='1' knobID="L Gain" inOutButtonID="L Mute" selectButtonID="L Phase"/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Ls Mute</ID>
+					<ID>Rs Mute</ID>
+					<ID>LFE Mute</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Ls Mute</ID>
+					<ID>Rs Mute</ID>
+					<ID>LFE Mute</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID> </ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Ls Mute</ID>
+					<ID>Rs Mute</ID>
+					<ID>LFE Mute</ID>
+					<ID> </ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Ls Mute</ID>
+					<ID>Rs Mute</ID>
+					<ID>LFE Mute</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Ls Mute</ID>
+					<ID>Rs Mute</ID>
+					<ID>LFE Mute</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>C Gain</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>C Mute</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>C Phase</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>R Gain</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>R Mute</ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>R Phase</ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>Ls Gain</ID>
+				</Page><!--num='10'-->
+				<Page num='11'>
+					<ID>Ls Mute</ID>
+				</Page><!--num='11'-->
+				<Page num='12'>
+					<ID>Ls Phase</ID>
+				</Page><!--num='12'-->
+				<Page num='13'>
+					<ID>Rs Gain</ID>
+				</Page><!--num='13'-->
+				<Page num='14'>
+					<ID>Rs Mute</ID>
+				</Page><!--num='14'-->
+				<Page num='15'>
+					<ID>Rs Phase</ID>
+				</Page><!--num='15'-->
+				<Page num='16'>
+					<ID>LFE Gain</ID>
+				</Page><!--num='16'-->
+				<Page num='17'>
+					<ID>LFE Mute</ID>
+				</Page><!--num='17'-->
+				<Page num='18'>
+					<ID>LFE Phase</ID>
+				</Page><!--num='18'-->
+				<Page num='19'>
+					<ID>Output Gain</ID>
+				</Page><!--num='19'-->
+				<Page num='20'>
+					<ID> </ID>
+				</Page><!--num='20'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 4'-->
+		<PTLayout name='PageTable 5'>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="L Phase" inOutButtonID="L Phase" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="L Mute" inOutButtonID="L Mute" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="L Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="C Phase" inOutButtonID="C Phase" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="C Mute" inOutButtonID="C Mute" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="C Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="R Phase" inOutButtonID="R Phase" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="R Mute" inOutButtonID="R Mute" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="R Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='4' knobID="Lss Phase" inOutButtonID="Lss Phase" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="Lss Mute" inOutButtonID="Lss Mute" selectButtonID=""/>
+					<Cell row='4' col='4' knobID="Lss Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="Rss Phase" inOutButtonID="Rss Phase" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="Rss Mute" inOutButtonID="Rss Mute" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="Rss Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="Lsr Phase" inOutButtonID="Lsr Phase" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="Lsr Mute" inOutButtonID="Lsr Mute" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="Lsr Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="Rsr Phase" inOutButtonID="Rsr Phase" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="Rsr Mute" inOutButtonID="Rsr Mute" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="Rsr Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="LFE Phase" inOutButtonID="LFE Phase" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="LFE Mute" inOutButtonID="LFE Mute" selectButtonID=""/>
+					<Cell row='4' col='8' knobID="LFE Gain" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="LFE Gain" inOutButtonID="LFE Mute" selectButtonID="LFE Phase"/>
+					<Cell row='2' col='1' knobID="Rsr Gain" inOutButtonID="Rsr Mute" selectButtonID="Rsr Phase"/>
+					<Cell row='3' col='1' knobID="Lsr Gain" inOutButtonID="Lsr Mute" selectButtonID="Lsr Phase"/>
+					<Cell row='4' col='1' knobID="Rss Gain" inOutButtonID="Rss Mute" selectButtonID="Rss Phase"/>
+					<Cell row='5' col='1' knobID="Lss Gain" inOutButtonID="Lss Mute" selectButtonID="Lss Phase"/>
+					<Cell row='6' col='1' knobID="R Gain" inOutButtonID="R Mute" selectButtonID="R Phase"/>
+					<Cell row='7' col='1' knobID="C Gain" inOutButtonID="C Mute" selectButtonID="C Phase"/>
+					<Cell row='8' col='1' knobID="L Gain" inOutButtonID="L Mute" selectButtonID="L Phase"/>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='2'-->
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Lss Gain</ID>
+					<ID>Rss Gain</ID>
+					<ID>Lsr Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Lss Mute</ID>
+					<ID>Rss Mute</ID>
+					<ID>Lsr Mute</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Rsr Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rsr Mute</ID>
+					<ID>LFE Mute</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID> </ID>
+					<ID>Output Gain</ID>
+					<ID>Rss Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Lss Gain</ID>
+					<ID>Rss Gain</ID>
+					<ID>Lsr Gain</ID>
+					<ID>Rsr Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Lss Mute</ID>
+					<ID>Rss Mute</ID>
+					<ID>Lsr Mute</ID>
+					<ID>Rsr Mute</ID>
+					<ID>LFE Mute</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Phase</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>L Mute</ID>
+					<ID>L Phase</ID>
+					<ID>C Gain</ID>
+					<ID>C Mute</ID>
+					<ID>C Phase</ID>
+					<ID>R Gain</ID>
+					<ID>R Mute</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Gain</ID>
+					<ID>Lss Mute</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rss Gain</ID>
+					<ID>Rss Mute</ID>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Gain</ID>
+					<ID>Lsr Mute</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Gain</ID>
+					<ID>Rsr Mute</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Gain</ID>
+					<ID>LFE Mute</ID>
+					<ID>LFE Phase</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Lss Gain</ID>
+					<ID>Rss Gain</ID>
+					<ID>Lsr Gain</ID>
+					<ID>Rsr Gain</ID>
+					<ID>LFE Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Lss Mute</ID>
+					<ID>Rss Mute</ID>
+					<ID>Lsr Mute</ID>
+					<ID>Rsr Mute</ID>
+					<ID>LFE Mute</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Phase</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='4'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>C Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Lss Gain</ID>
+					<ID>Rss Gain</ID>
+					<ID>Lsr Gain</ID>
+					<ID>Rsr Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Lss Mute</ID>
+					<ID>Rss Mute</ID>
+					<ID>Lsr Mute</ID>
+					<ID>Rsr Mute</ID>
+					<ID>LFE Mute</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Phase</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>C Gain</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>C Mute</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>C Phase</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>R Gain</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>R Mute</ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>R Phase</ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>Lss Gain</ID>
+				</Page><!--num='10'-->
+				<Page num='11'>
+					<ID>Lss Mute</ID>
+				</Page><!--num='11'-->
+				<Page num='12'>
+					<ID>Lss Phase</ID>
+				</Page><!--num='12'-->
+				<Page num='13'>
+					<ID>Rss Gain</ID>
+				</Page><!--num='13'-->
+				<Page num='14'>
+					<ID>Rss Mute</ID>
+				</Page><!--num='14'-->
+				<Page num='15'>
+					<ID>Rss Phase</ID>
+				</Page><!--num='15'-->
+				<Page num='16'>
+					<ID>Lsr Gain</ID>
+				</Page><!--num='16'-->
+				<Page num='17'>
+					<ID>Lsr Mute</ID>
+				</Page><!--num='17'-->
+				<Page num='18'>
+					<ID>Lsr Phase</ID>
+				</Page><!--num='18'-->
+				<Page num='19'>
+					<ID>Rsr Gain</ID>
+				</Page><!--num='19'-->
+				<Page num='20'>
+					<ID>Rsr Mute</ID>
+				</Page><!--num='20'-->
+				<Page num='21'>
+					<ID>Rsr Phase</ID>
+				</Page><!--num='21'-->
+				<Page num='22'>
+					<ID>LFE Gain</ID>
+				</Page><!--num='22'-->
+				<Page num='23'>
+					<ID>LFE Mute</ID>
+				</Page><!--num='23'-->
+				<Page num='24'>
+					<ID>LFE Phase</ID>
+				</Page><!--num='24'-->
+				<Page num='25'>
+					<ID>Output Gain</ID>
+				</Page><!--num='25'-->
+				<Page num='26'>
+					<ID> </ID>
+				</Page><!--num='26'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 5'-->
+		<PTLayout name='PageTable 6'>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="L Phase" inOutButtonID="L Phase" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="L Mute" inOutButtonID="L Mute" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="L Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="Lc Phase" inOutButtonID="Lc Phase" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="Lc Mute" inOutButtonID="Lc Mute" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="Lc Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="C Phase" inOutButtonID="C Phase" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="C Mute" inOutButtonID="C Mute" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="C Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='4' knobID="Rc Phase" inOutButtonID="Rc Phase" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="Rc Mute" inOutButtonID="Rc Mute" selectButtonID=""/>
+					<Cell row='4' col='4' knobID="Rc Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="R Phase" inOutButtonID="R Phase" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="R Mute" inOutButtonID="R Mute" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="R Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="Ls Phase" inOutButtonID="Ls Phase" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="Ls Mute" inOutButtonID="Ls Mute" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="Ls Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="Rs Phase" inOutButtonID="Rs Phase" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="Rs Mute" inOutButtonID="Rs Mute" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="Rs Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="LFE Phase" inOutButtonID="LFE Phase" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="LFE Mute" inOutButtonID="LFE Mute" selectButtonID=""/>
+					<Cell row='4' col='8' knobID="LFE Gain" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="LFE Gain" inOutButtonID="LFE Mute" selectButtonID="LFE Phase"/>
+					<Cell row='2' col='1' knobID="Rs Gain" inOutButtonID="Rs Mute" selectButtonID="Rs Phase"/>
+					<Cell row='3' col='1' knobID="Ls Gain" inOutButtonID="Ls Mute" selectButtonID="Ls Phase"/>
+					<Cell row='4' col='1' knobID="R Gain" inOutButtonID="R Mute" selectButtonID="R Phase"/>
+					<Cell row='5' col='1' knobID="Rc Gain" inOutButtonID="Rc Mute" selectButtonID="Rc Phase"/>
+					<Cell row='6' col='1' knobID="C Gain" inOutButtonID="C Mute" selectButtonID="C Phase"/>
+					<Cell row='7' col='1' knobID="Lc Gain" inOutButtonID="Lc Mute" selectButtonID="Lc Phase"/>
+					<Cell row='8' col='1' knobID="L Gain" inOutButtonID="L Mute" selectButtonID="L Phase"/>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Output Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='2'-->
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>Lc Gain</ID>
+					<ID>C Gain</ID>
+					<ID>Rc Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>L Mute</ID>
+					<ID>Lc Mute</ID>
+					<ID>C Mute</ID>
+					<ID>Rc Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Ls Mute</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rs Mute</ID>
+					<ID>LFE Mute</ID>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID>Rss Phase</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>Lc Gain</ID>
+					<ID>C Gain</ID>
+					<ID>Rc Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID>L Mute</ID>
+					<ID>Lc Mute</ID>
+					<ID>C Mute</ID>
+					<ID>Rc Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Ls Mute</ID>
+					<ID>Rs Mute</ID>
+					<ID>LFE Mute</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>Lc Phase</ID>
+					<ID>C Phase</ID>
+					<ID>Rc Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID>L Phase</ID>
+					<ID>Lc Phase</ID>
+					<ID>C Phase</ID>
+					<ID>Rc Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>L Mute</ID>
+					<ID>L Phase</ID>
+					<ID>Lc Gain</ID>
+					<ID>Lc Mute</ID>
+					<ID>Lc Phase</ID>
+					<ID>C Gain</ID>
+					<ID>C Mute</ID>
+					<ID>C Phase</ID>
+					<ID>Rc Gain</ID>
+					<ID>Rc Mute</ID>
+					<ID>Rc Phase</ID>
+					<ID>R Gain</ID>
+					<ID>R Mute</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Gain</ID>
+					<ID>Ls Mute</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Gain</ID>
+					<ID>Rs Mute</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Gain</ID>
+					<ID>LFE Mute</ID>
+					<ID>LFE Phase</ID>
+					<ID>Output Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>Lc Gain</ID>
+					<ID>C Gain</ID>
+					<ID>Rc Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+					<ID>C Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Lss Mute</ID>
+					<ID>Rss Mute</ID>
+					<ID>Lsr Mute</ID>
+					<ID>Rsr Mute</ID>
+					<ID>LFE Mute</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+					<ID>C Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Lss Phase</ID>
+					<ID>Rss Phase</ID>
+					<ID>Lsr Phase</ID>
+					<ID>Rsr Phase</ID>
+					<ID>LFE Phase</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='4'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+					<ID>Lc Gain</ID>
+					<ID>C Gain</ID>
+					<ID>Rc Gain</ID>
+					<ID>R Gain</ID>
+					<ID>Ls Gain</ID>
+					<ID>Rs Gain</ID>
+					<ID>LFE Gain</ID>
+					<ID>L Mute</ID>
+					<ID>Lc Mute</ID>
+					<ID>C Mute</ID>
+					<ID>Rc Mute</ID>
+					<ID>R Mute</ID>
+					<ID>Ls Mute</ID>
+					<ID>Rs Mute</ID>
+					<ID>LFE Mute</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Phase</ID>
+					<ID>Lc Phase</ID>
+					<ID>C Phase</ID>
+					<ID>Rc Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+					<ID>L Phase</ID>
+					<ID>Lc Phase</ID>
+					<ID>C Phase</ID>
+					<ID>Rc Phase</ID>
+					<ID>R Phase</ID>
+					<ID>Ls Phase</ID>
+					<ID>Rs Phase</ID>
+					<ID>LFE Phase</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Output Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>L Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>L Mute</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>L Phase</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Lc Gain</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>Lc Mute</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>Lc Phase</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>C Gain</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>C Mute</ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>C Phase</ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>Rc Gain</ID>
+				</Page><!--num='10'-->
+				<Page num='11'>
+					<ID>Rc Mute</ID>
+				</Page><!--num='11'-->
+				<Page num='12'>
+					<ID>Rc Phase</ID>
+				</Page><!--num='12'-->
+				<Page num='13'>
+					<ID>R Gain</ID>
+				</Page><!--num='13'-->
+				<Page num='14'>
+					<ID>R Mute</ID>
+				</Page><!--num='14'-->
+				<Page num='15'>
+					<ID>R Phase</ID>
+				</Page><!--num='15'-->
+				<Page num='16'>
+					<ID>Ls Gain</ID>
+				</Page><!--num='16'-->
+				<Page num='17'>
+					<ID>Ls Mute</ID>
+				</Page><!--num='17'-->
+				<Page num='18'>
+					<ID>Ls Phase</ID>
+				</Page><!--num='18'-->
+				<Page num='19'>
+					<ID>Rs Gain</ID>
+				</Page><!--num='19'-->
+				<Page num='20'>
+					<ID>Rs Mute</ID>
+				</Page><!--num='20'-->
+				<Page num='21'>
+					<ID>Rs Phase</ID>
+				</Page><!--num='21'-->
+				<Page num='22'>
+					<ID>LFE Gain</ID>
+				</Page><!--num='22'-->
+				<Page num='23'>
+					<ID>LFE Mute</ID>
+				</Page><!--num='23'-->
+				<Page num='24'>
+					<ID>LFE Phase</ID>
+				</Page><!--num='24'-->
+				<Page num='25'>
+					<ID>Output Gain</ID>
+				</Page><!--num='25'-->
+				<Page num='26'>
+					<ID> </ID>
+				</Page><!--num='26'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 6'-->
+	</PageTableLayouts>
+	<ControlNamesVariations>
+		<Ctrl ID='C Gain'>
+			<name typ='PgTL' sz='4'>C G</name>
+		</Ctrl><!--ID='C Gain'-->
+		<Ctrl ID='C Mute'>
+			<name typ='PgTL' sz='4'>C M</name>
+		</Ctrl><!--ID='C Mute'-->
+		<Ctrl ID='C Phase'>
+			<name typ='PgTL' sz='4'>C P</name>
+			<name typ='PgTL' sz='6'>C Phas</name>
+		</Ctrl><!--ID='C Phase'-->
+		<Ctrl ID='L Gain'>
+			<name typ='PgTL' sz='4'>L G</name>
+		</Ctrl><!--ID='L Gain'-->
+		<Ctrl ID='L Mute'>
+			<name typ='PgTL' sz='4'>L M</name>
+		</Ctrl><!--ID='L Mute'-->
+		<Ctrl ID='L Phase'>
+			<name typ='PgTL' sz='4'>L P</name>
+			<name typ='PgTL' sz='6'>L Phas</name>
+		</Ctrl><!--ID='L Phase'-->
+		<Ctrl ID='LFE Gain'>
+			<name typ='PgTL' sz='4'>LfeG</name>
+			<name typ='PgTL' sz='6'>LFE Gn</name>
+		</Ctrl><!--ID='LFE Gain'-->
+		<Ctrl ID='LFE Mute'>
+			<name typ='PgTL' sz='4'>LfeM</name>
+			<name typ='PgTL' sz='6'>LFE Mt</name>
+		</Ctrl><!--ID='LFE Mute'-->
+		<Ctrl ID='LFE Phase'>
+			<name typ='PgTL' sz='4'>LFE Ph</name>
+		</Ctrl><!--ID='LFE Phase'-->
+		<Ctrl ID='Lc Gain'>
+			<name typ='PgTL' sz='4'>Lc G</name>
+			<name typ='PgTL' sz='5'>Lc Gn</name>
+		</Ctrl><!--ID='Lc Gain'-->
+		<Ctrl ID='Lc Mute'>
+			<name typ='PgTL' sz='4'>Lc M</name>
+			<name typ='PgTL' sz='5'>Lc Mt</name>
+		</Ctrl><!--ID='Lc Mute'-->
+		<Ctrl ID='Lc Phase'>
+			<name typ='PgTL' sz='4'>Lc P</name>
+			<name typ='PgTL' sz='5'>Lc Ph</name>
+		</Ctrl><!--ID='Lc Phase'-->
+		<Ctrl ID='Ls Gain'>
+			<name typ='PgTL' sz='4'>Ls G</name>
+			<name typ='PgTL' sz='5'>Ls Gn</name>
+		</Ctrl><!--ID='Ls Gain'-->
+		<Ctrl ID='Ls Mute'>
+			<name typ='PgTL' sz='4'>Ls M</name>
+			<name typ='PgTL' sz='5'>Ls Mt</name>
+		</Ctrl><!--ID='Ls Mute'-->
+		<Ctrl ID='Ls Phase'>
+			<name typ='PgTL' sz='4'>Ls P</name>
+			<name typ='PgTL' sz='5'>Ls Ph</name>
+		</Ctrl><!--ID='Ls Phase'-->
+		<Ctrl ID='Lsr Gain'>
+			<name typ='PgTL' sz='4'>LsrG</name>
+			<name typ='PgTL' sz='6'>Lsr Gn</name>
+		</Ctrl><!--ID='Lsr Gain'-->
+		<Ctrl ID='Lsr Mute'>
+			<name typ='PgTL' sz='4'>LsrM</name>
+			<name typ='PgTL' sz='6'>Lsr Mt</name>
+		</Ctrl><!--ID='Lsr Mute'-->
+		<Ctrl ID='Lsr Phase'>
+			<name typ='PgTL' sz='4'>LsrP</name>
+			<name typ='PgTL' sz='6'>Lsr Ph</name>
+		</Ctrl><!--ID='Lsr Phase'-->
+		<Ctrl ID='Lss Gain'>
+			<name typ='PgTL' sz='4'>LssG</name>
+			<name typ='PgTL' sz='6'>Lss Gn</name>
+		</Ctrl><!--ID='Lss Gain'-->
+		<Ctrl ID='Lss Mute'>
+			<name typ='PgTL' sz='4'>LssM</name>
+			<name typ='PgTL' sz='6'>Lss Mt</name>
+		</Ctrl><!--ID='Lss Mute'-->
+		<Ctrl ID='Lss Phase'>
+			<name typ='PgTL' sz='4'>LssP</name>
+			<name typ='PgTL' sz='6'>Lss Ph</name>
+		</Ctrl><!--ID='Lss Phase'-->
+		<Ctrl ID='Output Gain'>
+			<name typ='PgTL' sz='4'>Vol</name>
+			<name typ='PgTL' sz='6'>Out Gn</name>
+		</Ctrl><!--ID='Output Gain'-->
+		<Ctrl ID='R Gain'>
+			<name typ='PgTL' sz='4'>R G</name>
+		</Ctrl><!--ID='R Gain'-->
+		<Ctrl ID='R Mute'>
+			<name typ='PgTL' sz='4'>R M</name>
+		</Ctrl><!--ID='R Mute'-->
+		<Ctrl ID='R Phase'>
+			<name typ='PgTL' sz='4'>R P</name>
+			<name typ='PgTL' sz='6'>R Phas</name>
+		</Ctrl><!--ID='R Phase'-->
+		<Ctrl ID='Rc Gain'>
+			<name typ='PgTL' sz='4'>Rc G</name>
+			<name typ='PgTL' sz='5'>Rc Gn</name>
+		</Ctrl><!--ID='Rc Gain'-->
+		<Ctrl ID='Rc Mute'>
+			<name typ='PgTL' sz='4'>Rc M</name>
+			<name typ='PgTL' sz='5'>Rc Mt</name>
+		</Ctrl><!--ID='Rc Mute'-->
+		<Ctrl ID='Rc Phase'>
+			<name typ='PgTL' sz='4'>Rc P</name>
+			<name typ='PgTL' sz='5'>Rc Ph</name>
+		</Ctrl><!--ID='Rc Phase'-->
+		<Ctrl ID='Rs Gain'>
+			<name typ='PgTL' sz='4'>Rs G</name>
+			<name typ='PgTL' sz='5'>Rs Gn</name>
+		</Ctrl><!--ID='Rs Gain'-->
+		<Ctrl ID='Rs Mute'>
+			<name typ='PgTL' sz='4'>Rs M</name>
+			<name typ='PgTL' sz='5'>Rs Mt</name>
+		</Ctrl><!--ID='Rs Mute'-->
+		<Ctrl ID='Rs Phase'>
+			<name typ='PgTL' sz='4'>Rs P</name>
+			<name typ='PgTL' sz='5'>Rs Ph</name>
+		</Ctrl><!--ID='Rs Phase'-->
+		<Ctrl ID='Rsr Gain'>
+			<name typ='PgTL' sz='4'>RsrG</name>
+			<name typ='PgTL' sz='6'>Rsr Gn</name>
+		</Ctrl><!--ID='Rsr Gain'-->
+		<Ctrl ID='Rsr Mute'>
+			<name typ='PgTL' sz='4'>RsrM</name>
+			<name typ='PgTL' sz='6'>Rsr Mt</name>
+		</Ctrl><!--ID='Rsr Mute'-->
+		<Ctrl ID='Rsr Phase'>
+			<name typ='PgTL' sz='4'>RsrP</name>
+			<name typ='PgTL' sz='6'>Rsr Ph</name>
+		</Ctrl><!--ID='Rsr Phase'-->
+		<Ctrl ID='Rss Gain'>
+			<name typ='PgTL' sz='4'>RssG</name>
+			<name typ='PgTL' sz='6'>Rss Gn</name>
+		</Ctrl><!--ID='Rss Gain'-->
+		<Ctrl ID='Rss Mute'>
+			<name typ='PgTL' sz='4'>RssM</name>
+			<name typ='PgTL' sz='6'>Rss Mt</name>
+		</Ctrl><!--ID='Rss Mute'-->
+		<Ctrl ID='Rss Phase'>
+			<name typ='PgTL' sz='4'>RssP</name>
+			<name typ='PgTL' sz='6'>Rss Ph</name>
+		</Ctrl><!--ID='Rss Phase'-->
+		<Ctrl ID='S Gain'>
+			<name typ='PgTL' sz='4'>S G</name>
+		</Ctrl><!--ID='S Gain'-->
+		<Ctrl ID='S Mute'>
+			<name typ='PgTL' sz='4'>S M</name>
+		</Ctrl><!--ID='S Mute'-->
+		<Ctrl ID='S Phase'>
+			<name typ='PgTL' sz='4'>S P</name>
+			<name typ='PgTL' sz='6'>S Phas</name>
+		</Ctrl><!--ID='S Phase'-->
+	</ControlNamesVariations>
+	<Editor vers='1.3.7.1'>
+		<PluginList>
+			<TDM>
+				<PluginID manID='AVID' prodID='DMsm' plugID='S2Mt'>
+					<MenuStr>Stereo To Mono TI</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMsm' plugID='S2Mt'-->
+				<PluginID manID='AVID' prodID='DMls' plugID='LCRt'>
+					<MenuStr>LCR To Stereo TI</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMls' plugID='LCRt'-->
+				<PluginID manID='AVID' prodID='DMrs' plugID='LCSt'>
+					<MenuStr>LCRS To Stereo TI</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMrs' plugID='LCSt'-->
+				<PluginID manID='AVID' prodID='DMfs' plugID='5D1t'>
+					<MenuStr>5.1 To Stereo TI</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMfs' plugID='5D1t'-->
+				<PluginID manID='AVID' prodID='DMss' plugID='SDSt'>
+					<MenuStr>7.1 SDDS To Stereo TI</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMss' plugID='SDSt'-->
+				<PluginID manID='AVID' prodID='DMds' plugID='DTSt'>
+					<MenuStr>7.1 DTS To Stereo TI</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMds' plugID='DTSt'-->
+			</TDM>
+			<RTAS>
+				<PluginID manID='AVID' prodID='DMsm' plugID='S2Mn'>
+					<MenuStr>Stereo To Mono Native</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMsm' plugID='S2Mn'-->
+				<PluginID manID='AVID' prodID='DMls' plugID='LCRn'>
+					<MenuStr>LCR To Stereo Native</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMls' plugID='LCRn'-->
+				<PluginID manID='AVID' prodID='DMrs' plugID='LCSn'>
+					<MenuStr>LCRS To Stereo Native</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMrs' plugID='LCSn'-->
+				<PluginID manID='AVID' prodID='DMfs' plugID='5D1n'>
+					<MenuStr>5.1 To Stereo Native</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMfs' plugID='5D1n'-->
+				<PluginID manID='AVID' prodID='DMss' plugID='SDSn'>
+					<MenuStr>7.1 SDDS To Stereo Native</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMss' plugID='SDSn'-->
+				<PluginID manID='AVID' prodID='DMds' plugID='DTSn'>
+					<MenuStr>7.1 DTS To Stereo Native</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DMds' plugID='DTSn'-->
+			</RTAS>
+		</PluginList>
+		<DiscCtrls>
+			<CtrlID>C Mute</CtrlID>
+			<CtrlID>C Phase</CtrlID>
+			<CtrlID>L Mute</CtrlID>
+			<CtrlID>L Phase</CtrlID>
+			<CtrlID>LFE Mute</CtrlID>
+			<CtrlID>LFE Phase</CtrlID>
+			<CtrlID>Lc Mute</CtrlID>
+			<CtrlID>Lc Phase</CtrlID>
+			<CtrlID>Ls Mute</CtrlID>
+			<CtrlID>Ls Phase</CtrlID>
+			<CtrlID>Lsr Mute</CtrlID>
+			<CtrlID>Lsr Phase</CtrlID>
+			<CtrlID>Lss Mute</CtrlID>
+			<CtrlID>Lss Phase</CtrlID>
+			<CtrlID>R Mute</CtrlID>
+			<CtrlID>R Phase</CtrlID>
+			<CtrlID>Rc Mute</CtrlID>
+			<CtrlID>Rc Phase</CtrlID>
+			<CtrlID>Rs Mute</CtrlID>
+			<CtrlID>Rs Phase</CtrlID>
+			<CtrlID>Rsr Mute</CtrlID>
+			<CtrlID>Rsr Phase</CtrlID>
+			<CtrlID>Rss Mute</CtrlID>
+			<CtrlID>Rss Phase</CtrlID>
+			<CtrlID>S Mute</CtrlID>
+			<CtrlID>S Phase</CtrlID>
+		</DiscCtrls>
+	</Editor><!--vers='1.3.7.1'-->
+</PageTables><!--vers='6.4.0.89'-->

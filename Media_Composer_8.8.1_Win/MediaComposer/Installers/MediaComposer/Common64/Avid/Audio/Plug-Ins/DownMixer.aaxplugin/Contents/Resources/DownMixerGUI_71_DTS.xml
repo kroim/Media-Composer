@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="" id="">
+  <bounds x="0" y="0" width="500" height="300"/>
+  <image id="background" src="downmixer_bg_7-1.png" x="0" y="0"/>
+
+  <!--  L  -->
+
+  <view type="Slider" id="L Gain">
+    <parameter id="L Gain"/>
+    <bounds x="14" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="" src="slidercap_vertical_blue.png"/>
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="L Gain Text">
+    <parameter id="L Gain"/>
+    <bounds x="15" y="44" width="52" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="Button" id="L Mute">
+    <parameter id="L Mute"/>
+    <bounds x="9" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_mute_off.png"/>
+      <image id="" src="downmixer_btn_mute_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_mute_blue.png"/>
+      <image id="red" src="auto_btn_mute_red.png"/>
+      <image id="green" src="auto_btn_mute_green.png"/>
+      <image id="yellow" src="auto_btn_mute_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="L Phase">
+    <parameter id="L Phase"/>
+    <bounds x="39" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_phase_off.png"/>
+      <image id="" src="downmixer_btn_phase_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_phase_blue.png"/>
+      <image id="red" src="auto_btn_phase_red.png"/>
+      <image id="green" src="auto_btn_phase_green.png"/>
+      <image id="yellow" src="auto_btn_phase_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="StaticText" id="LGainStaticText">
+    <bounds x="16" y="296" width="56" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="L"/>
+  </view>
+
+  <!--  C  -->
+
+  <view type="Slider" id="C Gain">
+    <parameter id="C Gain"/>
+    <bounds x="76" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="" src="slidercap_vertical_blue.png"/>
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="C Gain Text">
+    <parameter id="C Gain"/>
+    <bounds x="78" y="44" width="52" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="Button" id="C Mute">
+    <parameter id="C Mute"/>
+    <bounds x="72" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_mute_off.png"/>
+      <image id="" src="downmixer_btn_mute_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_mute_blue.png"/>
+      <image id="red" src="auto_btn_mute_red.png"/>
+      <image id="green" src="auto_btn_mute_green.png"/>
+      <image id="yellow" src="auto_btn_mute_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="C Phase">
+    <parameter id="C Phase"/>
+    <bounds x="102" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_phase_off.png"/>
+      <image id="" src="downmixer_btn_phase_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_phase_blue.png"/>
+      <image id="red" src="auto_btn_phase_red.png"/>
+      <image id="green" src="auto_btn_phase_green.png"/>
+      <image id="yellow" src="auto_btn_phase_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="StaticText" id="CGainStaticText">
+    <bounds x="78" y="296" width="56" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="C"/>
+  </view>
+
+  <!--  R -->
+
+  <view type="Slider" id="R Gain">
+    <parameter id="R Gain"/>
+    <bounds x="140" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="R Gain Text">
+    <parameter id="R Gain"/>
+    <bounds x="141" y="44" width="52" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="Button" id="R Mute">
+    <parameter id="R Mute"/>
+    <bounds x="135" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_mute_off.png"/>
+      <image id="" src="downmixer_btn_mute_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_mute_blue.png"/>
+      <image id="red" src="auto_btn_mute_red.png"/>
+      <image id="green" src="auto_btn_mute_green.png"/>
+      <image id="yellow" src="auto_btn_mute_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="R Phase">
+    <parameter id="R Phase"/>
+    <bounds x="165" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_phase_off.png"/>
+      <image id="" src="downmixer_btn_phase_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_phase_blue.png"/>
+      <image id="red" src="auto_btn_phase_red.png"/>
+      <image id="green" src="auto_btn_phase_green.png"/>
+      <image id="yellow" src="auto_btn_phase_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="StaticText" id="RGainStaticText">
+    <bounds x="135" y="296" width="62" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="R"/>
+  </view>
+
+  <!--  Lss  -->
+
+  <view type="Slider" id="Lss Gain">
+    <parameter id="Lss Gain"/>
+    <bounds x="202" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="Lss Gain Text">
+    <parameter id="Lss Gain"/>
+    <bounds x="204" y="44" width="52" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="Button" id="Lss Mute">
+    <parameter id="Lss Mute"/>
+    <bounds x="198" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_mute_off.png"/>
+      <image id="" src="downmixer_btn_mute_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_mute_blue.png"/>
+      <image id="red" src="auto_btn_mute_red.png"/>
+      <image id="green" src="auto_btn_mute_green.png"/>
+      <image id="yellow" src="auto_btn_mute_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="Lss Phase">
+    <parameter id="Lss Phase"/>
+    <bounds x="228" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_phase_off.png"/>
+      <image id="" src="downmixer_btn_phase_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_phase_blue.png"/>
+      <image id="red" src="auto_btn_phase_red.png"/>
+      <image id="green" src="auto_btn_phase_green.png"/>
+      <image id="yellow" src="auto_btn_phase_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="StaticText" id="LssGainStaticText">
+    <bounds x="198" y="296" width="62" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="Lss"/>
+  </view>
+
+  <!--  Rss  -->
+
+  <view type="Slider" id="Rss Gain">
+    <parameter id="Rss Gain"/>
+    <bounds x="265" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="Rss Gain Text">
+    <parameter id="Rss Gain"/>
+    <bounds x="267" y="44" width="52" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="Button" id="Rss Mute">
+    <parameter id="Rss Mute"/>
+    <bounds x="261" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_mute_off.png"/>
+      <image id="" src="downmixer_btn_mute_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_mute_blue.png"/>
+      <image id="red" src="auto_btn_mute_red.png"/>
+      <image id="green" src="auto_btn_mute_green.png"/>
+      <image id="yellow" src="auto_btn_mute_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="Rss Phase">
+    <parameter id="Rss Phase"/>
+    <bounds x="291" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_phase_off.png"/>
+      <image id="" src="downmixer_btn_phase_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_phase_blue.png"/>
+      <image id="red" src="auto_btn_phase_red.png"/>
+      <image id="green" src="auto_btn_phase_green.png"/>
+      <image id="yellow" src="auto_btn_phase_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="StaticText" id="RssGainStaticText">
+    <bounds x="265" y="296" width="62" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="Rss"/>
+  </view>
+
+  <!--  Lsr  -->
+
+  <view type="Slider" id="Lsr Gain">
+    <parameter id="Lsr Gain"/>
+    <bounds x="329" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="Lsr Gain Text">
+    <parameter id="Lsr Gain"/>
+    <bounds x="330" y="44" width="52" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="Button" id="Lsr Mute">
+    <parameter id="Lsr Mute"/>
+    <bounds x="324" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_mute_off.png"/>
+      <image id="" src="downmixer_btn_mute_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_mute_blue.png"/>
+      <image id="red" src="auto_btn_mute_red.png"/>
+      <image id="green" src="auto_btn_mute_green.png"/>
+      <image id="yellow" src="auto_btn_mute_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="Lsr Phase">
+    <parameter id="Lsr Phase"/>
+    <bounds x="354" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_phase_off.png"/>
+      <image id="" src="downmixer_btn_phase_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_phase_blue.png"/>
+      <image id="red" src="auto_btn_phase_red.png"/>
+      <image id="green" src="auto_btn_phase_green.png"/>
+      <image id="yellow" src="auto_btn_phase_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="StaticText" id="LsrGainStaticText">
+    <bounds x="324" y="296" width="62" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="Lsr"/>
+  </view>
+
+  <!--  Rsr  -->
+
+  <view type="Slider" id="Rsr Gain">
+    <parameter id="Rsr Gain"/>
+    <bounds x="392" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="Rsr Gain Text">
+    <parameter id="Rsr Gain"/>
+    <bounds x="393" y="44" width="52" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="Button" id="Rsr Mute">
+    <parameter id="Rsr Mute"/>
+    <bounds x="387" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_mute_off.png"/>
+      <image id="" src="downmixer_btn_mute_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_mute_blue.png"/>
+      <image id="red" src="auto_btn_mute_red.png"/>
+      <image id="green" src="auto_btn_mute_green.png"/>
+      <image id="yellow" src="auto_btn_mute_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="Rsr Phase">
+    <parameter id="Rsr Phase"/>
+    <bounds x="417" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_phase_off.png"/>
+      <image id="" src="downmixer_btn_phase_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_phase_blue.png"/>
+      <image id="red" src="auto_btn_phase_red.png"/>
+      <image id="green" src="auto_btn_phase_green.png"/>
+      <image id="yellow" src="auto_btn_phase_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="StaticText" id="RsrGainStaticText">
+    <bounds x="386" y="296" width="56" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="Rsr"/>
+  </view>
+
+  <!--  LFE  -->
+
+  <view type="Slider" id="LFE Gain">
+    <parameter id="LFE Gain"/>
+    <bounds x="455" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="LFE Gain Text">
+    <parameter id="LFE Gain"/>
+    <bounds x="456" y="44" width="52" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="Button" id="LFE Mute">
+    <parameter id="LFE Mute"/>
+    <bounds x="450" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_mute_off.png"/>
+      <image id="" src="downmixer_btn_mute_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_mute_blue.png"/>
+      <image id="red" src="auto_btn_mute_red.png"/>
+      <image id="green" src="auto_btn_mute_green.png"/>
+      <image id="yellow" src="auto_btn_mute_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="Button" id="LFE Phase">
+    <parameter id="LFE Phase"/>
+    <bounds x="480" y="20" width="34" height="21"/>
+    <image_list id="state">
+      <image id="" src="downmixer_btn_phase_off.png"/>
+      <image id="" src="downmixer_btn_phase_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="blue" src="auto_btn_phase_blue.png"/>
+      <image id="red" src="auto_btn_phase_red.png"/>
+      <image id="green" src="auto_btn_phase_green.png"/>
+      <image id="yellow" src="auto_btn_phase_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+  <view type="StaticText" id="LFEGainStaticText">
+    <bounds x="450" y="296" width="62" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="LFE"/>
+  </view>
+
+  <!--  Output Gain  -->
+
+  <view type="Slider" id="Output Gain">
+    <parameter id="Output Gain"/>
+    <bounds x="539" y="60" width="25" height="220"/>
+    <image_list id="cap" src="slidercap_vertical_blue.png" x="0" y="0"/>
+    <image_list id="cap_highlight" x="3" y="2">
+      <image id="blue" src="auto_slider_vertical_blue.png"/>
+      <image id="red" src="auto_slider_vertical_red.png"/>
+      <image id="green" src="auto_slider_vertical_green.png"/>
+      <image id="yellow" src="auto_slider_vertical_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.001"/>
+  </view>
+
+  <view type="EditText" id="Output Gain Text">
+    <parameter id="Output Gain"/>
+    <bounds x="530" y="44" width="66" height="19"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="" x="0" y="0"/>
+    <font typeface="Arial" height="10" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="center"/>
+    <inset top="2" left="2" bottom="2" right="2"/>
+    <text string="0"/>
+  </view>
+
+  <view type="StaticText" id="LGainStaticText">
+    <bounds x="536" y="296" width="58" height="14"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="center" vertical="center"/>
+    <color id="text" red="23" green="186" blue="207" alpha="255"/>
+    <text string="STEREO"/>
+  </view>
+
+  <!--  5.1  -->
+
+  <view type="Meter" id="mFIL">
+    <meter id="mFIL" type="full_on" peak="1"/>
+    <bounds x="46" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="mFIC">
+    <meter id="mFIC" type="full_on" peak="1"/>
+    <bounds x="109" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="mFIR">
+    <meter id="mFIR" type="full_on" peak="1"/>
+    <bounds x="172" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="ILSS">
+    <meter id="ILSS" type="full_on" peak="1"/>
+    <bounds x="235" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="IRSS">
+    <meter id="IRSS" type="full_on" peak="1"/>
+    <bounds x="297" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="ILSR">
+    <meter id="ILSR" type="full_on" peak="1"/>
+    <bounds x="361" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="IRSR">
+    <meter id="IRSR" type="full_on" peak="1"/>
+    <bounds x="424" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="FILE">
+    <meter id="FILE" type="full_on" peak="1"/>
+    <bounds x="487" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+
+  <view type="Meter" id="mtOL">
+    <meter id="mtOL" type="full_on" peak="1"/>
+    <bounds x="571" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+
+  <view type="Meter" id="mtOR">
+    <meter id="mtOR" type="full_on" peak="1"/>
+    <bounds x="577" y="85" width="9" height="200"/>
+    <image id="meter" src="Meters/downmixer_meter_fill.png"/>
+	<taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+
+  <view type="Meter" id="mFILclip">
+    <meter id="mFIL" type="clip_only"/>
+    <bounds x="46" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="mFICclip">
+    <meter id="mFIC" type="clip_only"/>
+    <bounds x="109" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="mFIRclip">
+    <meter id="mFIR" type="clip_only"/>
+    <bounds x="172" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="ILSSclip">
+    <meter id="ILSS" type="clip_only"/>
+    <bounds x="235" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="IRSSclip">
+    <meter id="IRSS" type="clip_only"/>
+    <bounds x="297" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="ILSRclip">
+    <meter id="ILSR" type="clip_only"/>
+    <bounds x="361" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="IRSRclip">
+    <meter id="IRSR" type="clip_only"/>
+    <bounds x="424" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="FILEclip">
+    <meter id="FILE" type="clip_only"/>
+    <bounds x="487" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="mtOLclip">
+    <meter id="mtOL" type="clip_only"/>
+    <bounds x="571" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+  <view type="Meter" id="mtORclip">
+    <meter id="mtOR" type="clip_only"/>
+    <bounds x="577" y="76" width="10" height="210"/>
+    <image_list id="clip_meter">
+     <image id="" src="Meters/downmixer_meter_clip_lo.png"/>
+     <image id="" src="Meters/downmixer_meter_clip_hi.png"/>
+    </image_list>
+  </view>
+
+</view>
