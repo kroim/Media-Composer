@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view type="" id="">
+
+  <view type="View" id="Dither">
+    <bounds x="0" y="0" width="452" height="49"/>
+    <image id="background" src="dither_background.png"/>
+  </view>
+  <view type="View" id="POWr">
+    <bounds x="0" y="0" width="452" height="49"/>
+    <image id="background" src="powrdither_background.png"/>
+  </view>
+
+  <view type="Popup" id="Bit Resolution Type">
+    <bounds x="7" y="7" width="86" height="21"/>
+    <parameter id="Bit Resolution"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <image id="arrow" src="dither_triangle.png" y="6" x="6"/>
+    <image_list id="highlight">
+      <image id="red" src="dither_auto_bitdepth_red.png"/>
+      <image id="blue" src="dither_auto_bitdepth_blue.png"/>
+      <image id="green" src="dither_auto_bitdepth_green.png"/>
+      <image id="yellow" src="dither_auto_bitdepth_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Popup" id="Noise Shape Type">
+    <bounds x="94" y="7" width="137" height="21"/>
+    <parameter id="Noise Shape Type"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <image id="arrow" src="dither_triangle.png" y="6" x="6"/>
+    <image_list id="highlight">
+      <image id="red" src="powrdither_auto_noiseshape_red.png"/>
+      <image id="blue" src="powrdither_auto_noiseshape_blue.png"/>
+      <image id="green" src="powrdither_auto_noiseshape_green.png"/>
+      <image id="yellow" src="powrdither_auto_noiseshape_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Button" id="Noise Shape">
+    <bounds x="94" y="7" width="101" height="21"/>
+    <parameter id="Noise Shape"/>
+    <image_list id="state" x="1" y="1" stretch="true">
+      <image id="" src="dither_btn_noise_shaping_off.png"/>
+      <image id="" src="dither_btn_noise_shaping_on.png"/>
+    </image_list>
+    <image_list id="highlight">
+      <image id="red" src="dither_auto_noiseshaping_red.png"/>
+      <image id="blue" src="dither_auto_noiseshaping_blue.png"/>
+      <image id="green" src="dither_auto_noiseshaping_green.png"/>
+      <image id="yellow" src="dither_auto_noiseshaping_yellow.png"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+
+</view>
