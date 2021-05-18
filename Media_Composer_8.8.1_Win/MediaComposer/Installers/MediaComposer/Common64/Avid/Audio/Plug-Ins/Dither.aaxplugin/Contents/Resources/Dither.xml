@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='US-ASCII' standalone='yes'?>
+<PageTables vers='0.0.0.2'>
+  <PageTableLayouts>
+    <Plugin manID='Digi' prodID='Dthr' plugID='11Di'>
+      <Desc> </Desc>
+      <Layout>PageTable 1</Layout>
+    </Plugin><!--manID='Digi' prodID='Dthr' plugID='11Di'-->
+    <Plugin manID='Digi' prodID='Dthr' plugID='22Di'>
+      <Desc> </Desc>
+      <Layout>PageTable 1</Layout>
+    </Plugin><!--manID='Digi' prodID='Dthr' plugID='22Di'-->
+    <Plugin manID='Digi' prodID='Dthr' plugID='mmrd'>
+      <Desc>Dither 1 -&gt; 1 by AVID Inc.</Desc>
+      <Layout>PageTable 1</Layout>
+    </Plugin><!--manID='Digi' prodID='Dthr' plugID='mmrd'-->
+    <Plugin manID='Digi' prodID='Dthr' plugID='ssrd'>
+      <Desc>Dither 2 -&gt; 2 by AVID Inc.</Desc>
+      <Layout>PageTable 1</Layout>
+    </Plugin><!--manID='Digi' prodID='Dthr' plugID='ssrd'-->
+    <Plugin manID='Digi' prodID='POWr' plugID='11Pr'>
+      <Desc> </Desc>
+      <Layout>PageTable 2</Layout>
+    </Plugin><!--manID='Digi' prodID='POWr' plugID='11Pr'-->
+    <Plugin manID='Digi' prodID='POWr' plugID='22Pr'>
+      <Desc> </Desc>
+      <Layout>PageTable 2</Layout>
+    </Plugin><!--manID='Digi' prodID='POWr' plugID='22Pr'-->
+    <Plugin manID='Digi' prodID='POWr' plugID='mmpr'>
+      <Desc>POWr Dither 1 -&gt; 1 by AVID Inc.</Desc>
+      <Layout>PageTable 2</Layout>
+    </Plugin><!--manID='Digi' prodID='POWr' plugID='mmpr'-->
+    <Plugin manID='Digi' prodID='POWr' plugID='sspr'>
+      <Desc>POWr Dither 2 -&gt; 2 by AVID Inc.</Desc>
+      <Layout>PageTable 2</Layout>
+    </Plugin><!--manID='Digi' prodID='POWr' plugID='sspr'-->
+    <PTLayout name='PageTable 1'>
+      <PageTable type='PgTL' pgsz='1'>
+        <Page num='1'>
+          <ID>Master Bypass</ID>
+        </Page><!--num='1'-->
+        <Page num='2'>
+          <ID>Bit Resolution</ID>
+        </Page><!--num='2'-->
+        <Page num='3'>
+          <ID>Noise Shape</ID>
+        </Page><!--num='3'-->
+      </PageTable><!--type='PgTL' pgsz='1'-->
+      <PageTable type='MkTL' pgsz='8'>
+        <Page num='1'>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape</ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape</ID>
+        </Page><!--num='1'-->
+        <FirstPg cat='0'>1</FirstPg>
+        <FirstPg cat='1'>1</FirstPg>
+        <FirstPg cat='2'>1</FirstPg>
+        <FirstPg cat='4'>1</FirstPg>
+        <FirstPg cat='8'>1</FirstPg>
+        <FirstPg cat='16'>1</FirstPg>
+        <FirstPg cat='32'>1</FirstPg>
+        <FirstPg cat='64'>1</FirstPg>
+        <FirstPg cat='128'>1</FirstPg>
+        <FirstPg cat='256'>1</FirstPg>
+        <FirstPg cat='512'>1</FirstPg>
+        <FirstPg cat='1024'>1</FirstPg>
+        <FirstPg cat='2048'>1</FirstPg>
+      </PageTable><!--type='MkTL' pgsz='8'-->
+      <PageTable type='PcTL' pgsz='16'>
+        <Page num='1'>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape</ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape</ID>
+        </Page><!--num='1'-->
+        <FirstPg cat='0'>1</FirstPg>
+        <FirstPg cat='1'>1</FirstPg>
+        <FirstPg cat='2'>1</FirstPg>
+        <FirstPg cat='4'>1</FirstPg>
+        <FirstPg cat='8'>1</FirstPg>
+        <FirstPg cat='16'>1</FirstPg>
+        <FirstPg cat='32'>1</FirstPg>
+        <FirstPg cat='64'>1</FirstPg>
+        <FirstPg cat='128'>1</FirstPg>
+        <FirstPg cat='256'>1</FirstPg>
+        <FirstPg cat='512'>1</FirstPg>
+        <FirstPg cat='1024'>1</FirstPg>
+        <FirstPg cat='2048'>1</FirstPg>
+      </PageTable><!--type='PcTL' pgsz='16'-->
+      <PageTable type='FrTL' pgsz='24'>
+        <Page num='1'>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape</ID>
+        </Page><!--num='1'-->
+        <FirstPg cat='0'>1</FirstPg>
+        <FirstPg cat='1'>1</FirstPg>
+        <FirstPg cat='2'>1</FirstPg>
+        <FirstPg cat='4'>1</FirstPg>
+        <FirstPg cat='8'>1</FirstPg>
+        <FirstPg cat='16'>1</FirstPg>
+        <FirstPg cat='32'>1</FirstPg>
+        <FirstPg cat='64'>1</FirstPg>
+        <FirstPg cat='128'>1</FirstPg>
+        <FirstPg cat='256'>1</FirstPg>
+        <FirstPg cat='512'>1</FirstPg>
+        <FirstPg cat='1024'>1</FirstPg>
+        <FirstPg cat='2048'>1</FirstPg>
+      </PageTable><!--type='FrTL' pgsz='24'-->
+      <PageTable type='HgTL' pgsz='8'>
+        <Page num='1'>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape</ID>
+        </Page><!--num='1'-->
+        <FirstPg cat='0'>1</FirstPg>
+        <FirstPg cat='1'>1</FirstPg>
+        <FirstPg cat='2'>1</FirstPg>
+        <FirstPg cat='4'>1</FirstPg>
+        <FirstPg cat='8'>1</FirstPg>
+        <FirstPg cat='16'>1</FirstPg>
+        <FirstPg cat='32'>1</FirstPg>
+        <FirstPg cat='64'>1</FirstPg>
+        <FirstPg cat='128'>1</FirstPg>
+        <FirstPg cat='256'>1</FirstPg>
+        <FirstPg cat='512'>1</FirstPg>
+        <FirstPg cat='1024'>1</FirstPg>
+        <FirstPg cat='2048'>1</FirstPg>
+      </PageTable><!--type='HgTL' pgsz='8'-->
+      <PageTable type='BkCS' pgsz='12'>
+        <Page num='1'>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID>Noise Shape</ID>
+          <ID>Bit Resolution</ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID>Noise Shape</ID>
+          <ID>Bit Resolution</ID>
+        </Page><!--num='1'-->
+      </PageTable><!--type='BkCS' pgsz='12'-->
+      <PageTable type='BkSF' pgsz='16'>
+        <Page num='1'>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape</ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape</ID>
+        </Page><!--num='1'-->
+      </PageTable><!--type='BkSF' pgsz='16'-->
+    </PTLayout><!--name='PageTable 1'-->
+    <PTLayout name='PageTable 2'>
+      <PageTable type='PgTL' pgsz='1'>
+        <Page num='1'>
+          <ID>Master Bypass</ID>
+        </Page><!--num='1'-->
+        <Page num='2'>
+          <ID>Bit Resolution</ID>
+        </Page><!--num='2'-->
+        <Page num='3'>
+          <ID>Noise Shape Type</ID>
+        </Page><!--num='3'-->
+      </PageTable><!--type='PgTL' pgsz='1'-->
+      <PageTable type='MkTL' pgsz='8'>
+        <Page num='1'>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape Type</ID>
+        </Page><!--num='1'-->
+        <FirstPg cat='0'>1</FirstPg>
+        <FirstPg cat='1'>1</FirstPg>
+        <FirstPg cat='2'>1</FirstPg>
+        <FirstPg cat='4'>1</FirstPg>
+        <FirstPg cat='8'>1</FirstPg>
+        <FirstPg cat='16'>1</FirstPg>
+        <FirstPg cat='32'>1</FirstPg>
+        <FirstPg cat='64'>1</FirstPg>
+        <FirstPg cat='128'>1</FirstPg>
+        <FirstPg cat='256'>1</FirstPg>
+        <FirstPg cat='512'>1</FirstPg>
+        <FirstPg cat='1024'>1</FirstPg>
+        <FirstPg cat='2048'>1</FirstPg>
+      </PageTable><!--type='MkTL' pgsz='8'-->
+      <PageTable type='PcTL' pgsz='16'>
+        <Page num='1'>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape Type</ID>
+        </Page><!--num='1'-->
+        <FirstPg cat='0'>1</FirstPg>
+        <FirstPg cat='1'>1</FirstPg>
+        <FirstPg cat='2'>1</FirstPg>
+        <FirstPg cat='4'>1</FirstPg>
+        <FirstPg cat='8'>1</FirstPg>
+        <FirstPg cat='16'>1</FirstPg>
+        <FirstPg cat='32'>1</FirstPg>
+        <FirstPg cat='64'>1</FirstPg>
+        <FirstPg cat='128'>1</FirstPg>
+        <FirstPg cat='256'>1</FirstPg>
+        <FirstPg cat='512'>1</FirstPg>
+        <FirstPg cat='1024'>1</FirstPg>
+        <FirstPg cat='2048'>1</FirstPg>
+      </PageTable><!--type='PcTL' pgsz='16'-->
+      <PageTable type='FrTL' pgsz='24'>
+        <Page num='1'>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape Type</ID>
+        </Page><!--num='1'-->
+        <FirstPg cat='0'>1</FirstPg>
+        <FirstPg cat='1'>1</FirstPg>
+        <FirstPg cat='2'>1</FirstPg>
+        <FirstPg cat='4'>1</FirstPg>
+        <FirstPg cat='8'>1</FirstPg>
+        <FirstPg cat='16'>1</FirstPg>
+        <FirstPg cat='32'>1</FirstPg>
+        <FirstPg cat='64'>1</FirstPg>
+        <FirstPg cat='128'>1</FirstPg>
+        <FirstPg cat='256'>1</FirstPg>
+        <FirstPg cat='512'>1</FirstPg>
+        <FirstPg cat='1024'>1</FirstPg>
+        <FirstPg cat='2048'>1</FirstPg>
+      </PageTable><!--type='FrTL' pgsz='24'-->
+      <PageTable type='HgTL' pgsz='8'>
+        <Page num='1'>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape Type</ID>
+        </Page><!--num='1'-->
+        <FirstPg cat='0'>1</FirstPg>
+        <FirstPg cat='1'>1</FirstPg>
+        <FirstPg cat='2'>1</FirstPg>
+        <FirstPg cat='4'>1</FirstPg>
+        <FirstPg cat='8'>1</FirstPg>
+        <FirstPg cat='16'>1</FirstPg>
+        <FirstPg cat='32'>1</FirstPg>
+        <FirstPg cat='64'>1</FirstPg>
+        <FirstPg cat='128'>1</FirstPg>
+        <FirstPg cat='256'>1</FirstPg>
+        <FirstPg cat='512'>1</FirstPg>
+        <FirstPg cat='1024'>1</FirstPg>
+        <FirstPg cat='2048'>1</FirstPg>
+      </PageTable><!--type='HgTL' pgsz='8'-->
+      <PageTable type='BkCS' pgsz='12'>
+        <Page num='1'>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID> </ID>
+          <ID>Bit Resolution</ID>
+          <ID>Noise Shape Type</ID>
+        </Page><!--num='1'-->
+      </PageTable><!--type='BkCS' pgsz='12'-->
+    </PTLayout><!--name='PageTable 2'-->
+  </PageTableLayouts>
+  <ControlNamesVariations>
+    <Ctrl ID='Bit Resolution'>
+      <name typ='PgTL' sz='1'>BR</name>
+      <name typ='PgTL' sz='4'>BitR</name>
+      <name typ='PgTL' sz='6'>BitRes</name>
+      <name typ='PgTL' sz='8'>Bit Reso</name>
+    </Ctrl><!--ID='Bit Resolution'-->
+    <Ctrl ID='Master Bypass'>
+      <name typ='PgTL' sz='1'>MByp</name>
+      <name typ='PgTL' sz='8'>Mstr Byp</name>
+    </Ctrl><!--ID='Master Bypass'-->
+    <Ctrl ID='Noise Shape'>
+      <name typ='PgTL' sz='1'>NSh</name>
+      <name typ='PgTL' sz='4'>Nois</name>
+      <name typ='PgTL' sz='6'>NoisSh</name>
+      <name typ='PgTL' sz='8'>NoiseShp</name>
+    </Ctrl><!--ID='Noise Shape'-->
+    <Ctrl ID='Noise Shape Type'>
+      <name typ='PgTL' sz='1'>Type</name>
+      <name typ='PgTL' sz='6'>NoisTp</name>
+      <name typ='PgTL' sz='8'>NoiShpTyp</name>
+    </Ctrl><!--ID='Noise Shape Type'-->
+  </ControlNamesVariations>
+  <Editor vers='1.1.0.1'>
+    <PluginList>
+      <TDM>
+        <PluginID manID='Digi' prodID='Dthr' plugID='11Di'>
+          <MenuStr>TDM:  Dither, 1 in X 1 out</MenuStr>
+        </PluginID><!--manID='Digi' prodID='Dthr' plugID='11Di'-->
+        <PluginID manID='Digi' prodID='Dthr' plugID='22Di'>
+          <MenuStr>TDM:  Dither, 2 in X 2 out</MenuStr>
+        </PluginID><!--manID='Digi' prodID='Dthr' plugID='22Di'-->
+        <PluginID manID='Digi' prodID='POWr' plugID='11Pr'>
+          <MenuStr>TDM:  POWr Dither, 1 in X 1 out</MenuStr>
+        </PluginID><!--manID='Digi' prodID='POWr' plugID='11Pr'-->
+        <PluginID manID='Digi' prodID='POWr' plugID='22Pr'>
+          <MenuStr>TDM:  POWr Dither, 2 in X 2 out</MenuStr>
+        </PluginID><!--manID='Digi' prodID='POWr' plugID='22Pr'-->
+      </TDM>
+      <RTAS>
+        <PluginID manID='Digi' prodID='Dthr' plugID='mmrd'>
+          <MenuStr>RTAS: Dither, 1 in X 1 out</MenuStr>
+        </PluginID><!--manID='Digi' prodID='Dthr' plugID='mmrd'-->
+        <PluginID manID='Digi' prodID='Dthr' plugID='ssrd'>
+          <MenuStr>RTAS: Dither, 2 in X 2 out</MenuStr>
+        </PluginID><!--manID='Digi' prodID='Dthr' plugID='ssrd'-->
+        <PluginID manID='Digi' prodID='POWr' plugID='mmpr'>
+          <MenuStr>RTAS: POWr Dither, 1 in X 1 out</MenuStr>
+        </PluginID><!--manID='Digi' prodID='POWr' plugID='mmpr'-->
+        <PluginID manID='Digi' prodID='POWr' plugID='sspr'>
+          <MenuStr>RTAS: POWr Dither, 2 in X 2 out</MenuStr>
+        </PluginID><!--manID='Digi' prodID='POWr' plugID='sspr'-->
+      </RTAS>
+    </PluginList>
+    <DiscCtrls>
+      <CtrlID>Bit Resolution</CtrlID>
+      <CtrlID>Master Bypass</CtrlID>
+      <CtrlID>Noise Shape</CtrlID>
+      <CtrlID>Noise Shape Type</CtrlID>
+    </DiscCtrls>
+  </Editor><!--vers='1.1.0.1'-->
+</PageTables><!--vers='0.0.0.2'-->

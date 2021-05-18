@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Volume Pre View">
+	<bounds x="0" y="0" width="229" height="29"/>
+	<show_if parameter="Fader Volume Pre/Post" operator="=" value="1"/>
+
+	<view type="Button" id="Fader Volume On/Off">
+		<parameter id="Fader Volume On/Off"/>
+		<bounds x="3" y="3" width="55" height="23"/>
+		<image_list id="state">
+			<image id="" src="chanstrip_btn_vol_off.png"/>
+			<image id="" src="chanstrip_btn_vol_on.png"/>
+		</image_list>
+		<image_list id="highlight" x="2" y="2">
+		  <image id="red" src="Automation/auto_fx_red.png"/>
+		  <image id="blue" src="Automation/auto_fx_blue.png"/>
+		  <image id="green" src="Automation/auto_fx_green.png"/>
+		  <image id="yellow" src="Automation/auto_fx_yellow.png"/>
+		</image_list>
+		<toggles value="1"/>
+	</view>
+
+	<view type="View" id="Post FX ORder View">
+		<bounds x="59" y="3" width="167" height="23"/>
+
+		<include src="./Order_EQ_Filter_Dyn.xml"/>
+		<include src="./Order_EQ_Dyn_Filter.xml"/>
+		<include src="./Order_Dyn_EQ_Filter.xml"/>
+		<include src="./Order_Filter_Dyn_EQ.xml"/>
+
+	</view>
+
+</view>

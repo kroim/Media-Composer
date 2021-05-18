@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Order View">
+	<bounds x="112" y="18" width="229" height="29"/>
+	<image id="background" src="order_background.png"/>
+
+	<include src="./Order_Volume_Pre.xml"/>
+	<include src="./Order_Volume_Post.xml"/>
+
+</view>

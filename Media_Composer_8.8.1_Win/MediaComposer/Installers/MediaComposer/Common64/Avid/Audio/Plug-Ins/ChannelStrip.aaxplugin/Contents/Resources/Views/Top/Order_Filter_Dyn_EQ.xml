@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Filter-Dyn-EQ View">
+	<bounds x="0" y="0" width="167" height="23"/>
+	<show_if parameter="Process Order" operator="=" value="3"/>
+
+	<view type="Button" id="Filters On/Off">
+		<parameter id="Filters On/Off"/>
+		<bounds x="0" y="0" width="55" height="23"/>
+		<image_list id="state">
+			<image id="" src="chanstrip_btn_filt_off.png"/>
+			<image id="" src="chanstrip_btn_filt_on.png"/>
+		</image_list>
+		<image_list id="highlight" x="2" y="2">
+		  <image id="red" src="Automation/auto_fx_red.png"/>
+		  <image id="blue" src="Automation/auto_fx_blue.png"/>
+		  <image id="green" src="Automation/auto_fx_green.png"/>
+		  <image id="yellow" src="Automation/auto_fx_yellow.png"/>
+		</image_list>
+		<toggles value="1"/>
+	</view>
+
+	<view type="Button" id="Dynamics On/Off">
+		<parameter id="Dynamics On/Off"/>
+		<bounds x="56" y="0" width="55" height="23"/>
+		<image_list id="state">
+			<image id="" src="chanstrip_btn_dyn_off.png"/>
+			<image id="" src="chanstrip_btn_dyn_on.png"/>
+		</image_list>
+		<image_list id="highlight" x="2" y="2">
+		  <image id="red" src="Automation/auto_fx_red.png"/>
+		  <image id="blue" src="Automation/auto_fx_blue.png"/>
+		  <image id="green" src="Automation/auto_fx_green.png"/>
+		  <image id="yellow" src="Automation/auto_fx_yellow.png"/>
+		</image_list>
+		<toggles value="1"/>
+	</view>
+
+	<view type="Button" id="EQ On/Off">
+		<parameter id="EQ On/Off"/>
+		<bounds x="112" y="0" width="55" height="23"/>
+		<image_list id="state">
+			<image id="" src="chanstrip_btn_eq_off.png"/>
+			<image id="" src="chanstrip_btn_eq_on.png"/>
+		</image_list>
+		<image_list id="highlight" x="2" y="2">
+		  <image id="red" src="Automation/auto_fx_red.png"/>
+		  <image id="blue" src="Automation/auto_fx_blue.png"/>
+		  <image id="green" src="Automation/auto_fx_green.png"/>
+		  <image id="yellow" src="Automation/auto_fx_yellow.png"/>
+		</image_list>
+		<toggles value="1"/>
+	</view>
+
+</view>

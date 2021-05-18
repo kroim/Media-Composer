@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taper_delegate type="linear">
+	<taper input=  "0.0" output="169.0"/> 
+	<taper input="-36.0" output="0.0"/>
+</taper_delegate>
+

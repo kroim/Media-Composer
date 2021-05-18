@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Order Popup">
+	<parameter id="Process Order"/>
+	<bounds x="109" y="46" width="235" height="191"/>
+	<image id="background" src="chanstrip_popover_bg.png"/>
+	<image_list id="highlight" stretch="true" x="21" y="24" width="193" height="123">
+		<image id="red" src="Automation/auto_detection2_red.png"/>
+		<image id="blue" src="Automation/auto_detection2_blue.png"/>
+		<image id="green" src="Automation/auto_detection2_green.png"/>
+		<image id="yellow" src="Automation/auto_detection2_yellow.png"/>
+	</image_list>
+
+	<view type="Button" id="">
+		<parameter id="Process Order"/>
+		<bounds x="24" y="27" width="187" height="30"/>
+		<image_list id="state">
+			<image id="" src="background_order_popup_off.png"/>
+			<image id="" src="background_order_popup_on.png"/>
+		</image_list>
+		<toggles value="1"/>
+		<group id="Order Group" value="0"/>
+	</view>
+
+	<view type="Button" id="">
+		<parameter id="Process Order"/>
+		<bounds x="24" y="58" width="187" height="29"/>
+		<image_list id="state" x="0" y="-30">
+			<image id="" src="background_order_popup_off.png"/>
+			<image id="" src="background_order_popup_on.png"/>
+		</image_list>
+		<toggles value="1"/>
+		<group id="Order Group" value="1"/>
+	</view>
+
+	<view type="Button" id="">
+		<parameter id="Process Order"/>
+		<bounds x="24" y="86" width="187" height="29"/>
+		<image_list id="state" x="0" y="-59">
+			<image id="" src="background_order_popup_off.png"/>
+			<image id="" src="background_order_popup_on.png"/>
+		</image_list>
+		<toggles value="1"/>
+		<group id="Order Group" value="2"/>
+	</view>
+
+	<view type="Button" id="">
+		<parameter id="Process Order"/>
+		<bounds x="24" y="115" width="187" height="29"/>
+		<image_list id="state" x="0" y="-88">
+			<image id="" src="background_order_popup_off.png"/>
+			<image id="" src="background_order_popup_on.png"/>
+		</image_list>
+		<toggles value="1"/>
+		<group id="Order Group" value="3"/>
+	</view>
+
+
+  <view type="Button" id="Volume Pre/Post Button">
+    <parameter id="Fader Volume Pre/Post"/>
+    <bounds x="119" y="157" width="92" height="19"/>
+    <image_list id="state">
+      <image id="" src="volume_post.png"/>
+      <image id="" src="volume_pre.png"/>
+    </image_list>
+    <image_list id="highlight" x="0" y="0" stretch="true" width="92">
+      <image id="red" src="Automation/auto_detection2_red.png"/>
+      <image id="blue" src="Automation/auto_detection2_blue.png"/>
+      <image id="green" src="Automation/auto_detection2_green.png"/>
+      <image id="yellow" src="Automation/auto_detection2_yellow.png"/>
+    </image_list>
+    <segments>
+        <segment value="1"/>
+        <segment value="0"/>
+    </segments>
+  </view>
+
+</view>
