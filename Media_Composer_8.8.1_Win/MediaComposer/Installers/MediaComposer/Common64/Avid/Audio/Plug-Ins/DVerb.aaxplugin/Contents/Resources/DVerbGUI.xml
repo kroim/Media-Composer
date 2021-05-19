@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="" id="">
+  <debug type="parameters"/>
+
+  <bounds x="0" y="0" width="453" height="313"/>
+  <image_list id="background" x="0" y="0">
+    <image id="" src="dverb_background_mono.png"/>
+    <image id="" src="dverb_background_mono_stereo.png"/>
+	<image id="" src="dverb_background_stereo.png"/>
+  </image_list>
+
+  <view type="Slider" id="Input">
+	<parameter id="Input Level"/>
+    <bounds x="18" y="58" width="13" height="211"/>
+    <image id="fill" src="dverb_gainslider_fill.png" x="5" y="0"/>
+    <image_list id="cap" src="dverb_gainslider.png" x="1" y="2"/>
+    <image_list id="cap_highlight">
+      <image id="red" src="dverb_auto_gainslider_red.png"/>
+      <image id="blue" src="dverb_auto_gainslider_blue.png"/>
+      <image id="green" src="dverb_auto_gainslider_green.png"/>
+      <image id="yellow" src="dverb_auto_gainslider_yellow.png"/>
+    </image_list>
+    <range min="0" max="1" interval="0.006024096385542"/>
+  </view>
+  <view type="EditText" id="InputEdit">
+	<parameter id="Input Level"/>
+    <bounds x="15" y="42" width="46" height="13"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="bottom"/>
+  </view>
+
+  <view type="Button" id="Algorithm">
+    <parameter id="Algorithm"/>
+    <bounds x="79" y="21" width="295" height="23"/>
+    <image_list id="state" x="1" y="2">
+      <image id="" src="dverb_btn_type_hall_on.png"/>
+      <image id="" src="dverb_btn_type_church_on.png"/>
+      <image id="" src="dverb_btn_type_plate_on.png"/>
+      <image id="" src="dverb_btn_type_room1_on.png"/>
+      <image id="" src="dverb_btn_type_room2_on.png"/>
+      <image id="" src="dverb_btn_type_ambient_on.png"/>
+      <image id="" src="dverb_btn_type_nonlin_on.png"/>
+   </image_list>
+    <range min="1" max="7" segments="7"/>
+    <image_list id="highlight">
+       <image id="red" src="dverb_auto_reverbtype_red.png"/>
+       <image id="blue" src="dverb_auto_reverbtype_blue.png"/>
+       <image id="green" src="dverb_auto_reverbtype_green.png"/>
+       <image id="yellow" src="dverb_auto_reverbtype_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Button" id="Size">
+    <parameter id="Size"/>
+    <bounds x="149" y="55" width="155" height="24"/>
+    <image_list id="state" x="1" y="2">
+      <image id="" src="dverb_btn_size_small_on.png"/>
+      <image id="" src="dverb_btn_size_medium_on.png"/>
+      <image id="" src="dverb_btn_size_large_on.png"/>
+   </image_list>
+    <range min="1" max="3" segments="3"/>
+    <image_list id="highlight" x="0" y="0" >
+       <image id="red" src="dverb_auto_reverbsize_red.png"/>
+       <image id="blue" src="dverb_auto_reverbsize_blue.png"/>
+       <image id="green" src="dverb_auto_reverbsize_green.png"/>
+       <image id="yellow" src="dverb_auto_reverbsize_yellow.png"/>
+    </image_list>
+  </view>
+
+  <view type="Knob" id="Decay">
+    <parameter id="Decay"/>
+    <bounds x="190" y="112" width="72" height="104"/>
+    <image id="hit_area" src="BigKnob/knob_big_default_clip.png"/>
+    <image_list id="knob" src="BigKnob/knob_big_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="9" >
+       <image id="red" src="BigKnob/auto_bigknob_red.png"/>
+       <image id="blue" src="BigKnob/auto_bigknob_blue.png"/>
+       <image id="green" src="BigKnob/auto_bigknob_green.png"/>
+       <image id="yellow" src="BigKnob/auto_bigknob_yellow.png"/>
+    </image_list>
+  </view>
+  <view type="EditText" id="DecayEdit">
+	<parameter id="Decay"/>
+    <bounds x="190" y="101" width="73" height="13"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="center" vertical="bottom"/>
+  </view>
+
+  <view type="Knob" id="Pre-Delay">
+    <parameter id="Pre-Delay"/>
+    <bounds x="81" y="119" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7" >
+       <image id="red" src="SmallKnob/auto_smallknob_red.png"/>
+       <image id="blue" src="SmallKnob/auto_smallknob_blue.png"/>
+       <image id="green" src="SmallKnob/auto_smallknob_green.png"/>
+       <image id="yellow" src="SmallKnob/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+  <view type="EditText" id="PreDelayEdit">
+	<parameter id="Pre-Delay"/>
+    <bounds x="127" y="134" width="46" height="13"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="right" vertical="bottom"/>
+  </view>
+
+  <view type="Knob" id="HF Cut">
+    <parameter id="HF Cut"/>
+    <bounds x="320" y="119" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7" >
+       <image id="red" src="SmallKnob/auto_smallknob_red.png"/>
+       <image id="blue" src="SmallKnob/auto_smallknob_blue.png"/>
+       <image id="green" src="SmallKnob/auto_smallknob_green.png"/>
+       <image id="yellow" src="SmallKnob/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+  <view type="EditText" id="HFCutEdit">
+	<parameter id="HF Cut"/>
+    <bounds x="276" y="134" width="54" height="13"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="left" vertical="bottom"/>
+  </view>
+
+  <view type="Knob" id="Diffusion">
+    <parameter id="Diffusion"/>
+    <bounds x="125" y="195" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7" >
+       <image id="red" src="SmallKnob/auto_smallknob_red.png"/>
+       <image id="blue" src="SmallKnob/auto_smallknob_blue.png"/>
+       <image id="green" src="SmallKnob/auto_smallknob_green.png"/>
+       <image id="yellow" src="SmallKnob/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+  <view type="EditText" id="DiffusionEdit">
+	<parameter id="Diffusion"/>
+    <bounds x="85" y="210" width="46" height="13"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="left" vertical="bottom"/>
+  </view>
+
+  <view type="Knob" id="LP Filter">
+    <parameter id="LP Filter"/>
+    <bounds x="276" y="195" width="51" height="75"/>
+    <image id="hit_area" src="SmallKnob/knob_small_default_clip.png"/>
+    <image_list id="knob" src="SmallKnob/knob_small_default_%02d.png"/>
+    <image_list id="highlight" x="6" y="7" >
+       <image id="red" src="SmallKnob/auto_smallknob_red.png"/>
+       <image id="blue" src="SmallKnob/auto_smallknob_blue.png"/>
+       <image id="green" src="SmallKnob/auto_smallknob_green.png"/>
+       <image id="yellow" src="SmallKnob/auto_smallknob_yellow.png"/>
+    </image_list>
+  </view>
+  <view type="EditText" id="LPFilterEdit">
+	<parameter id="LP Filter"/>
+    <bounds x="318" y="210" width="54" height="13"/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <color id="text" red="233" green="241" blue="249" alpha="255"/>
+    <justification horizontal="right" vertical="bottom"/>
+  </view>
+
+  <view type="View" id="MeterInMono">
+  	  <bounds x="44" y="68" width="4" height="205"/>
+  	  <stem_format input="Mono"/>
+
+	  <view type="Meter" id="InputMeter">
+		<meter id="imtl" type="full_on" peak="1"/>
+		<bounds x="0" y="8" width="4" height="197"/>
+		<image id="meter" src="Meters/meter_vertical_fill_mono.png"/>
+		<taper_delegate id="meter" src="Taper.xml"/>
+	  </view>
+	  <view type="Meter" id="InputClipMeter">
+		<meter id="imtl" type="clip_only"/>
+		<bounds x="0" y="0" width="4" height="6"/>
+		<image_list id="clip_meter">
+		  <image id="" src="Meters/meter_vertical_clip_on_lo_mono.png"/>
+		  <image id="" src="Meters/meter_vertical_clip_on_hi_mono.png"/>
+		</image_list>
+	  </view>
+  </view>
+
+  <view type="View" id="MeterOutMono">
+  	  <bounds x="411" y="68" width="4" height="205"/>
+  	  <stem_format output="Mono"/>
+
+	  <view type="Meter" id="OutputMeter">
+		<meter id="omtl" type="full_on" peak="1"/>
+		<bounds x="0" y="8" width="4" height="197"/>
+		<image id="meter" src="Meters/meter_vertical_fill_mono.png"/>
+		<taper_delegate id="meter" src="Taper.xml"/>
+	  </view>
+	  <view type="Meter" id="OutputClipMeter">
+		<meter id="omtl" type="clip_only"/>
+		<bounds x="0" y="0" width="4" height="6"/>
+		<image_list id="clip_meter">
+		  <image id="" src="Meters/meter_vertical_clip_on_lo_mono.png"/>
+		  <image id="" src="Meters/meter_vertical_clip_on_hi_mono.png"/>
+		</image_list>
+	  </view>
+  </view>
+
+  <view type="View" id="MeterInStereo">
+  	  <bounds x="41" y="67" width="7" height="206"/>
+  	  <stem_format input="Stereo"/>
+
+	  <view type="Meter" id="InputMeterL">
+		<meter id="imtl" type="full_on" peak="1"/>
+		<bounds x="0" y="9" width="2" height="197"/>
+		<image id="meter" src="Meters/meter_vertical_fill_stereo.png"/>
+		<taper_delegate id="meter" src="Taper.xml"/>
+		</view>
+		<view type="Meter" id="InputClipMeterL">
+		<meter id="imtl" type="clip_only"/>
+		<bounds x="0" y="0" width="2" height="6"/>
+		<image_list id="clip_meter">
+		  <image id="" src="Meters/meter_vertical_clip_on_lo_stereo.png"/>
+		  <image id="" src="Meters/meter_vertical_clip_on_hi_stereo.png"/>
+		</image_list>
+		</view>
+		<view type="Meter" id="InputMeterR">
+		<meter id="imtr" type="full_on" peak="1"/>
+		<bounds x="5" y="9" width="2" height="197"/>
+		<image id="meter" src="Meters/meter_vertical_fill_stereo.png"/>
+		<taper_delegate id="meter" src="Taper.xml"/>
+		</view>
+		<view type="Meter" id="InputClipMeterR">
+		<meter id="imtr" type="clip_only"/>
+		<bounds x="5" y="0" width="2" height="6"/>
+		<image_list id="clip_meter">
+		  <image id="" src="Meters/meter_vertical_clip_on_lo_stereo.png"/>
+		  <image id="" src="Meters/meter_vertical_clip_on_hi_stereo.png"/>
+		</image_list>
+		</view>
+
+  </view>
+
+  <view type="View" id="MeterOutStereo">
+  	  <bounds x="410" y="67" width="7" height="206"/>
+  	  <stem_format output="Stereo"/>
+
+	  <view type="Meter" id="OutputMeterL">
+		<meter id="omtl" type="full_on" peak="1"/>
+		<bounds x="0" y="9" width="2" height="197"/>
+		<image id="meter" src="Meters/meter_vertical_fill_stereo.png"/>
+		<taper_delegate id="meter" src="Taper.xml"/>
+	  </view>
+	  <view type="Meter" id="OutputClipMeterL">
+		<meter id="omtl" type="clip_only"/>
+		<bounds x="0" y="0" width="2" height="6"/>
+		<image_list id="clip_meter">
+		  <image id="" src="Meters/meter_vertical_clip_on_lo_stereo.png"/>
+		  <image id="" src="Meters/meter_vertical_clip_on_hi_stereo.png"/>
+		</image_list>
+	  </view>
+	  <view type="Meter" id="OutputMeterR">
+		<meter id="omtr" type="full_on" peak="1"/>
+		<bounds x="5" y="9" width="2" height="197"/>
+		<image id="meter" src="Meters/meter_vertical_fill_stereo.png"/>
+		<taper_delegate id="meter" src="Taper.xml"/>
+	  </view>
+	  <view type="Meter" id="OutputClipMeterL">
+		<meter id="omtr" type="clip_only"/>
+		<bounds x="5" y="0" width="2" height="6"/>
+		<image_list id="clip_meter">
+		  <image id="" src="Meters/meter_vertical_clip_on_lo_stereo.png"/>
+		  <image id="" src="Meters/meter_vertical_clip_on_hi_stereo.png"/>
+		</image_list>
+	  </view>
+  </view>
+
+  <view type="View" id="Mix">
+	 <bounds x="183" y="234" width="88" height="52"/>
+	 <view type="Slider" id="MixWetDry">
+	   <bounds x="0" y="0" width="88" height="52"/>
+	   <parameter id="Wet/Dry"/>
+	   <image_list id="cap" src="Mix/mix_00.png"/>
+	   <image id="hit_area" src="Mix/mix_00.png" x="0" y="18"/>
+	   <image_list id="fill_images" src="Mix/mix_%02d.png" x="0" y="0"/>
+	   <range min="0" max="1" interval="0.01"/>
+		<image_list id="highlight" x="0" y="0" >
+		   <image id="red" src="Mix/auto_mix_red.png"/>
+		   <image id="blue" src="Mix/auto_mix_blue.png"/>
+		   <image id="green" src="Mix/auto_mix_green.png"/>
+		   <image id="yellow" src="Mix/auto_mix_yellow.png"/>
+		</image_list>
+	 </view>
+	 <view type="EditText" id="WetDryEdit">
+		<parameter id="Wet/Dry"/>
+		<bounds x="26" y="4" width="38" height="13"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="233" green="241" blue="249" alpha="255"/>
+		<justification horizontal="center" vertical="bottom"/>
+	 </view>
+	 <view type="Button" id="MixDryButton">
+		<parameter id="Wet/Dry"/>
+		<bounds x="5" y="4" width="22" height="13"/>
+	 </view>
+	 <view type="Button" id="MixWetButton">
+		<parameter id="Wet/Dry"/>
+		<bounds x="63" y="4" width="20" height="13"/>
+	 </view>
+  </view>
+
+</view>
