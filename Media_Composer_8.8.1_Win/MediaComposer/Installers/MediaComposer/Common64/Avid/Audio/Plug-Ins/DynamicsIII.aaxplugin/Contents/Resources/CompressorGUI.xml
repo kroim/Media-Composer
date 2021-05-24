@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="" id="">
+  <bounds x="0" y="0" width="528" height="311"/>
+  <image_list id="background" src="CompLimBackground.png" x="0" y="0"/>
+   
+   <view type="Knob" id="HiFF">
+    <parameter id="HiFF"/>
+    <bounds x="461" y="29" width="43" height="38"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="SmKnob_00.png"/>
+    <image_list id="knob" src="SmKnob_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  <view type="View" id="DFrqHighlight">
+    <parameter id="HiFF"/>
+        <bounds x="477" y="68" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_SideChainArea_black.png"/>
+            <image id="red" src="AutomationLED_SideChainArea_red.png"/>
+            <image id="blue" src="AutomationLED_SideChainArea_blue.png"/>
+            <image id="green" src="AutomationLED_SideChainArea_green.png"/>
+            <image id="yellow" src="AutomationLED_SideChainArea_yellow.png"/>
+        </image_list>
+   </view>    
+  <view type="EditText" id="HiFFText">
+    <parameter id="HiFF"/>
+    <bounds x="394" y="49" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="20000.0Hz"/>
+  </view>
+  <view type="Button" id="HiRG">
+    <parameter id="HiRG"/>
+    <bounds x="394" y="29" width="36" height="18"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <parameter id="HiRG"/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="PeakOn_HiFilter.png" x="0" y="0"/>
+      <image id="" src="Peak_HiFilterOn.png" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+    <highlight thickness="1"/>
+  </view>
+  <view type="Button" id="HiFE">
+    <parameter id="HiFE"/>
+    <bounds x="497" y="63" width="19" height="18"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <parameter id="HiFE"/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="In_Off.png" x="0" y="0"/>
+      <image id="" src="In_On.png" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+    <highlight thickness="1"/>
+  </view>
+  <view type="Knob" id="LoFF">
+    <parameter id="LoFF"/>
+    <bounds x="461" y="83" width="43" height="38"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="SmKnob_00.png"/>
+    <image_list id="knob" src="SmKnob_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  <view type="View" id="DFrqHighlight">
+    <parameter id="LoFF"/>
+        <bounds x="477" y="122" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_SideChainArea_black.png"/>
+            <image id="red" src="AutomationLED_SideChainArea_red.png"/>
+            <image id="blue" src="AutomationLED_SideChainArea_blue.png"/>
+            <image id="green" src="AutomationLED_SideChainArea_green.png"/>
+            <image id="yellow" src="AutomationLED_SideChainArea_yellow.png"/>
+        </image_list>
+   </view>    
+  <view type="EditText" id="LoFFText">
+    <parameter id="LoFF"/>
+    <bounds x="394" y="102" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="20.0Hz"/>
+  </view>
+  
+  <view type="Button" id="LoRG">
+    <parameter id="LoRG"/>
+    <bounds x="394" y="83" width="36" height="18"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <parameter id="LoRG"/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="PeakOn_LowFilter.png" x="0" y="0"/>
+      <image id="" src="Peak_LowFilterOn.png" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+    <highlight thickness="1"/>
+  </view>
+  <view type="Button" id="LoFE">
+    <parameter id="LoFE"/>
+    <bounds x="497" y="117" width="19" height="18"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <parameter id="LoFE"/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="In_Off.png" x="0" y="0"/>
+      <image id="" src="In_On.png" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+    <highlight thickness="1"/>
+  </view>
+  
+  <view type="Button" id="Phse">
+    <parameter id="Phse"/>
+    <bounds x="56" y="8" width="21" height="19"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <parameter id="Phse"/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="Phase_Off.png" x="0" y="0"/>
+      <image id="" src="Phase_On.png" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+    <highlight thickness="1"/>
+  </view>
+  
+  <view type="Knob" id="sldG">
+    <parameter id="sldG"/>
+    <bounds x="211" y="153" width="53" height="49"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="LgKnob_Grey_00.png"/>
+    <image_list id="knob" src="LgKnob_Grey_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  
+  <view type="View" id="sldGHighlit">
+    <parameter id="sldG"/>
+        <bounds x="232" y="202" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_black.png"/>
+            <image id="red" src="AutomationLED_red.png"/>
+            <image id="blue" src="AutomationLED_blue.png"/>
+            <image id="green" src="AutomationLED_green.png"/>
+            <image id="yellow" src="AutomationLED_yellow.png"/>
+        </image_list>
+  </view>    
+  
+  <view type="EditText" id="KneeText">
+    <parameter id="sldG"/>
+    <bounds x="149" y="182" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="0.0dB"/>
+   </view>
+   
+   <view type="Knob" id="sld2">
+    <parameter id="sld2"/>
+    <bounds x="211" y="218" width="53" height="49"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="LgKnob_Grey_00.png"/>
+    <image_list id="knob" src="LgKnob_Grey_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  
+  <view type="View" id="sld2Highlit">
+    <parameter id="sld2"/>
+        <bounds x="232" y="267" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_black.png"/>
+            <image id="red" src="AutomationLED_red.png"/>
+            <image id="blue" src="AutomationLED_blue.png"/>
+            <image id="green" src="AutomationLED_green.png"/>
+            <image id="yellow" src="AutomationLED_yellow.png"/>
+        </image_list>
+  </view>    
+  
+  <view type="EditText" id="RatioText">
+    <parameter id="sld2"/>
+    <bounds x="149" y="247" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="1:1"/>
+   </view>
+   
+   <view type="Knob" id="sld1">
+    <parameter id="sld1"/>
+    <bounds x="333" y="153" width="53" height="49"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="LgKnob_Grey_00.png"/>
+    <image_list id="knob" src="LgKnob_Grey_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  <view type="View" id="sld1Highlit">
+    <parameter id="sld1"/>
+        <bounds x="354" y="202" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_black.png"/>
+            <image id="red" src="AutomationLED_red.png"/>
+            <image id="blue" src="AutomationLED_blue.png"/>
+            <image id="green" src="AutomationLED_green.png"/>
+            <image id="yellow" src="AutomationLED_yellow.png"/>
+        </image_list>
+   </view>    
+  <view type="EditText" id="AttackText">
+    <parameter id="sld1"/>
+    <bounds x="271" y="182" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="0.01s"/>
+   </view>
+   
+   <view type="Knob" id="sld3">
+    <parameter id="sld3"/>
+    <bounds x="333" y="218" width="53" height="49"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="LgKnob_Grey_00.png"/>
+    <image_list id="knob" src="LgKnob_Grey_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  
+  <view type="View" id="sld3Highlit">
+    <parameter id="sld3"/>
+        <bounds x="354" y="267" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_black.png"/>
+            <image id="red" src="AutomationLED_red.png"/>
+            <image id="blue" src="AutomationLED_blue.png"/>
+            <image id="green" src="AutomationLED_green.png"/>
+            <image id="yellow" src="AutomationLED_yellow.png"/>
+        </image_list>
+  </view>    
+  
+  <view type="EditText" id="ReleaseText">
+    <parameter id="sld3"/>
+    <bounds x="271" y="247" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="0.001s"/>
+   </view>
+   
+    <view type="Knob" id="sldD">
+    <parameter id="sldD"/>
+    <bounds x="456" y="153" width="53" height="49"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="LgKnob_Red_00.png"/>
+    <image_list id="knob" src="LgKnob_Red_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  
+  <view type="View" id="sldDHighlit">
+    <parameter id="sldD"/>
+        <bounds x="477" y="202" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_black.png"/>
+            <image id="red" src="AutomationLED_red.png"/>
+            <image id="blue" src="AutomationLED_blue.png"/>
+            <image id="green" src="AutomationLED_green.png"/>
+            <image id="yellow" src="AutomationLED_yellow.png"/>
+        </image_list>
+   </view>    
+   
+  <view type="EditText" id="GainText">
+    <parameter id="sldD"/>
+    <bounds x="394" y="182" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="0.0dB"/>
+   </view>
+    
+   <view type="Knob" id="sldC">
+    <parameter id="sldC"/>
+    <bounds x="456" y="217" width="53" height="49"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="LgKnob_Orange_00.png"/>
+    <image_list id="knob" src="LgKnob_Orange_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.00167" minRad="1.2" maxRad="2.8"/>
+    <center x="50" y="50"/>
+  </view>
+  
+  <view type="View" id="thresCHighlit">
+    <parameter id="sldC"/>
+        <bounds x="477" y="267" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_black.png"/>
+            <image id="red" src="AutomationLED_red.png"/>
+            <image id="blue" src="AutomationLED_blue.png"/>
+            <image id="green" src="AutomationLED_green.png"/>
+            <image id="yellow" src="AutomationLED_yellow.png"/>
+        </image_list>
+   </view>    
+   
+  <view type="EditText" id="ThresText">
+    <parameter id="sldC"/>
+    <bounds x="394" y="247" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="-24.0dB"/>
+   </view>
+   
+   <view type="Button" id="sldE">
+    <parameter id="sldE"/>
+    <bounds x="454" y="8" width="19" height="18"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <parameter id="sldE"/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="Key_Off.PNG" x="0" y="0"/>
+      <image id="" src="Key_On.PNG" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+    <highlight thickness="1"/>
+   </view>
+   
+    <view type="Slider" id="Treshslider">
+      <parameter id="sldC"/>
+      <bounds x="12" y="46" width="10" height="200"/>
+      <image_list id="cap" src="ThresholdTriangle.png"/>
+      <taper_delegate id="slider">
+        <taper input=  "0.0"   output="1.000"/>
+        <taper input= "-1.0"   output="0.912"/>
+        <taper input= "-3.0"   output="0.733"/>
+        <taper input= "-6.0"   output="0.593"/>
+        <taper input="-12.0"   output="0.388"/>
+        <taper input="-18.0"   output="0.248"/>
+        <taper input="-30.0"   output="0.087"/>
+        <taper input="-60.0"   output="0.000"/>
+      </taper_delegate>
+    </view>
+  
+  <view type="EditText" id="ThresSlText">
+    <parameter id="sldT"/>
+    <bounds x="10" y="10" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="-24.0dB"/>
+   </view>
+     
+  <view type="Button" id="sldF">
+    <parameter id="sldF"/>
+    <bounds x="473" y="8" width="19" height="18"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="Listen_Off.PNG" x="0" y="0"/>
+      <image id="" src="Listen_On.PNG" x="0" y="0"/>
+    </image_list>
+    <highlight thickness="1"/>
+    <toggles value="true"/>
+  </view>
+  
+  <view type="Button" id="LFEe">
+    <parameter id="LFEe"/>
+    <bounds x="174" y="56" width="21" height="21"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="Options_Off.PNG" x="0" y="0"/>
+      <image id="" src="Options_On.PNG" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+  
+  <view type="View" id="Logo">
+    <bounds x="382" y="280" width="135" height="30"/>
+    <tooltip string=""/>
+    <image id="background" src="PluginLabel_CompLim.png"/>
+  </view>
+  
+  <view type="View" id="grph">
+    <bounds x="240" y="7" width="140" height="133"/>
+    <tooltip string=""/>
+    <image id="background" src="CompanderGraphBackground.png"/>
+  </view>
+  
+   <view type="View" id="opts">
+    <bounds x="146" y="23" width="78" height="110"/>
+    <tooltip string=""/>
+    <image id="background" src="Options_CompLim.png"/>
+  </view>
+  
+  <view type="View" id="optsB">
+    <bounds x="146" y="23" width="78" height="110"/>
+    <tooltip string=""/>
+    <image id="background" src="Options_Blank.png"/>
+  </view>
+  
+  <view type="Button" id="iobt">
+    <parameter id="iobt"/>
+    <bounds x="21" y="34" width="103" height="13"/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="IOMeterSwitch_OutputOn.png" x="0" y="0"/>
+      <image id="" src="IOMeterSwitch_InputOn.png" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+  
+  <view type="View" id="Mono">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_Mono.png"/>
+  </view>
+  
+  <view type="View" id="Stereo">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_Stereo.png"/>
+  </view>
+  
+  <view type="View" id="LCR">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_LCR.png"/>
+  </view>
+  
+  <view type="View" id="LCRS">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_LCRS_In.png"/>
+  </view>
+  
+  <view type="View" id="QUAD">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_QUAD_In.png"/>
+  </view>
+  
+  <view type="View" id="5_0">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_5_0_In.png"/>
+  </view>
+  
+   <view type="View" id="5_1">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_5_1_In.png"/>
+  </view>
+  
+   <view type="View" id="6_0">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_6_0_In.png"/>
+  </view>
+  
+  <view type="View" id="6_1">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_6_1_In.png"/>
+  </view>
+  
+   <view type="View" id="7_0">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_7_0_In.png"/>
+  </view>
+  
+  <view type="View" id="7_1">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_7_1_In.png"/>
+  </view>
+  
+   <view type="View" id="LCRS_O">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_LCRS_Out.png"/>
+  </view>
+  
+  <view type="View" id="QUAD_O">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_QUAD_Out.png"/>
+  </view>
+  
+  <view type="View" id="5_0_O">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_5_0_Out.png"/>
+  </view>
+  
+   <view type="View" id="5_1_O">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_5_1_Out.png"/>
+  </view>
+  
+   <view type="View" id="6_0_O">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_6_0_Out.png"/>
+  </view>
+  
+  <view type="View" id="6_1_O">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_6_1_Out.png"/>
+  </view>
+  
+  <view type="View" id="7_0_O">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_7_0_Out.png"/>
+  </view>
+  
+  <view type="View" id="7_1_O">
+    <bounds x="12" y="28" width="121" height="249"/>
+    <tooltip string=""/>
+    <image id="background" src="Meters_7_1_Out.png"/>
+  </view>
+       
+  <view type="Meter" id="GRMeter" >
+    <meter id="MtGr" type="full_on" peak="1"/>
+	<field id="cmp ratio" parameter="sld2"/>
+	<field id="cmp knee" parameter="sldG"/>
+    <bounds x="92" y="24" width="8" height="203"/>
+    <image id="background" src="GRMeter_Off.png"/>
+    <image id="meter" src="GRMeter_FullComp_DkOrange.png"/>
+    <image id="knee" src="GRMeter_InKnee_ltOrange.png"/>
+    <reversed value="true"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>    
+  
+  <view type="Meter" id="Input1" >
+    <meter id="Inp1" type="full_on" peak="1"/>
+    <bounds x="32" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+     <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  
+  <view type="Meter" id="Input2" >
+    <meter id="Inp2" type="full_on" peak="1"/>
+    <bounds x="32" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  
+  <view type="Meter" id="Input3" >
+    <meter id="Inp3" type="full_on" peak="1"/>
+    <bounds x="32" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  
+  <view type="Meter" id="Input4" >
+    <meter id="Inp4" type="full_on" peak="1"/>
+    <bounds x="32" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  
+  <view type="Meter" id="Input5" >
+    <meter id="Inp5" type="full_on" peak="1"/>
+    <bounds x="32" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  
+  <view type="Meter" id="Input6" >
+    <meter id="Inp6" type="full_on" peak="1"/>
+    <bounds x="32" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  
+  <view type="Meter" id="Input7" >
+    <meter id="Inp7" type="full_on" peak="1"/>
+    <bounds x="32" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  
+  <view type="Meter" id="Input8" >
+    <meter id="Inp8" type="full_on" peak="1"/>
+    <bounds x="32" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+ 
+  <view type="Meter" id="Output1" >
+    <meter id="Out1" type="full_on" peak="1" />
+    <bounds x="55" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="Output1Clip" >
+    <meter id="Out1" type="clip_only"/>
+    <bounds x="55" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+  
+  <view type="Meter" id="Output2" >
+    <meter id="Out2" type="full_on" peak="1"/>
+    <bounds x="67" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="Output2Clip" >
+    <meter id="Out2" type="clip_only"/>
+    <bounds x="67" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+  
+  <view type="Meter" id="Output3" >
+    <meter id="Out3" type="full_on" peak="1"/>
+    <bounds x="55" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="Output3Clip" >
+    <meter id="Out3" type="clip_only"/>
+    <bounds x="55" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+  
+  <view type="Meter" id="Output4" >
+    <meter id="Out4" type="full_on" peak="1"/>
+    <bounds x="67" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="Output4Clip" >
+    <meter id="Out4" type="clip_only"/>
+    <bounds x="55" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+  
+  <view type="Meter" id="Output5" >
+    <meter id="Out5" type="full_on" peak="1"/>
+    <bounds x="55" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="Output5Clip" >
+    <meter id="Out5" type="clip_only"/>
+    <bounds x="55" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+  
+  <view type="Meter" id="Output6" >
+    <meter id="Out6" type="full_on" peak="1"/>
+    <bounds x="67" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="Output6Clip" version="dev">
+    <meter id="Out6" type="clip_only"/>
+    <bounds x="55" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+  
+  <view type="Meter" id="Output7" >
+    <meter id="Out7" type="full_on" peak="1"/>
+    <bounds x="55" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="Output7Clip" >
+    <meter id="Out7" type="clip_only"/>
+    <bounds x="55" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+  
+  <view type="Meter" id="Output8" >
+    <meter id="Out8" type="full_on" peak="1"/>
+    <bounds x="67" y="53" width="7" height="203"/>
+    <image id="background" src="plasmameter_off.png"/>
+    <image id="meter" src="plasmameter_on.png"/>
+    <taper_delegate id="meter" src="Taper.xml"/>
+  </view>
+  <view type="Meter" id="Output8Clip" >
+    <meter id="Out8" type="clip_only"/>
+    <bounds x="55" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+    
+</view>
