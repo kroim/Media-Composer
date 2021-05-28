@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="" id="">
+  <bounds x="0" y="0" width="380" height="232"/>
+  <image_list id="background" src="DeEsserBackground.png" x="0" y="0"/>
+   
+   <view type="Knob" id="DFrq">
+    <parameter id="DFrq"/>
+    <bounds x="201" y="150" width="44" height="38"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="SmKnob_00.png"/>
+    <image_list id="knob" src="SmKnob_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  <view type="View" id="DFrqHighlight">
+    <parameter id="DFrq"/>
+        <bounds x="217" y="189" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_SideChainArea_black.png"/>
+            <image id="red" src="AutomationLED_SideChainArea_red.png"/>
+            <image id="blue" src="AutomationLED_SideChainArea_blue.png"/>
+            <image id="green" src="AutomationLED_SideChainArea_green.png"/>
+            <image id="yellow" src="AutomationLED_SideChainArea_yellow.png"/>
+        </image_list>
+   </view>    
+  <view type="EditText" id="FreqText">
+    <parameter id="DFrq"/>
+    <bounds x="134" y="168" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="7000.0Hz"/>
+  </view>
+  <view type="Knob" id="DRng">
+    <parameter id="DRng"/>
+    <bounds x="319" y="150" width="44" height="38"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="SmKnob_00.png"/>
+    <image_list id="knob" src="SmKnob_%02d.png"/>
+    <image_list id="highlite">
+      <image id="red" src="knob/highlight_red.png"/>
+      <image id="blue" src="knob/highlight_blue.png"/>
+      <image id="green" src="knob/highlight_green.png"/>
+      <image id="yellow" src="knob/highlight_yellow.png"/>
+    </image_list>
+    <range min="0.0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+    <center x="30" y="36"/>
+  </view>
+  <view type="View" id="DRnqHighlight">
+    <parameter id="DRng"/>
+        <bounds x="335" y="189" width="11" height="9"/>
+        <image_list id="background">
+            <image id="" src="AutomationLED_SideChainArea_black.png"/>
+            <image id="red" src="AutomationLED_SideChainArea_red.png"/>
+            <image id="blue" src="AutomationLED_SideChainArea_blue.png"/>
+            <image id="green" src="AutomationLED_SideChainArea_green.png"/>
+            <image id="yellow" src="AutomationLED_SideChainArea_yellow.png"/>
+        </image_list>
+   </view>    
+  <view type="EditText" id="RangeText">
+    <parameter id="DRng"/>
+    <bounds x="252" y="169" width="60" height="15"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    <justification horizontal="right" vertical="center"/>
+    <color id="text" red="90" green="255" blue="90" alpha="250"/>
+    <color id="background" red="0" green="0" blue="0" alpha="255"/>
+    <inset top="0" left="0" bottom="0" right="0"/>
+    <text string="0.0dB"/>
+   </view>
+  <view type="Button" id="HFOn">
+    <parameter id="HFOn"/>
+    <bounds x="158" y="35" width="21" height="21"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <parameter id="HFOn"/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="Options_Off.PNG" x="0" y="0"/>
+      <image id="" src="Options_On.PNG" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+    <highlight thickness="1"/>
+  </view>
+  <view type="Button" id="DLsn">
+    <parameter id="DLsn"/>
+    <bounds x="158" y="80" width="21" height="21"/>
+    <tooltip string=""/>
+    <font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+    <color id="text" red="0" green="0" blue="0" alpha="255"/>
+    <text string=""/>
+    <image_list id="state" x="0" y="0">
+      <image id="" src="Options_Off.PNG" x="0" y="0"/>
+      <image id="" src="Options_On.PNG" x="0" y="0"/>
+    </image_list>
+    <toggles value="true"/>
+  </view>
+  
+  <view type="View" id="DeEsserGraph">
+    <bounds x="218" y="7" width="153" height="124"/>
+    <tooltip string=""/>
+    <image id="background" src="DeEsser_Graph_Background.png"/>
+  </view>
+  
+  <view type="View" id="MetersMono">
+    <bounds x="11" y="22" width="107" height="176"/>
+    <tooltip string=""/>
+    <image id="background" src="DeEsserMeters_Mono.png"/>
+  </view>
+  
+  <view type="View" id="MetersStereo">
+    <bounds x="11" y="22" width="107" height="176"/>
+    <tooltip string=""/>
+    <image id="background" src="DeEsserMeters_Stereo.png"/>
+  </view>
+ 
+ <view type="Meter" id="GRMeter" >
+    <meter id="MtGr" type="full_on" peak="1"/>
+    <bounds x="98" y="53" width="8" height="132"/>
+    <image id="background" src="DeEsser_GRMeter_Off.png"/>
+    <image id="meter" src="DeEsser_GRMeter_LtOrange.png"/>
+    <reversed value="true"/>
+    <taper_delegate id="meter" src="DeEsserTaper.xml"/>
+  </view>  
+  
+  <view type="Meter" id="InputLtMeter" >
+    <meter id="LtMt" type="full_on" peak="1"/>
+    <bounds x="23" y="53" width="7" height="132"/>
+    <image id="background" src="DeEsser_PlasmaMeter_Off.png"/>
+    <image id="meter" src="DeEsser_PlasmaMeter_On.png"/>
+    <taper_delegate id="meter" src="DeEsserTaper.xml"/>
+  </view>
+  
+  <view type="Meter" id="InputRtMeter" >
+    <meter id="RtMt" type="full_on" peak="1"/>
+    <bounds x="35" y="53" width="7" height="132"/>
+    <image id="background" src="DeEsser_PlasmaMeter_Off.png"/>
+    <image id="meter" src="DeEsser_PlasmaMeter_On.png"/>
+    <taper_delegate id="meter" src="DeEsserTaper.xml"/>
+  </view>
+  
+  <view type="Meter" id="OutputLtMeter" >
+    <meter id="OLMt" type="full_on" peak="1"/>
+    <bounds x="55" y="53" width="7" height="132"/>
+    <image id="background" src="DeEsser_PlasmaMeter_Off.png"/>
+    <image id="meter" src="DeEsser_PlasmaMeter_On.png"/>
+    <taper_delegate id="meter" src="DeEsserTaper.xml"/>
+  </view>
+  
+  <view type="Meter" id="OutputLtMeterClip" >
+    <meter id="OLMt" type="clip_only"/>
+    <bounds x="55" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+                                          
+  
+  <view type="Meter" id="OutputRtMeter" >
+    <meter id="ORMt" type="full_on" peak="1"/>
+    <bounds x="67" y="53" width="7" height="132"/>
+    <image id="background" src="DeEsser_PlasmaMeter_Off.png"/>
+    <image id="meter" src="DeEsser_PlasmaMeter_On.png"/>
+    <taper_delegate id="meter" src="DeEsserTaper.xml"/>
+  </view>
+  <view type="Meter" id="OutputRtMeterClip" >
+    <meter id="ORMt" type="clip_only"/>
+    <bounds x="67" y="43" width="7" height="10"/>
+    <image id="background" src="cliplight_off.png"/>
+    <image id="clip_meter" src="cliplight_on.png"/>
+  </view>
+  
+</view>

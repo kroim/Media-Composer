@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taper_delegate type="linear">
+	 <taper input=  "0.0"    output="132"/>
+      <taper input= "-1.0"    output="120"/>
+      <taper input= "-3.0"    output="98"/>
+      <taper input= "-6.0"    output="82"/>
+      <taper input="-12.0"    output="57"/>
+      <taper input="-18.0"    output="41"/>
+      <taper input="-30.0"    output="20"/>
+      <taper input="-60.0"    output="9"/>
+      <taper input="-96.0"    output="0"/>
+</taper_delegate>
+
