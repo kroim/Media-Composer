@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view type="View" id="Eleven">
+  <bounds x="0" y="0" width="679" height="359"/>
+  <image id="background" src="backgrounds/background.png"/>
+
+  <view type="Knob" id="sld1Knob">
+    <parameter id="sld1"/>
+    <bounds x="43" y="16" width="40" height="41"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="knobs/knob02/knob_clip.png"/>
+    <image_list id="knob" src="knobs/knob02/knob%02d.png"/>
+    <tracking fine="360"/>
+    <center x="25" y="25"/>
+  </view>
+  <view type="View" id="sld1Hotzone">
+    <bounds x="40" y="56" width="50" height="13"/>
+    <parameter id="sld1"/>
+  </view>
+  <view type="View" id="sld1Highlight">
+    <parameter id="sld1"/>
+    <bounds x="40" y="58" width="6" height="6"/>
+    <image_list id="background">
+      <image id="" src="automation/autoled0.png"/>
+      <image id="red" src="automation/autoled1.png"/>
+      <image id="blue" src="automation/autoled2.png"/>
+      <image id="green" src="automation/autoled3.png"/>
+      <image id="yellow" src="automation/autoled4.png"/>
+    </image_list>
+  </view>
+  <view type="AmpSim_EditText" id="sld1Edit">
+      <bounds x="40" y="56" width="50" height="13"/>
+      <parameter id="sld1"/>
+      <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+      <color id="text" red="166" green="166" blue="166" alpha="255"/>
+      <color id="background" red="31" green="31" blue="34" alpha="255"/>
+      <justification horizontal="center" vertical="bottom"/>
+  </view>
+
+  <view type="Knob" id="sld2Knob">
+    <parameter id="sld2"/>
+    <bounds x="596" y="16" width="40" height="41"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="knobs/knob02/knob_clip.png"/>
+    <image_list id="knob" src="knobs/knob02/knob%02d.png"/>
+    <tracking fine="600"/>
+    <center x="25" y="25"/>
+  </view>
+  <view type="View" id="sld2Hotzone">
+    <bounds x="592" y="56" width="50" height="13"/>
+    <parameter id="sld2"/>
+  </view>
+  <view type="View" id="sld2Highlight">
+    <parameter id="sld2"/>
+    <bounds x="590" y="58" width="6" height="6"/>
+    <image_list id="background">
+      <image id="" src="automation/autoled0.png"/>
+      <image id="red" src="automation/autoled1.png"/>
+      <image id="blue" src="automation/autoled2.png"/>
+      <image id="green" src="automation/autoled3.png"/>
+      <image id="yellow" src="automation/autoled4.png"/>
+    </image_list>
+  </view>
+  <view type="AmpSim_EditText" id="sld2Edit">
+      <bounds x="592" y="56" width="50" height="13"/>
+      <parameter id="sld2"/>
+      <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+      <color id="text" red="166" green="166" blue="166" alpha="255"/>
+      <color id="background" red="31" green="31" blue="34" alpha="255"/>
+      <justification horizontal="center" vertical="bottom"/>
+  </view>
+
+  <view type="Knob" id="sld3Knob">
+    <parameter id="sld3"/>
+    <bounds x="100" y="24" width="32" height="34"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="knobs/knob03/knob_clip.png"/>
+    <image_list id="knob" src="knobs/knob03/knob%02d.png"/>
+    <tracking fine="1400"/>
+    <center x="25" y="25"/>
+  </view>
+  <view type="View" id="sld3Hotzone">
+    <bounds x="90" y="56" width="50" height="13"/>
+    <parameter id="sld3"/>
+  </view>
+  <view type="View" id="sld3Highlight">
+    <parameter id="sld3"/>
+    <bounds x="90" y="58" width="6" height="6"/>
+    <image_list id="background">
+      <image id="" src="automation/autoled0.png"/>
+      <image id="red" src="automation/autoled1.png"/>
+      <image id="blue" src="automation/autoled2.png"/>
+      <image id="green" src="automation/autoled3.png"/>
+      <image id="yellow" src="automation/autoled4.png"/>
+    </image_list>
+  </view>
+  <view type="AmpSim_EditText" id="sld3Edit">
+      <bounds x="90" y="56" width="50" height="13"/>
+      <parameter id="sld3"/>
+      <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+      <color id="text" red="166" green="166" blue="166" alpha="255"/>
+      <color id="background" red="31" green="31" blue="34" alpha="255"/>
+      <justification horizontal="center" vertical="bottom"/>
+  </view>
+
+  <view type="Knob" id="sld4Knob">
+    <parameter id="sld4"/>
+    <bounds x="141" y="24" width="32" height="34"/>
+    <tooltip string=""/>
+    <image id="hit_area" src="knobs/knob03/knob_clip.png"/>
+    <image_list id="knob" src="knobs/knob03/knob%02d.png"/>
+    <tracking fine="200"/>
+    <center x="25" y="25"/>
+  </view>
+  <view type="View" id="sld4Hotzone">
+    <bounds x="135" y="56" width="50" height="13"/>
+    <parameter id="sld4"/>
+  </view>
+  <view type="View" id="sld4Highlight">
+    <parameter id="sld4"/>
+    <bounds x="135" y="58" width="6" height="6"/>
+    <image_list id="background">
+      <image id="" src="automation/autoled0.png"/>
+      <image id="red" src="automation/autoled1.png"/>
+      <image id="blue" src="automation/autoled2.png"/>
+      <image id="green" src="automation/autoled3.png"/>
+      <image id="yellow" src="automation/autoled4.png"/>
+    </image_list>
+  </view>
+  <view type="AmpSim_EditText" id="sld4Edit">
+      <bounds x="135" y="56" width="50" height="13"/>
+      <parameter id="sld4"/>
+      <font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+      <color id="text" red="166" green="166" blue="166" alpha="255"/>
+      <color id="background" red="31" green="31" blue="34" alpha="255"/>
+      <justification horizontal="center" vertical="bottom"/>
+  </view>
+
+  <view type="AmpSim_Popup" id="AmpTypePopup">
+    <parameter id="sld6"/>
+    <bounds x="189" y="36" width="114" height="15"/>
+    <color id="border" red="0" green="0" blue="0" alpha="255"/>
+    <image_list id="activeItems">
+      <image id="DC Modrn OD" 	src="menu/amptype/uppercase/menu14.png"/>
+      <image id="DC Vintge CR" 	src="menu/amptype/uppercase/menu15.png"/>
+    </image_list>
+    <image_list id="inactiveItems">
+      <image id="DC Modrn OD" 	src="menu/amptype/camelcase/grey/menu14.png"/>
+      <image id="DC Vintge CR" 	src="menu/amptype/camelcase/grey/menu15.png"/>
+    </image_list>
+    <image_list id="selectedItems">
+      <image id="DC Modrn OD" 	src="menu/amptype/camelcase/orange/menu14.png"/>
+      <image id="DC Vintge CR" 	src="menu/amptype/camelcase/orange/menu15.png"/>
+    </image_list>
+  </view>
+  <view type="Button" id="AmpUpArrowButton">
+    <bounds x="307" y="29" width="19" height="12"/>
+    <image_list id="state" x="1" y="1">
+      <image id="" src="arrows/arrow4.png"/>
+      <image id="" src="arrows/arrow5.png"/>
+    </image_list>
+  </view>
+  <view type="Button" id="AmpDownArrowButton">
+    <bounds x="307" y="43" width="19" height="12"/>
+    <image_list id="state" x="1" y="1">
+      <image id="" src="arrows/arrow6.png"/>
+      <image id="" src="arrows/arrow7.png"/>
+    </image_list>
+  </view>
+  <view type="View" id="sld6Highlight">
+    <parameter id="sld6"/>
+    <bounds x="243" y="22" width="6" height="6"/>
+    <image_list id="background">
+      <image id="" src="automation/autoled0.png"/>
+      <image id="red" src="automation/autoled1.png"/>
+      <image id="blue" src="automation/autoled2.png"/>
+      <image id="green" src="automation/autoled3.png"/>
+      <image id="yellow" src="automation/autoled4.png"/>
+    </image_list>
+  </view>
+
+  <view type="AmpSim_Popup" id="CabTypePopup">
+    <parameter id="sldK"/>
+    <bounds x="334" y="36" width="117" height="15"/>
+    <color id="border" red="0" green="0" blue="0" alpha="255"/>
+    <image_list id="activeItems">
+      <image id="4x12 C30" 	src="menu/cabtype/uppercase/menu5.png"/>
+      <image id="4x12 Grn25W" 	src="menu/cabtype/uppercase/menu6.png"/>
+    </image_list>
+    <image_list id="inactiveItems">
+      <image id="4x12 C30" 	src="menu/cabtype/camelcase/grey/menu5.png"/>
+      <image id="4x12 Grn25W" 	src="menu/cabtype/camelcase/grey/menu6.png"/>
+    </image_list>
+    <image_list id="selectedItems">
+      <image id="4x12 C30" 	src="menu/cabtype/camelcase/orange/menu5.png"/>
+      <image id="4x12 Grn25W" 	src="menu/cabtype/camelcase/orange/menu6.png"/>
+    </image_list>
+  </view>
+  <view type="Button" id="CabUpArrowButton">
+    <bounds x="452" y="29" width="19" height="12"/>
+    <image_list id="state" x="1" y="1">
+      <image id="" src="arrows/arrow4.png"/>
+      <image id="" src="arrows/arrow5.png"/>
+    </image_list>
+  </view>
+  <view type="Button" id="CabDownArrowButton">
+    <bounds x="452" y="43" width="19" height="12"/>
+    <image_list id="state" x="1" y="1">
+      <image id="" src="arrows/arrow6.png"/>
+      <image id="" src="arrows/arrow7.png"/>
+    </image_list>
+  </view>
+  <view type="View" id="sld6Highlight">
+    <parameter id="sldK"/>
+    <bounds x="386" y="22" width="6" height="6"/>
+    <image_list id="background">
+      <image id="" src="automation/autoled0.png"/>
+      <image id="red" src="automation/autoled1.png"/>
+      <image id="blue" src="automation/autoled2.png"/>
+      <image id="green" src="automation/autoled3.png"/>
+      <image id="yellow" src="automation/autoled4.png"/>
+    </image_list>
+  </view>
+
+  <view type="Meter" id="Input">
+    <meter id="mtrI" type="needle"/>
+    <bounds x="25" y="40" width="16" height="17"/>
+    <image id="background" src="meters/meter00.png"/>
+    <image_list id="meter" src="meters/meter%02d.png"/>
+    <taper_delegate id="meter">
+        <taper input="0.0"	output="65.0"/>
+        <taper input="-3.0"	output="46.0"/>
+        <taper input="-12.0"	output="35.0"/>
+        <taper input="-144.0"	output="0.0"/>
+    </taper_delegate>
+  </view>
+  <view type="Meter" id="InputClip">
+    <meter id="mtrI" type="clip_only"/>
+    <bounds x="25" y="20" width="16" height="17"/>
+    <image id="background" src="meters/meter100.png"/>
+    <image_list id="clip_meter">
+      <image id="" src="meters/meter101.png"/>
+      <image id="" src="meters/meter101.png"/>
+    </image_list>
+  </view>
+
+  <view type="Meter" id="Output">
+    <meter id="mtrO" type="needle"/>
+    <bounds x="638" y="40" width="16" height="17"/>
+    <image id="background" src="meters/out_meter00.png"/>
+    <image_list id="meter" src="meters/out_meter%02d.png"/>
+    <taper_delegate id="meter">
+        <taper input="0.0"	output="65.0"/>
+        <taper input="-3.0"	output="60.0"/>
+        <taper input="-12.0"	output="55.0"/>
+        <taper input="-144.0"	output="0.0"/>
+    </taper_delegate>
+  </view>
+  <view type="Meter" id="OutputClip">
+    <meter id="mtrO" type="clip_only"/>
+    <bounds x="638" y="20" width="16" height="17"/>
+    <image id="background" src="meters/meter100.png"/>
+    <image_list id="clip_meter">
+      <image id="" src="meters/meter101.png"/>
+      <image id="" src="meters/meter101.png"/>
+    </image_list>
+  </view>
+
+    
+</view>
+

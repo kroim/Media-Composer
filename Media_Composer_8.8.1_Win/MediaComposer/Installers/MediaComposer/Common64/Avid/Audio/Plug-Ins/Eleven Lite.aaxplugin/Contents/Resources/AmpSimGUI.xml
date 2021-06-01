@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view type="" id="">
+  <bounds x="0" y="0" width="679" height="359"/>
+
+  <include src="./container.xml"/>
+
+  <include src="./DC_Modrn_OD.xml"/>
+  <include src="./DC_Vintge_CR.xml"/>
+
+  <include src="./4x12_Classic_30.xml"/>
+  <include src="./4x12_Green_25W.xml"/>
+
+</view>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <view type="View" id="DC Vintge CR">
+    <bounds x="0" y="69" width="679" height="192"/>
+    <image id="background" src="backgrounds/DC_Vintge_CR.png"/>
+
+    <view type="Knob" id="sld7Knob">
+      <parameter id="sld7"/>
+      <bounds x="137" y="94" width="57" height="57"/>
+      <tooltip string=""/>
+      <image id="hit_area" src="knobs/knob10/knob_clip.png"/>
+      <image_list id="knob" src="knobs/knob10/knob%02d.png"/>
+      <range min="0" max="1" interval="0.001" minRad="1.26" maxRad="2.74"/>
+      <center x="25" y="25"/>
+    </view>
+    <view type="View" id="sld7Highlight">
+      <parameter id="sld7"/>
+      <bounds x="162" y="78" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Knob" id="sld9Knob">
+      <parameter id="sld9"/>
+      <bounds x="577" y="95" width="57" height="57"/>
+      <tooltip string=""/>
+      <image id="hit_area" src="knobs/knob10/knob_clip.png"/>
+      <image_list id="knob" src="knobs/knob10/knob%02d.png"/>
+      <range min="0" max="1" interval="0.001" minRad="1.26" maxRad="2.74"/>
+      <center x="25" y="25"/>
+    </view>
+    <view type="View" id="sld9Highlight">
+      <parameter id="sld9"/>
+      <bounds x="602" y="78" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Knob" id="sldAKnob">
+      <parameter id="sldA"/>
+      <bounds x="324" y="111" width="57" height="57"/>
+      <tooltip string=""/>
+      <image id="hit_area" src="knobs/knob10/knob_clip.png"/>
+      <image_list id="knob" src="knobs/knob10/knob%02d.png"/>
+      <range min="0" max="1" interval="0.001" minRad="1.26" maxRad="2.74"/>
+      <center x="25" y="25"/>
+    </view>
+    <view type="View" id="sldAHighlight">
+      <parameter id="sldA"/>
+      <bounds x="350" y="95" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Knob" id="sldBKnob">
+      <parameter id="sldB"/>
+      <bounds x="263" y="111" width="57" height="57"/>
+      <tooltip string=""/>
+      <image id="hit_area" src="knobs/knob10/knob_clip.png"/>
+      <image_list id="knob" src="knobs/knob10/knob%02d.png"/>
+      <range min="0" max="1" interval="0.001" minRad="1.26" maxRad="2.74"/>
+      <center x="25" y="25"/>
+    </view>
+    <view type="View" id="sldBHighlight">
+      <parameter id="sldB"/>
+      <bounds x="288" y="95" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Knob" id="sldCKnob">
+      <parameter id="sldC"/>
+      <bounds x="199" y="111" width="57" height="57"/>
+      <tooltip string=""/>
+      <image id="hit_area" src="knobs/knob10/knob_clip.png"/>
+      <image_list id="knob" src="knobs/knob10/knob%02d.png"/>
+      <range min="0" max="1" interval="0.001" minRad="1.26" maxRad="2.74"/>
+      <center x="25" y="25"/>
+    </view>
+    <view type="View" id="sldCHighlight">
+      <parameter id="sldC"/>
+      <bounds x="225" y="95" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Knob" id="sldDKnob">
+      <parameter id="sldD"/>
+      <bounds x="387" y="111" width="57" height="57"/>
+      <tooltip string=""/>
+      <image id="hit_area" src="knobs/knob10/knob_clip.png"/>
+      <image_list id="knob" src="knobs/knob10/knob%02d.png"/>
+      <range min="0" max="1" interval="0.001" minRad="1.26" maxRad="2.74"/>
+      <center x="25" y="25"/>
+    </view>
+    <view type="View" id="sldDHighlight">
+      <parameter id="sldD"/>
+      <bounds x="410" y="95" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Knob" id="sldFKnob">
+      <parameter id="sldF"/>
+      <bounds x="514" y="111" width="57" height="57"/>
+      <tooltip string=""/>
+      <image id="hit_area" src="knobs/knob10/knob_clip.png"/>
+      <image_list id="knob" src="knobs/knob10/knob%02d.png"/>
+      <range min="0" max="1" interval="0.001" minRad="1.26" maxRad="2.74"/>
+      <center x="25" y="25"/>
+    </view>
+    <view type="View" id="sldFHighlight">
+      <parameter id="sldF"/>
+      <bounds x="538" y="95" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Knob" id="sldGKnob">
+      <parameter id="sldG"/>
+      <bounds x="451" y="111" width="57" height="57"/>
+      <tooltip string=""/>
+      <image id="hit_area" src="knobs/knob10/knob_clip.png"/>
+      <image_list id="knob" src="knobs/knob10/knob%02d.png"/>
+      <range min="0" max="1" interval="0.001" minRad="1.26" maxRad="2.74"/>
+      <center x="25" y="25"/>
+    </view>
+    <view type="View" id="sldGHighlight">
+      <parameter id="sldG"/>
+      <bounds x="476" y="95" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Button" id="sld5">
+      <bounds x="47" y="95" width="42" height="56"/>
+      <parameter id="sld5"/>
+      <image_list id="state" x="1" y="1">
+        <image id="" src="switches/switch08.png"/>
+        <image id="" src="switches/switch09.png"/>
+      </image_list>
+      <toggles value="true"/>
+    </view>
+    <view type="View" id="sld5Highlight">
+      <parameter id="sld5"/>
+      <bounds x="65" y="78" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>    
+
+    <view type="Button" id="sld5">
+      <bounds x="95" y="95" width="34" height="41"/>
+      <parameter id="sld5"/>
+      <image_list id="state" x="1" y="1">
+        <image id="" src="switches/switch10.png"/>
+        <image id="" src="switches/switch11.png"/>
+      </image_list>
+      <toggles value="true"/>
+    </view>
+
+    <view type="Button" id="sldE">
+      <bounds x="264" y="73" width="19" height="18"/>
+      <parameter id="sldE"/>
+      <image_list id="state" x="1" y="1">
+        <image id="" src="switches/switch06.png"/>
+        <image id="" src="switches/switch07.png"/>
+      </image_list>
+      <toggles value="true"/>
+    </view>
+    <view type="View" id="sldEHighlight">
+      <parameter id="sldE"/>
+      <bounds x="218" y="80" width="6" height="6"/>
+      <image_list id="background">
+        <image id="" src="automation/autoled0.png"/>
+        <image id="red" src="automation/autoled1.png"/>
+        <image id="blue" src="automation/autoled2.png"/>
+        <image id="green" src="automation/autoled3.png"/>
+        <image id="yellow" src="automation/autoled4.png"/>
+      </image_list>
+    </view>
+    <view type="Meter" id="Speed">
+      <meter id="mtSd" type="needle"/>
+      <bounds x="455" y="100" width="10" height="10"/>
+      <image id="background" src="meters/meter200.png"/>
+      <image_list id="meter" src="meters/meter2%02d.png"/>
+    </view>
+
+  </view>
+
