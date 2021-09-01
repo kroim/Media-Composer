@@ -1,0 +1,1392 @@
+<?xml version='1.0' encoding='US-ASCII' standalone='yes'?>
+<PageTables vers='7.4.0.102'>
+	<PageTableLayouts>
+		<Plugin manID='Digi' prodID='1be3' plugID='1emT'>
+			<Desc>1-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='Digi' prodID='1be3' plugID='1emT'-->
+		<Plugin manID='Digi' prodID='1be3' plugID='1emr'>
+			<Desc>1-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='Digi' prodID='1be3' plugID='1emr'-->
+		<Plugin manID='Digi' prodID='1be3' plugID='1ems'>
+			<Desc>1-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='Digi' prodID='1be3' plugID='1ems'-->
+		<Plugin manID='Digi' prodID='1be3' plugID='1emt'>
+			<Desc>1-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='Digi' prodID='1be3' plugID='1emt'-->
+		<Plugin manID='Digi' prodID='1be3' plugID='1esT'>
+			<Desc>1-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='Digi' prodID='1be3' plugID='1esT'-->
+		<Plugin manID='Digi' prodID='1be3' plugID='1esr'>
+			<Desc>1-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='Digi' prodID='1be3' plugID='1esr'-->
+		<Plugin manID='Digi' prodID='1be3' plugID='1ess'>
+			<Desc>1-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='Digi' prodID='1be3' plugID='1ess'-->
+		<Plugin manID='Digi' prodID='1be3' plugID='1est'>
+			<Desc>1-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='Digi' prodID='1be3' plugID='1est'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='4emT'>
+			<Desc>4-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='4emT'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='4emr'>
+			<Desc>4-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='4emr'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='4ems'>
+			<Desc>4-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='4ems'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='4emt'>
+			<Desc>4-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='4emt'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='4esT'>
+			<Desc>4-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='4esT'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='4esr'>
+			<Desc>4-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='4esr'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='4ess'>
+			<Desc>4-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='4ess'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='4est'>
+			<Desc>4-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='4est'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='7emT'>
+			<Desc>7-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='7emT'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='7emr'>
+			<Desc>7-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='7emr'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='7ems'>
+			<Desc>7-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='7ems'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='7emt'>
+			<Desc>7-Band EQ III 1 -&gt; 1 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='7emt'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='7esT'>
+			<Desc>7-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='7esT'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='7esr'>
+			<Desc>7-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='7esr'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='7ess'>
+			<Desc>7-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='7ess'-->
+		<Plugin manID='Digi' prodID='47e3' plugID='7est'>
+			<Desc>7-Band EQ III 2 -&gt; 2 by Digidesign, Inc.</Desc>
+			<Layout>PageTable 2</Layout>
+		</Plugin><!--manID='Digi' prodID='47e3' plugID='7est'-->
+		<PTLayout name='PageTable 1'>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="Phase Invert" inOutButtonID="Phase Invert" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="Input Level" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="Filter Type" inOutButtonID="Filter Type" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='4' knobID="Q" inOutButtonID="Slope" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="Frequency" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='4' knobID="Gain" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='1' knobID="Input Level" inOutButtonID="Phase Invert" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Filter Type" inOutButtonID="Filter Type" selectButtonID=""/>
+					<Cell row='6' col='1' knobID="Q" inOutButtonID="Slope" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="Frequency" inOutButtonID="" selectButtonID=""/>
+					<Cell row='8' col='1' knobID="Gain" inOutButtonID="" selectButtonID=""/>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>Input Level</ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Q</ID>
+					<ID>Frequency</ID>
+					<ID>Gain</ID>
+					<ID>Phase Invert</ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Slope</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>Input Level</ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Q</ID>
+					<ID>Frequency</ID>
+					<ID>Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Phase Invert</ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Slope</ID>
+				</Page><!--num='1'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='DgEQ' pgsz='43'>
+				<Page num='1'>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Gain</ID>
+					<ID>Frequency</ID>
+					<ID>Q</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Input Level</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Slope</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='DgEQ' pgsz='43'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>Phase Invert</ID>
+					<ID>Input Level</ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Q</ID>
+					<ID>Slope</ID>
+					<ID>Frequency</ID>
+					<ID>Gain</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>Phase Invert</ID>
+					<ID>Input Level</ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Q</ID>
+					<ID>Slope</ID>
+					<ID>Frequency</ID>
+					<ID>Gain</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<Page num='1'>
+					<ID>Phase Invert</ID>
+					<ID>Slope</ID>
+					<ID>Filter Type</ID>
+					<ID> </ID>
+					<ID>Input Level</ID>
+					<ID>Q</ID>
+					<ID>Frequency</ID>
+					<ID>Gain</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>Input Level</ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Q</ID>
+					<ID>Frequency</ID>
+					<ID>Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Phase Invert</ID>
+					<ID> </ID>
+					<ID>Filter Type</ID>
+					<ID>Slope</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>Master Bypass</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Gain</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Frequency</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Q</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>Slope</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>Filter Type</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>Input Level</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>Phase Invert</ID>
+				</Page><!--num='8'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 1'-->
+		<PTLayout name='PageTable 2'>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="High-Pass Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="High-Pass Freq" inOutButtonID="" selectButtonID="High-Pass Type"/>
+					<Cell row='4' col='1' knobID="High-Pass Slope" inOutButtonID="High-Pass Enable" selectButtonID=""/>
+					<Cell row='1' col='2' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='2' knobID="Low-Pass Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='2' knobID="Low-Pass Freq" inOutButtonID="" selectButtonID="Low-Pass Type"/>
+					<Cell row='4' col='2' knobID="Low-Pass Slope" inOutButtonID="Low-Pass Enable" selectButtonID=""/>
+					<Cell row='1' col='3' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='3' knobID="Phase Invert" inOutButtonID="Phase Invert" selectButtonID=""/>
+					<Cell row='3' col='3' knobID="Input Level" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='3' knobID="Output Level" inOutButtonID="Master Bypass" selectButtonID=""/>
+					<Cell row='1' col='4' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='4' knobID="Low Band Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='4' knobID="Low Band Freq" inOutButtonID="" selectButtonID="Low Band Type"/>
+					<Cell row='4' col='4' knobID="Low Band Gain" inOutButtonID="Low Band Enable" selectButtonID=""/>
+					<Cell row='1' col='5' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='5' knobID="Low-Mid Band Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='5' knobID="Low-Mid Band Freq" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='5' knobID="Low-Mid Band Gain" inOutButtonID="Low-Mid Band Enable" selectButtonID=""/>
+					<Cell row='1' col='6' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='6' knobID="Mid Band Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='6' knobID="Mid Band Freq" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='6' knobID="Mid Band Gain" inOutButtonID="Mid Band Enable" selectButtonID=""/>
+					<Cell row='1' col='7' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='7' knobID="High-Mid Band Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='7' knobID="High-Mid Band Freq" inOutButtonID="" selectButtonID=""/>
+					<Cell row='4' col='7' knobID="High-Mid Band Gain" inOutButtonID="High-Mid Band Enable" selectButtonID=""/>
+					<Cell row='1' col='8' knobID="" inOutButtonID="" selectButtonID=""/>
+					<Cell row='2' col='8' knobID="High Band Q" inOutButtonID="" selectButtonID=""/>
+					<Cell row='3' col='8' knobID="High Band Freq" inOutButtonID="" selectButtonID="High Band Type"/>
+					<Cell row='4' col='8' knobID="High Band Gain" inOutButtonID="High Band Enable" selectButtonID=""/>
+				</Page><!--num='1'-->
+			</PageTable><!--type='Av48' pgsz='96'-->
+			<PageTable type='Av81' pgsz='24'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID="High Band Freq" inOutButtonID="" selectButtonID="High Band Q"/>
+					<Cell row='2' col='1' knobID="High Band Gain" inOutButtonID="High Band Enable" selectButtonID="High Band Type"/>
+					<Cell row='3' col='1' knobID="High-Mid Band Freq" inOutButtonID="" selectButtonID="High-Mid Band Q"/>
+					<Cell row='4' col='1' knobID="High-Mid Band Gain" inOutButtonID="High-Mid Band Enable" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Low-Mid Band Freq" inOutButtonID="" selectButtonID="Low-Mid Band Q"/>
+					<Cell row='6' col='1' knobID="Low-Mid Band Gain" inOutButtonID="Low-Mid Band Enable" selectButtonID=""/>
+					<Cell row='7' col='1' knobID="Low Band Freq" inOutButtonID="" selectButtonID="Low Band Q"/>
+					<Cell row='8' col='1' knobID="Low Band Gain" inOutButtonID="Low Band Enable" selectButtonID="Low Band Type"/>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<Cell row='1' col='1' knobID="Output Level" inOutButtonID="Master Bypass" selectButtonID=""/>
+					<Cell row='2' col='1' knobID="Input Level" inOutButtonID="Phase Invert" selectButtonID=""/>
+					<Cell row='3' col='1' knobID="Mid Band Freq" inOutButtonID="" selectButtonID="Mid Band Q"/>
+					<Cell row='4' col='1' knobID="Mid Band Gain" inOutButtonID="Mid Band Enable" selectButtonID=""/>
+					<Cell row='5' col='1' knobID="Low-Pass Freq" inOutButtonID="" selectButtonID="Low-Pass Q"/>
+					<Cell row='6' col='1' knobID="Low-Pass Slope" inOutButtonID="Low-Pass Enable" selectButtonID="Low-Pass Type"/>
+					<Cell row='7' col='1' knobID="High-Pass Freq" inOutButtonID="" selectButtonID="High-Pass Q"/>
+					<Cell row='8' col='1' knobID="High-Pass Slope" inOutButtonID="High-Pass Enable" selectButtonID="High-Pass Type"/>
+				</Page><!--num='2'-->
+			</PageTable><!--type='Av81' pgsz='24'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>High Band Q</ID>
+					<ID>High Band Freq</ID>
+					<ID>High Band Gain</ID>
+					<ID>Low Band Q</ID>
+					<ID>Low Band Freq</ID>
+					<ID>Low Band Gain</ID>
+					<ID> </ID>
+					<ID>High Band Type</ID>
+					<ID>High Band Enable</ID>
+					<ID> </ID>
+					<ID>Low Band Type</ID>
+					<ID>Low Band Enable</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>High-Mid Band Q</ID>
+					<ID>High-Mid Band Freq</ID>
+					<ID>High-Mid Band Gain</ID>
+					<ID>Low-Mid Band Q</ID>
+					<ID>Low-Mid Band Freq</ID>
+					<ID>Low-Mid Band Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>High-Mid Band Enable</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Low-Mid Band Enable</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Output Level</ID>
+					<ID>Input Level</ID>
+					<ID> </ID>
+					<ID>Mid Band Q</ID>
+					<ID>Mid Band Freq</ID>
+					<ID>Mid Band Gain</ID>
+					<ID> </ID>
+					<ID>Phase Invert</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Mid Band Enable</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Low-Pass Enable</ID>
+					<ID>Low-Pass Q</ID>
+					<ID>Low-Pass Freq</ID>
+					<ID>High-Pass Enable</ID>
+					<ID>High-Pass Q</ID>
+					<ID>High-Pass Freq</ID>
+					<ID>Low-Pass Enable</ID>
+					<ID>Low-Pass Slope</ID>
+					<ID>Low-Pass Type</ID>
+					<ID>High-Pass Enable</ID>
+					<ID>High-Pass Slope</ID>
+					<ID>High-Pass Type</ID>
+				</Page><!--num='4'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>Low Band Q</ID>
+					<ID>Low Band Freq</ID>
+					<ID>Low Band Gain</ID>
+					<ID> </ID>
+					<ID>High Band Q</ID>
+					<ID>High Band Freq</ID>
+					<ID>High Band Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Low Band Type</ID>
+					<ID>Low Band Enable</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>High Band Type</ID>
+					<ID>High Band Enable</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Low-Mid Band Q</ID>
+					<ID>Low-Mid Band Freq</ID>
+					<ID>Low-Mid Band Gain</ID>
+					<ID> </ID>
+					<ID>High-Mid Band Q</ID>
+					<ID>High-Mid Band Freq</ID>
+					<ID>High-Mid Band Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Low-Mid Band Enable</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>High-Mid Band Enable</ID>
+					<ID> </ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Input Level</ID>
+					<ID>Output Level</ID>
+					<ID> </ID>
+					<ID>Mid Band Q</ID>
+					<ID>Mid Band Freq</ID>
+					<ID>Mid Band Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Phase Invert</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Mid Band Enable</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>High-Pass Q</ID>
+					<ID>High-Pass Freq</ID>
+					<ID>High-Pass Enable</ID>
+					<ID> </ID>
+					<ID>Low-Pass Q</ID>
+					<ID>Low-Pass Freq</ID>
+					<ID>Low-Pass Enable</ID>
+					<ID> </ID>
+					<ID>High-Pass Slope</ID>
+					<ID>High-Pass Type</ID>
+					<ID>High-Pass Enable</ID>
+					<ID> </ID>
+					<ID>Low-Pass Slope</ID>
+					<ID>Low-Pass Type</ID>
+					<ID>Low-Pass Enable</ID>
+				</Page><!--num='4'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='BkSF' pgsz='16'-->
+			<PageTable type='DgEQ' pgsz='43'>
+				<Page num='1'>
+					<ID>High-Pass Enable</ID>
+					<ID>High-Pass Type</ID>
+					<ID>High-Pass Freq</ID>
+					<ID>High-Pass Q</ID>
+					<ID>Low Band Enable</ID>
+					<ID>Low Band Type</ID>
+					<ID>Low Band Gain</ID>
+					<ID>Low Band Freq</ID>
+					<ID>Low Band Q</ID>
+					<ID>Low-Mid Band Enable</ID>
+					<ID> </ID>
+					<ID>Low-Mid Band Gain</ID>
+					<ID>Low-Mid Band Freq</ID>
+					<ID>Low-Mid Band Q</ID>
+					<ID>Mid Band Enable</ID>
+					<ID> </ID>
+					<ID>Mid Band Gain</ID>
+					<ID>Mid Band Freq</ID>
+					<ID>Mid Band Q</ID>
+					<ID>High-Mid Band Enable</ID>
+					<ID> </ID>
+					<ID>High-Mid Band Gain</ID>
+					<ID>High-Mid Band Freq</ID>
+					<ID>High-Mid Band Q</ID>
+					<ID>High Band Enable</ID>
+					<ID>High Band Type</ID>
+					<ID>High Band Gain</ID>
+					<ID>High Band Freq</ID>
+					<ID>High Band Q</ID>
+					<ID>Low-Pass Enable</ID>
+					<ID>Low-Pass Type</ID>
+					<ID>Low-Pass Freq</ID>
+					<ID>Low-Pass Q</ID>
+					<ID>Input Level</ID>
+					<ID>Output Level</ID>
+					<ID> </ID>
+					<ID>High-Pass Slope</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Low-Pass Slope</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='DgEQ' pgsz='43'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>Low Band Type</ID>
+					<ID>Low Band Q</ID>
+					<ID>Low Band Freq</ID>
+					<ID>Low Band Gain</ID>
+					<ID>Low Band Enable</ID>
+					<ID>Low-Mid Band Q</ID>
+					<ID>Low-Mid Band Freq</ID>
+					<ID>Low-Mid Band Gain</ID>
+					<ID>Low-Mid Band Enable</ID>
+					<ID>Mid Band Q</ID>
+					<ID>Mid Band Freq</ID>
+					<ID>Mid Band Gain</ID>
+					<ID>Mid Band Enable</ID>
+					<ID>High-Mid Band Q</ID>
+					<ID>High-Mid Band Freq</ID>
+					<ID>High-Mid Band Gain</ID>
+					<ID>High-Mid Band Enable</ID>
+					<ID>High Band Type</ID>
+					<ID>High Band Q</ID>
+					<ID>High Band Freq</ID>
+					<ID>High Band Gain</ID>
+					<ID>High Band Enable</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>High-Pass Type</ID>
+					<ID>High-Pass Q</ID>
+					<ID>High-Pass Slope</ID>
+					<ID>High-Pass Freq</ID>
+					<ID>High-Pass Enable</ID>
+					<ID> </ID>
+					<ID>Low-Pass Type</ID>
+					<ID>Low-Pass Q</ID>
+					<ID>Low-Pass Slope</ID>
+					<ID>Low-Pass Freq</ID>
+					<ID>Low-Pass Enable</ID>
+					<ID> </ID>
+					<ID>Phase Invert</ID>
+					<ID> </ID>
+					<ID>Input Level</ID>
+					<ID>Output Level</ID>
+				</Page><!--num='2'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID>Low Band Q</ID>
+					<ID>Low Band Freq</ID>
+					<ID>Low Band Gain</ID>
+					<ID>Low Band Enable</ID>
+					<ID>High Band Q</ID>
+					<ID>High Band Freq</ID>
+					<ID>High Band Gain</ID>
+					<ID>High Band Enable</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Low-Mid Band Q</ID>
+					<ID>Low-Mid Band Freq</ID>
+					<ID>Low-Mid Band Gain</ID>
+					<ID>Low-Mid Band Enable</ID>
+					<ID>High-Mid Band Q</ID>
+					<ID>High-Mid Band Freq</ID>
+					<ID>High-Mid Band Gain</ID>
+					<ID>High-Mid Band Enable</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Mid Band Q</ID>
+					<ID>Mid Band Freq</ID>
+					<ID>Mid Band Gain</ID>
+					<ID>Mid Band Enable</ID>
+					<ID> </ID>
+					<ID>Low Band Type</ID>
+					<ID>High Band Type</ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>High-Pass Type</ID>
+					<ID>High-Pass Q</ID>
+					<ID>High-Pass Slope</ID>
+					<ID>High-Pass Freq</ID>
+					<ID>High-Pass Enable</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>Low-Pass Type</ID>
+					<ID>Low-Pass Q</ID>
+					<ID>Low-Pass Slope</ID>
+					<ID>Low-Pass Freq</ID>
+					<ID>Low-Pass Enable</ID>
+					<ID>Phase Invert</ID>
+					<ID>Input Level</ID>
+					<ID>Output Level</ID>
+				</Page><!--num='5'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<Page num='1'>
+					<ID> </ID>
+					<ID>Low Band Type</ID>
+					<ID>Low Band Enable</ID>
+					<ID> </ID>
+					<ID>Low Band Q</ID>
+					<ID>Low Band Freq</ID>
+					<ID>Low Band Gain</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Low-Mid Band Enable</ID>
+					<ID> </ID>
+					<ID>Low-Mid Band Q</ID>
+					<ID>Low-Mid Band Freq</ID>
+					<ID>Low-Mid Band Gain</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Mid Band Enable</ID>
+					<ID> </ID>
+					<ID>Mid Band Q</ID>
+					<ID>Mid Band Freq</ID>
+					<ID>Mid Band Gain</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>High-Mid Band Enable</ID>
+					<ID> </ID>
+					<ID>High-Mid Band Q</ID>
+					<ID>High-Mid Band Freq</ID>
+					<ID>High-Mid Band Gain</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID> </ID>
+					<ID>High Band Type</ID>
+					<ID>High Band Enable</ID>
+					<ID> </ID>
+					<ID>High Band Q</ID>
+					<ID>High Band Freq</ID>
+					<ID>High Band Gain</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>Phase Invert</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Input Level</ID>
+					<ID>Output Level</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>High-Pass Slope</ID>
+					<ID>High-Pass Type</ID>
+					<ID>High-Pass Enable</ID>
+					<ID> </ID>
+					<ID>High-Pass Q</ID>
+					<ID>High-Pass Freq</ID>
+					<ID>High-Pass Enable</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>Low-Pass Slope</ID>
+					<ID>Low-Pass Type</ID>
+					<ID>Low-Pass Enable</ID>
+					<ID> </ID>
+					<ID>Low-Pass Q</ID>
+					<ID>Low-Pass Freq</ID>
+					<ID>Low-Pass Enable</ID>
+				</Page><!--num='8'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>Low Band Q</ID>
+					<ID>Low Band Freq</ID>
+					<ID>Low Band Gain</ID>
+					<ID> </ID>
+					<ID>High Band Q</ID>
+					<ID>High Band Freq</ID>
+					<ID>High Band Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Low Band Type</ID>
+					<ID>Low Band Enable</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>High Band Type</ID>
+					<ID>High Band Enable</ID>
+					<ID> </ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Low-Mid Band Q</ID>
+					<ID>Low-Mid Band Freq</ID>
+					<ID>Low-Mid Band Gain</ID>
+					<ID> </ID>
+					<ID>High-Mid Band Q</ID>
+					<ID>High-Mid Band Freq</ID>
+					<ID>High-Mid Band Gain</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Low-Mid Band Enable</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>High-Mid Band Enable</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Mid Band Q</ID>
+					<ID>Mid Band Freq</ID>
+					<ID>Mid Band Gain</ID>
+					<ID> </ID>
+					<ID>Input Level</ID>
+					<ID>Output Level</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID>Mid Band Enable</ID>
+					<ID> </ID>
+					<ID>Phase Invert</ID>
+					<ID> </ID>
+					<ID> </ID>
+					<ID> </ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>High-Pass Q</ID>
+					<ID>High-Pass Freq</ID>
+					<ID>High-Pass Enable</ID>
+					<ID> </ID>
+					<ID>Low-Pass Q</ID>
+					<ID>Low-Pass Freq</ID>
+					<ID>Low-Pass Enable</ID>
+					<ID> </ID>
+					<ID>High-Pass Slope</ID>
+					<ID>High-Pass Type</ID>
+					<ID>High-Pass Enable</ID>
+					<ID> </ID>
+					<ID>Low-Pass Slope</ID>
+					<ID>Low-Pass Type</ID>
+					<ID>Low-Pass Enable</ID>
+				</Page><!--num='4'-->
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>Master Bypass</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Input Level</ID>
+				</Page><!--num='2'-->
+				<Page num='3'>
+					<ID>Output Level</ID>
+				</Page><!--num='3'-->
+				<Page num='4'>
+					<ID>Phase Invert</ID>
+				</Page><!--num='4'-->
+				<Page num='5'>
+					<ID>High-Pass Type</ID>
+				</Page><!--num='5'-->
+				<Page num='6'>
+					<ID>High-Pass Enable</ID>
+				</Page><!--num='6'-->
+				<Page num='7'>
+					<ID>High-Pass Q</ID>
+				</Page><!--num='7'-->
+				<Page num='8'>
+					<ID>High-Pass Slope</ID>
+				</Page><!--num='8'-->
+				<Page num='9'>
+					<ID>High-Pass Freq</ID>
+				</Page><!--num='9'-->
+				<Page num='10'>
+					<ID>Low Band Type</ID>
+				</Page><!--num='10'-->
+				<Page num='11'>
+					<ID>Low Band Enable</ID>
+				</Page><!--num='11'-->
+				<Page num='12'>
+					<ID>Low Band Gain</ID>
+				</Page><!--num='12'-->
+				<Page num='13'>
+					<ID>Low Band Freq</ID>
+				</Page><!--num='13'-->
+				<Page num='14'>
+					<ID>Low Band Q</ID>
+				</Page><!--num='14'-->
+				<Page num='15'>
+					<ID>Low-Mid Band Enable</ID>
+				</Page><!--num='15'-->
+				<Page num='16'>
+					<ID>Low-Mid Band Gain</ID>
+				</Page><!--num='16'-->
+				<Page num='17'>
+					<ID>Low-Mid Band Freq</ID>
+				</Page><!--num='17'-->
+				<Page num='18'>
+					<ID>Low-Mid Band Q</ID>
+				</Page><!--num='18'-->
+				<Page num='19'>
+					<ID>Mid Band Enable</ID>
+				</Page><!--num='19'-->
+				<Page num='20'>
+					<ID>Mid Band Gain</ID>
+				</Page><!--num='20'-->
+				<Page num='21'>
+					<ID>Mid Band Freq</ID>
+				</Page><!--num='21'-->
+				<Page num='22'>
+					<ID>Mid Band Q</ID>
+				</Page><!--num='22'-->
+				<Page num='23'>
+					<ID>High-Mid Band Enable</ID>
+				</Page><!--num='23'-->
+				<Page num='24'>
+					<ID>High-Mid Band Gain</ID>
+				</Page><!--num='24'-->
+				<Page num='25'>
+					<ID>High-Mid Band Freq</ID>
+				</Page><!--num='25'-->
+				<Page num='26'>
+					<ID>High-Mid Band Q</ID>
+				</Page><!--num='26'-->
+				<Page num='27'>
+					<ID>High Band Type</ID>
+				</Page><!--num='27'-->
+				<Page num='28'>
+					<ID>High Band Enable</ID>
+				</Page><!--num='28'-->
+				<Page num='29'>
+					<ID>High Band Gain</ID>
+				</Page><!--num='29'-->
+				<Page num='30'>
+					<ID>High Band Freq</ID>
+				</Page><!--num='30'-->
+				<Page num='31'>
+					<ID>High Band Q</ID>
+				</Page><!--num='31'-->
+				<Page num='32'>
+					<ID>Low-Pass Type</ID>
+				</Page><!--num='32'-->
+				<Page num='33'>
+					<ID>Low-Pass Enable</ID>
+				</Page><!--num='33'-->
+				<Page num='34'>
+					<ID>Low-Pass Q</ID>
+				</Page><!--num='34'-->
+				<Page num='35'>
+					<ID>Low-Pass Slope</ID>
+				</Page><!--num='35'-->
+				<Page num='36'>
+					<ID>Low-Pass Freq</ID>
+				</Page><!--num='36'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+		</PTLayout><!--name='PageTable 2'-->
+	</PageTableLayouts>
+	<ControlNamesVariations>
+		<Ctrl ID='Filter Type'>
+			<name typ='PgTL' sz='1'>Type</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Filter Type'-->
+		<Ctrl ID='Frequency'>
+			<name typ='PgTL' sz='1'>Frq</name>
+			<name typ='PgTL' sz='4'>Freq</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Frequency'-->
+		<Ctrl ID='Gain'>
+			<name typ='PgTL' sz='1'>Gn</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Gain'-->
+		<Ctrl ID='High Band Enable'>
+			<name typ='PgTL' sz='1'>HF</name>
+			<name typ='PgTL' sz='7'>HF Band</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High Band Enable'-->
+		<Ctrl ID='High Band Freq'>
+			<name typ='PgTL' sz='1'>HF</name>
+			<name typ='PgTL' sz='3'>HiF</name>
+			<name typ='PgTL' sz='4'>HF Frq</name>
+			<name typ='PgTL' sz='7'>HF Freq</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High Band Freq'-->
+		<Ctrl ID='High Band Gain'>
+			<name typ='PgTL' sz='1'>HF</name>
+			<name typ='PgTL' sz='3'>HiG</name>
+			<name typ='PgTL' sz='4'>HF Gn</name>
+			<name typ='PgTL' sz='7'>HF Gain</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High Band Gain'-->
+		<Ctrl ID='High Band Q'>
+			<name typ='PgTL' sz='1'>HF</name>
+			<name typ='PgTL' sz='3'>HiQ</name>
+			<name typ='PgTL' sz='4'>HF Q</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High Band Q'-->
+		<Ctrl ID='High Band Type'>
+			<name typ='PgTL' sz='1'>HF</name>
+			<name typ='PgTL' sz='3'>HiT</name>
+			<name typ='PgTL' sz='4'>HF T</name>
+			<name typ='PgTL' sz='6'>HF Type</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High Band Type'-->
+		<Ctrl ID='High-Mid Band Enable'>
+			<name typ='PgTL' sz='1'>HMF</name>
+			<name typ='PgTL' sz='8'>HMF Band</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Mid Band Enable'-->
+		<Ctrl ID='High-Mid Band Freq'>
+			<name typ='PgTL' sz='1'>HMFF</name>
+			<name typ='PgTL' sz='6'>HMF Frq</name>
+			<name typ='PgTL' sz='8'>HMF Freq</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Mid Band Freq'-->
+		<Ctrl ID='High-Mid Band Gain'>
+			<name typ='PgTL' sz='1'>HMG</name>
+			<name typ='PgTL' sz='4'>HMFG</name>
+			<name typ='PgTL' sz='5'>HMF Gn</name>
+			<name typ='PgTL' sz='8'>HMF Gain</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Mid Band Gain'-->
+		<Ctrl ID='High-Mid Band Q'>
+			<name typ='PgTL' sz='1'>HMQ</name>
+			<name typ='PgTL' sz='4'>HMFQ</name>
+			<name typ='PgTL' sz='5'>HMF Q</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Mid Band Q'-->
+		<Ctrl ID='High-Pass Enable'>
+			<name typ='PgTL' sz='1'>HPF</name>
+			<name typ='PgTL' sz='10'>HPF Filter</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Pass Enable'-->
+		<Ctrl ID='High-Pass Freq'>
+			<name typ='PgTL' sz='1'>HPFF</name>
+			<name typ='PgTL' sz='5'>HPF Frq</name>
+			<name typ='PgTL' sz='8'>HPF Freq</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Pass Freq'-->
+		<Ctrl ID='High-Pass Q'>
+			<name typ='PgTL' sz='1'>HPQ</name>
+			<name typ='PgTL' sz='4'>HPFQ</name>
+			<name typ='PgTL' sz='5'>HPF Q</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Pass Q'-->
+		<Ctrl ID='High-Pass Slope'>
+			<name typ='PgTL' sz='1'>HPS</name>
+			<name typ='PgTL' sz='4'>HPFS</name>
+			<name typ='PgTL' sz='5'>HPF S</name>
+			<name typ='PgTL' sz='7'>HPF Slp</name>
+			<name typ='PgTL' sz='9'>HPF Slope</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Pass Slope'-->
+		<Ctrl ID='High-Pass Type'>
+			<name typ='PgTL' sz='1'>HPT</name>
+			<name typ='PgTL' sz='4'>HPFT</name>
+			<name typ='PgTL' sz='5'>HPF T</name>
+			<name typ='PgTL' sz='6'>HPFTyp</name>
+			<name typ='PgTL' sz='7'>HPF Type</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='High-Pass Type'-->
+		<Ctrl ID='Input Level'>
+			<name typ='PgTL' sz='1'>Inp</name>
+			<name typ='PgTL' sz='5'>Input</name>
+			<name typ='PgTL' sz='7'>Inp Lvl</name>
+			<name typ='PgTL' sz='8'>In Level</name>
+			<name typ='PgTL' sz='9'>Inp Level</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Input Level'-->
+		<Ctrl ID='Low Band Enable'>
+			<name typ='PgTL' sz='1'>LF</name>
+			<name typ='PgTL' sz='7'>LF Band</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low Band Enable'-->
+		<Ctrl ID='Low Band Freq'>
+			<name typ='PgTL' sz='1'>LF</name>
+			<name typ='PgTL' sz='3'>LoF</name>
+			<name typ='PgTL' sz='4'>LF Frq</name>
+			<name typ='PgTL' sz='7'>LF Freq</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low Band Freq'-->
+		<Ctrl ID='Low Band Gain'>
+			<name typ='PgTL' sz='1'>LF</name>
+			<name typ='PgTL' sz='3'>LoG</name>
+			<name typ='PgTL' sz='4'>LF Gn</name>
+			<name typ='PgTL' sz='7'>LF Gain</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low Band Gain'-->
+		<Ctrl ID='Low Band Q'>
+			<name typ='PgTL' sz='1'>LF</name>
+			<name typ='PgTL' sz='3'>LoQ</name>
+			<name typ='PgTL' sz='4'>LF Q</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low Band Q'-->
+		<Ctrl ID='Low Band Type'>
+			<name typ='PgTL' sz='1'>LF</name>
+			<name typ='PgTL' sz='3'>LoT</name>
+			<name typ='PgTL' sz='4'>LF T</name>
+			<name typ='PgTL' sz='6'>LF Type</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low Band Type'-->
+		<Ctrl ID='Low-Mid Band Enable'>
+			<name typ='PgTL' sz='3'>LMF</name>
+			<name typ='PgTL' sz='8'>LMF Band</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Mid Band Enable'-->
+		<Ctrl ID='Low-Mid Band Freq'>
+			<name typ='PgTL' sz='1'>LMFF</name>
+			<name typ='PgTL' sz='5'>LMF Frq</name>
+			<name typ='PgTL' sz='8'>LMF Freq</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Mid Band Freq'-->
+		<Ctrl ID='Low-Mid Band Gain'>
+			<name typ='PgTL' sz='1'>LMG</name>
+			<name typ='PgTL' sz='4'>LMFG</name>
+			<name typ='PgTL' sz='5'>LMF Gn</name>
+			<name typ='PgTL' sz='8'>LMF Gain</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Mid Band Gain'-->
+		<Ctrl ID='Low-Mid Band Q'>
+			<name typ='PgTL' sz='1'>LMQ</name>
+			<name typ='PgTL' sz='4'>LMFQ</name>
+			<name typ='PgTL' sz='5'>LMF Q</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Mid Band Q'-->
+		<Ctrl ID='Low-Pass Enable'>
+			<name typ='PgTL' sz='1'>LPF</name>
+			<name typ='PgTL' sz='10'>LPF Filter</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Pass Enable'-->
+		<Ctrl ID='Low-Pass Freq'>
+			<name typ='PgTL' sz='1'>LPFF</name>
+			<name typ='PgTL' sz='5'>LPF Frq</name>
+			<name typ='PgTL' sz='8'>LPF Freq</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Pass Freq'-->
+		<Ctrl ID='Low-Pass Q'>
+			<name typ='PgTL' sz='1'>LPQ</name>
+			<name typ='PgTL' sz='4'>LPFQ</name>
+			<name typ='PgTL' sz='5'>LPF Q</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Pass Q'-->
+		<Ctrl ID='Low-Pass Slope'>
+			<name typ='PgTL' sz='1'>LPS</name>
+			<name typ='PgTL' sz='4'>LPFS</name>
+			<name typ='PgTL' sz='5'>LPF S</name>
+			<name typ='PgTL' sz='7'>LPF Slp</name>
+			<name typ='PgTL' sz='9'>LPF Slope</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Pass Slope'-->
+		<Ctrl ID='Low-Pass Type'>
+			<name typ='PgTL' sz='1'>LPT</name>
+			<name typ='PgTL' sz='4'>LPFT</name>
+			<name typ='PgTL' sz='5'>LPF T</name>
+			<name typ='PgTL' sz='6'>LPFTyp</name>
+			<name typ='PgTL' sz='7'>LPF Type</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Low-Pass Type'-->
+		<Ctrl ID='Master Bypass'>
+			<name typ='PgTL' sz='1'>Byp</name>
+			<name typ='PgTL' sz='4'>MByp</name>
+			<name typ='PgTL' sz='5'>M Byp</name>
+			<name typ='PgTL' sz='6'>Bypass</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Master Bypass'-->
+		<Ctrl ID='Mid Band Enable'>
+			<name typ='PgTL' sz='1'>MF</name>
+			<name typ='PgTL' sz='7'>MF Band</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Mid Band Enable'-->
+		<Ctrl ID='Mid Band Freq'>
+			<name typ='PgTL' sz='1'>MFF</name>
+			<name typ='PgTL' sz='4'>MF Frq</name>
+			<name typ='PgTL' sz='7'>MF Freq</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Mid Band Freq'-->
+		<Ctrl ID='Mid Band Gain'>
+			<name typ='PgTL' sz='1'>MFG</name>
+			<name typ='PgTL' sz='4'>MF Gn</name>
+			<name typ='PgTL' sz='7'>MF Gain</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Mid Band Gain'-->
+		<Ctrl ID='Mid Band Q'>
+			<name typ='PgTL' sz='1'>MFQ</name>
+			<name typ='PgTL' sz='4'>MF Q</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Mid Band Q'-->
+		<Ctrl ID='Output Level'>
+			<name typ='PgTL' sz='1'>Out</name>
+			<name typ='PgTL' sz='6'>Output</name>
+			<name typ='PgTL' sz='7'>Out Lvl</name>
+			<name typ='PgTL' sz='9'>Out Level</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Output Level'-->
+		<Ctrl ID='Phase Invert'>
+			<name typ='PgTL' sz='1'>Iv</name>
+			<name typ='PgTL' sz='3'>Inv</name>
+			<name typ='PgTL' sz='6'>Invert</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Phase Invert'-->
+		<Ctrl ID='Slope'>
+			<name typ='PgTL' sz='1'>Slp</name>
+            <knobcolor color='Red'/>
+		</Ctrl><!--ID='Slope'-->
+	</ControlNamesVariations>
+	<Editor vers='1.3.7.1'>
+		<PluginList>
+			<TDM>
+				<PluginID manID='Digi' prodID='1be3' plugID='1emt'>
+					<MenuStr>TDM:  1-Band EQ III, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='1be3' plugID='1emt'-->
+				<PluginID manID='Digi' prodID='47e3' plugID='4emt'>
+					<MenuStr>TDM:  4-Band EQ III, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='47e3' plugID='4emt'-->
+				<PluginID manID='Digi' prodID='47e3' plugID='7emt'>
+					<MenuStr>TDM:  7-Band EQ III, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='47e3' plugID='7emt'-->
+				<PluginID manID='Digi' prodID='1be3' plugID='1est'>
+					<MenuStr>TDM:  1-Band EQ III, 2 in X 2 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='1be3' plugID='1est'-->
+				<PluginID manID='Digi' prodID='47e3' plugID='4est'>
+					<MenuStr>TDM:  4-Band EQ III, 2 in X 2 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='47e3' plugID='4est'-->
+				<PluginID manID='Digi' prodID='47e3' plugID='7est'>
+					<MenuStr>TDM:  7-Band EQ III, 2 in X 2 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='47e3' plugID='7est'-->
+			</TDM>
+			<RTAS>
+				<PluginID manID='Digi' prodID='1be3' plugID='1emr'>
+					<MenuStr>RTAS: 1-Band EQ III, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='1be3' plugID='1emr'-->
+				<PluginID manID='Digi' prodID='47e3' plugID='4emr'>
+					<MenuStr>RTAS: 4-Band EQ III, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='47e3' plugID='4emr'-->
+				<PluginID manID='Digi' prodID='47e3' plugID='7emr'>
+					<MenuStr>RTAS: 7-Band EQ III, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='47e3' plugID='7emr'-->
+				<PluginID manID='Digi' prodID='1be3' plugID='1esr'>
+					<MenuStr>RTAS: 1-Band EQ III, 2 in X 2 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='1be3' plugID='1esr'-->
+				<PluginID manID='Digi' prodID='47e3' plugID='4esr'>
+					<MenuStr>RTAS: 4-Band EQ III, 2 in X 2 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='47e3' plugID='4esr'-->
+				<PluginID manID='Digi' prodID='47e3' plugID='7esr'>
+					<MenuStr>RTAS: 7-Band EQ III, 2 in X 2 out</MenuStr>
+				</PluginID><!--manID='Digi' prodID='47e3' plugID='7esr'-->
+			</RTAS>
+		</PluginList>
+		<DiscCtrls>
+			<CtrlID>Filter Type</CtrlID>
+			<CtrlID>High Band Enable</CtrlID>
+			<CtrlID>High Band Type</CtrlID>
+			<CtrlID>High-Mid Band Enable</CtrlID>
+			<CtrlID>High-Pass Enable</CtrlID>
+			<CtrlID>High-Pass Slope</CtrlID>
+			<CtrlID>High-Pass Type</CtrlID>
+			<CtrlID>Low Band Enable</CtrlID>
+			<CtrlID>Low Band Type</CtrlID>
+			<CtrlID>Low-Mid Band Enable</CtrlID>
+			<CtrlID>Low-Pass Enable</CtrlID>
+			<CtrlID>Low-Pass Slope</CtrlID>
+			<CtrlID>Low-Pass Type</CtrlID>
+			<CtrlID>Master Bypass</CtrlID>
+			<CtrlID>Mid Band Enable</CtrlID>
+			<CtrlID>Phase Invert</CtrlID>
+			<CtrlID>Slope</CtrlID>
+		</DiscCtrls>
+	</Editor><!--vers='1.3.7.1'-->
+</PageTables><!--vers='7.4.0.102'-->

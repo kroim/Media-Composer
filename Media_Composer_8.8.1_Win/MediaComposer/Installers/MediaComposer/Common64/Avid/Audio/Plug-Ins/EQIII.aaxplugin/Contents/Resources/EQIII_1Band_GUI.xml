@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<view type="" id="">
+	<bounds x="0" y="0" width="456" height="199"/>
+	<image id="background" src="1band_background.png" x="0" y="0"/>
+
+	<view type="Knob" id="Input Level Knob">
+	    <parameter id="trim"/>
+	    <bounds x="79" y="17" width="45" height="39"/>
+		<image id="knob" src="knob_small_fill/knob_small_fill_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>
+
+	<view type="View" id="Input Level Highlight">
+	    <parameter id="trim"/>
+	    <bounds x="99" y="60" width="5" height="3"/>
+		<image_list id="background">
+			<image id="" src=""/>
+			<image id="red" src="hl_backgrounds/hlbg_red.png"/>
+			<image id="blue" src="hl_backgrounds/hlbg_blue.png"/>
+			<image id="green" src="hl_backgrounds/hlbg_green.png"/>
+			<image id="yellow" src="hl_backgrounds/hlbg_yellow.png"/>
+		</image_list>
+	</view>
+	
+	<view type="EditText" id="Input Level Edit">
+	    <parameter id="trim"/>
+		<bounds x="18" y="37" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0.0 dB"/>
+	</view>
+
+	<view type="Button" id="Phase Invert Btn">
+	    <parameter id="Phse"/>
+		<bounds x="60" y="7" width="22" height="24"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_phase_off.png"/>
+			<image id="" src="button_phase_inverted.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>
+	
+	<!-- filter type group -->
+	<view type="View" id="Filter type buttons view">
+	    <parameter id="type"/>
+		<bounds x="16" y="114" width="105" height="46"/>
+		<highlight thickness="1"/>
+			
+		<view type="Button" id="High pass btn">
+			<parameter id="type"/>
+			<bounds x="2" y="2" width="21" height="21"/>
+			<tooltip string=""/>
+			<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+			<color id="text" red="0" green="0" blue="0" alpha="255"/>
+			<text string=""/>
+			<image_list id="state">
+				<image id="" src="hipass_off.png"/>
+				<image id="" src="hipass_on.png"/>
+			</image_list>
+			<toggles value="true"/>
+			<group id="Filter types group" value="0"/>
+		</view>
+
+		<view type="Button" id="Notch btn">
+			<parameter id="type"/>
+			<bounds x="34" y="2" width="21" height="21"/>
+			<tooltip string=""/>
+			<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+			<color id="text" red="0" green="0" blue="0" alpha="255"/>
+			<text string=""/>
+			<image_list id="state">
+				<image id="" src="notch_off.png"/>
+				<image id="" src="notch_on.png"/>
+			</image_list>
+			<toggles value="true"/>
+			<group id="Filter types group" value="2"/>
+		</view>
+
+		<view type="Button" id="High shelf btn">
+			<parameter id="type"/>
+			<bounds x="66" y="2" width="21" height="21"/>
+			<tooltip string=""/>
+			<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+			<color id="text" red="0" green="0" blue="0" alpha="255"/>
+			<text string=""/>
+			<image_list id="state">
+				<image id="" src="hishelf_off.png"/>
+				<image id="" src="hishelf_on.png"/>
+			</image_list>
+			<toggles value="true"/>
+			<group id="Filter types group" value="4"/>
+		</view>
+
+		<view type="Button" id="Low shelf btn">
+			<parameter id="type"/>
+			<bounds x="18" y="23" width="21" height="21"/>
+			<tooltip string=""/>
+			<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+			<color id="text" red="0" green="0" blue="0" alpha="255"/>
+			<text string=""/>
+			<image_list id="state">
+				<image id="" src="loshelf_off.png"/>
+				<image id="" src="loshelf_on.png"/> 
+			</image_list>
+			<toggles value="true"/>
+			<group id="Filter types group" value="1"/>
+		</view>
+
+		<view type="Button" id="Peak btn">
+			<parameter id="type"/>
+			<bounds x="50" y="23" width="21" height="21"/>
+			<tooltip string=""/>
+			<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+			<color id="text" red="0" green="0" blue="0" alpha="255"/>
+			<text string=""/>
+			<image_list id="state">
+				<image id="" src="peak_off.png"/>
+				<image id="" src="peak_on.png"/>
+			</image_list>
+			<toggles value="true"/>
+			<group id="Filter types group" value="3"/>
+		</view>
+
+		<view type="Button" id="Low pass btn">
+			<parameter id="type"/>
+			<bounds x="82" y="23" width="21" height="21"/>
+			<tooltip string=""/>
+			<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+			<color id="text" red="0" green="0" blue="0" alpha="255"/>
+			<text string=""/>
+			<image_list id="state">
+				<image id="" src="lopass_off.png"/>
+				<image id="" src="lopass_on.png"/>
+			</image_list>
+			<toggles value="true"/>
+			<group id="Filter types group" value="5"/>
+		</view>
+	</view>
+
+	
+	<view type="StaticText" id="Filter type text">
+		<parameter id="type"/>
+		<bounds x="18" y="96" width="60" height="15"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="11" bold="0" italic="0" underlined="0"/>
+		<justification horizontal="center" vertical="center"/>
+		<color id="text" red="255" green="255" blue="255" alpha="255"/>
+		<image id="background" src=""/>
+	</view>
+	
+	<view type="Knob" id="Filter gain Knob">
+		<parameter id="gain"/>
+		<bounds x="210" y="104" width="57" height="50"/>
+		<image id="knob" src="knob_gain_blue/knob_gain_blue_%02d.png"/>
+		<image_list id="knob_disabled" src="knob_gain_disabled.png"/>
+		<image id="clip" src="knob_gain_blue/knob_gain_blue_mask.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="28" y="25"/>
+	</view>
+
+	<view type="EditText" id="Filter gain Edit">
+		<parameter id="gain"/>
+		<bounds x="150" y="135" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0.0 dB"/>
+	</view>
+
+	<view type="View" id="Filter Gain Highlight">
+		<parameter id="gain"/>
+	    <bounds x="235" y="158" width="5" height="3"/>
+		<image_list id="background">
+			<image id="" src=""/>
+			<image id="red" src="hl_backgrounds/hlbg_red.png"/>
+			<image id="blue" src="hl_backgrounds/hlbg_blue.png"/>
+			<image id="green" src="hl_backgrounds/hlbg_green.png"/>
+			<image id="yellow" src="hl_backgrounds/hlbg_yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="Filter frequency Knob">
+		<parameter id="ctrf"/>
+		<bounds x="145" y="60" width="45" height="39"/>
+		<image id="knob" src="knob_small/knob_small_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>
+
+	<view type="EditText" id="Filter frequency Edit">
+		<parameter id="ctrf"/>
+		<bounds x="190" y="80" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0.0 Hz"/>
+	</view>
+	
+	<view type="View" id="Filter frequency Highlight">
+		<parameter id="ctrf"/>
+	    <bounds x="165" y="103" width="5" height="3"/>
+		<image_list id="background">
+			<image id="" src=""/>
+			<image id="red" src="hl_backgrounds/hlbg_red.png"/>
+			<image id="blue" src="hl_backgrounds/hlbg_blue.png"/>
+			<image id="green" src="hl_backgrounds/hlbg_green.png"/>
+			<image id="yellow" src="hl_backgrounds/hlbg_yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="Filter Slope Knob">
+		<parameter id="slop"/>
+		<bounds x="212" y="19" width="45" height="39"/>
+		<tooltip string=""/>
+		<image_list id="knob">
+			<image src="knob_slope/knob_slope_00.png"/>
+			<image src="knob_slope/knob_slope_01.png"/>
+			<image src="knob_slope/knob_slope_02.png"/>
+			<image src="knob_slope/knob_slope_03.png"/>
+		</image_list>
+		<range min="0" max="3" interval="1" minRad="1.2" maxRad="1.8"/>
+		<center x="73" y="41"/>
+	</view>
+	
+	<view type="EditText" id="Filter Slope Edit">
+		<parameter id="slop"/>
+		<bounds x="150" y="37" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="Filter Slope Highlight">
+		<parameter id="slop"/>
+	    <bounds x="231" y="60" width="5" height="3"/>
+		<image_list id="background">
+			<image id="" src=""/>
+			<image id="red" src="hl_backgrounds/hlbg_red.png"/>
+			<image id="blue" src="hl_backgrounds/hlbg_blue.png"/>
+			<image id="green" src="hl_backgrounds/hlbg_green.png"/>
+			<image id="yellow" src="hl_backgrounds/hlbg_yellow.png"/>
+		</image_list>
+	</view>	
+
+	<view type="Knob" id="Filter Q Knob">
+		<parameter id="bndw"/>
+		<bounds x="212" y="19" width="45" height="39"/>
+		<tooltip string=""/>
+		<image id="knob" src="knob_q/knob_q_%02d.png"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	<view type="EditText" id="Filter Q Edit">
+		<parameter id="bndw"/>
+		<bounds x="150" y="37" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="Filter Q Highlight">
+		<parameter id="bndw"/>
+	    <bounds x="231" y="60" width="5" height="3"/>
+		<image_list id="background">
+			<image id="" src=""/>
+			<image id="red" src="hl_backgrounds/hlbg_red.png"/>
+			<image id="blue" src="hl_backgrounds/hlbg_blue.png"/>
+			<image id="green" src="hl_backgrounds/hlbg_green.png"/>
+			<image id="yellow" src="hl_backgrounds/hlbg_yellow.png"/>
+		</image_list>
+	</view>	
+		
+	<view type="View" id="Paint View">
+		<bounds x="292" y="12" width="150" height="144"/>
+	</view>	
+	
+</view>
+

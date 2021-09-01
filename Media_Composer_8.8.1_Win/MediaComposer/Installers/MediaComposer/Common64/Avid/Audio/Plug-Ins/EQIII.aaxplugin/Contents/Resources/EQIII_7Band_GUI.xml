@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<view type="" id="">
+	<bounds x="0" y="0" width="675" height="411"/>
+	<image id="background" src="7band_background.png" x="0" y="0"/>
+	
+	<view type="Knob" id="Input Level Knob">
+		<parameter id="inpt"/>
+	    <bounds x="79" y="50" width="45" height="39"/>
+		<image id="knob" src="knob_small_fill/knob_small_fill_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>
+
+	<view type="View" id="Input Level Highlight">
+		<parameter id="inpt"/>
+	    <bounds x="96" y="89" width="11" height="5"/>
+		<image_list id="background">
+			<image id="" src="automation_type1/black.png"/>
+			<image id="red" src="automation_type1/red.png"/>
+			<image id="blue" src="automation_type1/blue.png"/>
+			<image id="green" src="automation_type1/green.png"/>
+			<image id="yellow" src="automation_type1/yellow.png"/>
+		</image_list>
+	</view>
+	
+	<view type="EditText" id="Input Level Edit">
+		<parameter id="inpt"/>
+		<bounds x="18" y="71" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0.0 dB"/>
+	</view>	
+	
+	<view type="Button" id="Phase Invert Btn">
+		<parameter id="Phse"/>
+		<bounds x="60" y="40" width="22" height="24"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_phase_off.png"/>
+			<image id="" src="button_phase_inverted.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>	
+	
+	
+	<view type="Knob" id="Output Level Knob">
+		<parameter id="outp"/>
+	    <bounds x="211" y="50" width="45" height="39"/>
+		<image id="knob" src="knob_small_fill/knob_small_fill_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>
+
+	<view type="View" id="Output Level Highlight">
+		<parameter id="outp"/>
+	    <bounds x="228" y="89" width="11" height="5"/>
+		<image_list id="background">
+			<image id="" src="automation_type1/black.png"/>
+			<image id="red" src="automation_type1/red.png"/>
+			<image id="blue" src="automation_type1/blue.png"/>
+			<image id="green" src="automation_type1/green.png"/>
+			<image id="yellow" src="automation_type1/yellow.png"/>
+		</image_list>
+	</view>
+	
+	<view type="EditText" id="Output Level Edit">
+		<parameter id="outp"/>
+		<bounds x="150" y="71" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+    		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0.0 dB"/>
+	</view>	
+	
+	
+	<!-- Hipass filter -->
+	<view type="Button" id="Highpass-Notch Mode button">
+		<parameter id="hprg"/>
+		<bounds x="37" y="108" width="45" height="24"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="hpf_notch_on.png"/>
+			<image id="" src="hpf_hipass_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+		<range min="0" max="1" segments="2"/>
+	</view>	
+
+	<view type="Button" id="Highpass-Notch In button">
+		<parameter id="in 1"/>
+		<bounds x="114" y="158" width="21" height="21"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_in_off1.png"/>
+			<image id="" src="button_in_on1.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>	
+
+	<view type="Knob" id="Highpass-Notch Frequency Knob">
+		<parameter id="frq1"/>
+		<bounds x="13" y="161" width="45" height="39"/>
+		<image id="knob" src="knob_small/knob_small_%02d.png"/>
+		<image id="clip" src="knob_small/knob_small_mask.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>	
+	
+	<view type="EditText" id="Highpass-Notch Frequency Edit">
+		<parameter id="frq1"/>
+		<bounds x="59" y="182" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="20 Hz"/>
+	</view>		
+	
+	<view type="View" id="Highpass-Notch Frequency View">
+		<parameter id="frq1"/>
+		<bounds x="30" y="201" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_type3/black.png"/>
+			<image id="red" src="automation_type3/red.png"/>
+			<image id="blue" src="automation_type3/blue.png"/>
+			<image id="green" src="automation_type3/green.png"/>
+			<image id="yellow" src="automation_type3/yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="Highpass-Notch Q Knob">
+		<bounds x="79" y="118" width="47" height="39"/>
+		<parameter id="hpfq"/>
+		<tooltip string=""/>
+		<image id="knob" src="knob_q/knob_q_%02d.png"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="Highpass-Notch Q Edit">
+		<bounds x="18" y="139" width="60" height="15"/>
+		<parameter id="hpfq"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="Highpass-Notch Q View">
+		<bounds x="97" y="157" width="11" height="9"/>
+		<parameter id="hpfq"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	<view type="Knob" id="Highpass-Notch Slope Knob">
+		<bounds x="79" y="118" width="47" height="39"/>
+		<parameter id="hpfs"/>
+		<tooltip string=""/>
+		<image_list id="knob">
+			<image src="knob_slope/knob_slope_00.png"/>
+			<image src="knob_slope/knob_slope_01.png"/>
+			<image src="knob_slope/knob_slope_02.png"/>
+			<image src="knob_slope/knob_slope_03.png"/>
+		</image_list>
+		<range min="0" max="3" interval="1" minRad="1.2" maxRad="1.8"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="Highpass-Notch Slope Edit">
+		<bounds x="18" y="139" width="60" height="15"/>
+		<parameter id="hpfs"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="Highpass-Notch Slope View">
+		<bounds x="97" y="157" width="11" height="9"/>
+		<parameter id="hpfs"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>		
+
+	
+	<!-- Low pass -->
+	<view type="Button" id="Lopass-Notch Mode button">
+		<parameter id="lprg"/>
+		<bounds x="169" y="108" width="45" height="24"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="lpf_notch_on.png"/>
+			<image id="" src="lpf_lopass_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+		<range min="0" max="1" segments="2"/>
+	</view>	
+
+	<view type="Button" id="Lopass-Notch In button">
+		<parameter id="in 7"/>
+		<bounds x="246" y="158" width="21" height="21"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_in_off1.png"/>
+			<image id="" src="button_in_on1.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>	
+
+	<view type="Knob" id="Lopass-Notch Frequency Knob">
+		<parameter id="frq7"/>
+		<bounds x="145" y="161" width="45" height="39"/>
+		<image id="knob" src="knob_small/knob_small_%02d.png"/>
+		<image id="clip" src="knob_small/knob_small_mask.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>	
+	
+	<view type="EditText" id="Lopass-Notch Frequency Edit">
+		<parameter id="frq7"/>
+		<bounds x="191" y="182" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="20 Hz"/>
+	</view>		
+	
+	<view type="View" id="Lopass-Notch Frequency View">
+		<parameter id="frq7"/>
+		<bounds x="162" y="201" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_type3/black.png"/>
+			<image id="red" src="automation_type3/red.png"/>
+			<image id="blue" src="automation_type3/blue.png"/>
+			<image id="green" src="automation_type3/green.png"/>
+			<image id="yellow" src="automation_type3/yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="Lopass-Notch Q Knob">
+		<bounds x="211" y="118" width="47" height="39"/>
+		<parameter id="lpfq"/>
+		<tooltip string=""/>
+		<image id="knob" src="knob_q/knob_q_%02d.png"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="Lopass-Notch Q Edit">
+		<bounds x="150" y="139" width="60" height="15"/>
+		<parameter id="lpfq"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="Lopass-Notch Q View">
+		<bounds x="229" y="157" width="11" height="9"/>
+		<parameter id="lpfq"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	<view type="Knob" id="Lopass-Notch Slope Knob">
+		<bounds x="211" y="118" width="47" height="39"/>
+		<parameter id="lpfs"/>
+		<tooltip string=""/>
+		<image_list id="knob">
+			<image src="knob_slope/knob_slope_00.png"/>
+			<image src="knob_slope/knob_slope_01.png"/>
+			<image src="knob_slope/knob_slope_02.png"/>
+			<image src="knob_slope/knob_slope_03.png"/>
+		</image_list>
+		<range min="0" max="3" interval="1" minRad="1.2" maxRad="1.8"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="Lopass-Notch Slope Edit">
+		<bounds x="150" y="139" width="60" height="15"/>
+		<parameter id="lpfs"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="Lopass-Notch Slope View">
+		<bounds x="229" y="157" width="11" height="9"/>
+		<parameter id="lpfs"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	
+	<!-- LF pass -->
+	<view type="Button" id="LF Mode button">
+		<parameter id="lfrg"/>
+		<bounds x="37" y="219" width="45" height="24"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="lf_peak_on.png"/>
+			<image id="" src="lf_loshelf_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+		<range min="0" max="1" segments="2"/>
+	</view>	
+	
+	<view type="Button" id="LF In button">
+		<parameter id="in 2"/>
+		<bounds x="114" y="269" width="21" height="21"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_in_off.png"/>
+			<image id="" src="button_in_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>	
+	
+	<view type="Knob" id="LF Gain Knob">
+		<bounds x="77" y="317" width="57" height="50"/> 
+		<parameter id="gai2"/>
+		<image id="knob" src="knob_gain_red/knob_gain_red_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="28" y="25"/>
+	</view>
+	
+	<view type="View" id="LF Gain View">
+		<parameter id="gai2"/>
+		<bounds x="100" y="367" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_gain/black.png"/>
+			<image id="red" src="automation_gain/red.png"/>
+			<image id="blue" src="automation_gain/blue.png"/>
+			<image id="green" src="automation_gain/green.png"/>
+			<image id="yellow" src="automation_gain/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	<view type="EditText" id="LF Gain Edit">
+		<parameter id="gai2"/>
+		<bounds x="17" y="348" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0 dB"/>
+	</view>			
+
+	<view type="Knob" id="LF Frequency Knob">
+		<parameter id="frq2"/>
+		<bounds x="13" y="273" width="45" height="39"/>
+		<image id="knob" src="knob_small/knob_small_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>	
+	
+	<view type="EditText" id="LF Frequency Edit">
+		<parameter id="frq2"/>
+		<bounds x="59" y="293" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="20 Hz"/>
+	</view>		
+	
+	<view type="View" id="LF Frequency View">
+		<parameter id="frq2"/>
+		<bounds x="30" y="312" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="LF Q Knob">
+		<bounds x="79" y="230" width="47" height="39"/>
+		<parameter id="bnd2"/>
+		<tooltip string=""/>
+		<image id="knob" src="knob_q/knob_q_%02d.png"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="LF Q Edit">
+		<bounds x="18" y="250" width="60" height="15"/>
+		<parameter id="bnd2"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="LF Q View">
+		<bounds x="96" y="269" width="11" height="9"/>
+		<parameter id="bnd2"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	
+	<!-- LMF filter -->
+	<view type="Button" id="LMF In button">
+		<parameter id="in 3"/>
+		<bounds x="246" y="269" width="21" height="21"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_in_off.png"/>
+			<image id="" src="button_in_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>	
+		
+	<view type="Knob" id="LMF Gain Knob">
+		<bounds x="209" y="317" width="57" height="50"/> 
+		<parameter id="gai3"/>
+		<image id="knob" src="knob_gain_orange/knob_gain_orange_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="28" y="25"/>
+	</view>
+
+	<view type="View" id="LMF Gain View">
+		<parameter id="gai3"/>
+		<bounds x="232" y="367" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_gain/black.png"/>
+			<image id="red" src="automation_gain/red.png"/>
+			<image id="blue" src="automation_gain/blue.png"/>
+			<image id="green" src="automation_gain/green.png"/>
+			<image id="yellow" src="automation_gain/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	<view type="EditText" id="LMF Gain Edit">
+		<parameter id="gai3"/>
+		<bounds x="149" y="348" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0 dB"/>
+	</view>			
+	
+	<view type="Knob" id="LMF Frequency Knob">
+		<parameter id="frq3"/>
+		<bounds x="145" y="273" width="45" height="39"/>
+		<image id="knob" src="knob_small/knob_small_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>	
+	
+	<view type="EditText" id="LMF Frequency Edit">
+		<parameter id="frq3"/>
+		<bounds x="191" y="293" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="20 Hz"/>
+	</view>		
+	
+	<view type="View" id="LMF Frequency View">
+		<parameter id="frq3"/>
+		<bounds x="162" y="312" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="LMF Q Knob">
+		<bounds x="211" y="230" width="47" height="39"/>
+		<parameter id="bnd3"/>
+		<tooltip string=""/>
+		<image id="knob" src="knob_q/knob_q_%02d.png"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="LMF Q Edit">
+		<bounds x="150" y="250" width="60" height="15"/>
+		<parameter id="bnd3"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="LMF Q View">
+		<bounds x="228" y="269" width="11" height="9"/>
+		<parameter id="bnd3"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>			
+
+
+	<!-- MF filter -->
+	<view type="Button" id="MF In button">
+		<parameter id="in 4"/>
+		<bounds x="378" y="269" width="21" height="21"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_in_off.png"/>
+			<image id="" src="button_in_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>	
+		
+	<view type="Knob" id="MF Gain Knob">
+		<bounds x="341" y="317" width="57" height="50"/> 
+		<parameter id="gai4"/>
+		<image id="knob" src="knob_gain_yellow/knob_gain_yellow_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="28" y="25"/>
+	</view>
+
+	<view type="View" id="MF Gain View">
+		<parameter id="gai4"/>
+		<bounds x="364" y="367" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_gain/black.png"/>
+			<image id="red" src="automation_gain/red.png"/>
+			<image id="blue" src="automation_gain/blue.png"/>
+			<image id="green" src="automation_gain/green.png"/>
+			<image id="yellow" src="automation_gain/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	<view type="EditText" id="MF Gain Edit">
+		<parameter id="gai4"/>
+		<bounds x="281" y="348" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0 dB"/>
+	</view>			
+	
+	<view type="Knob" id="MF Frequency Knob">
+		<parameter id="frq4"/>
+		<bounds x="277" y="273" width="45" height="39"/>
+		<image id="knob" src="knob_small/knob_small_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>	
+	
+	<view type="EditText" id="MF Frequency Edit">
+		<parameter id="frq4"/>
+		<bounds x="323" y="293" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="20 Hz"/>
+	</view>		
+	
+	<view type="View" id="MF Frequency View">
+		<parameter id="frq4"/>
+		<bounds x="294" y="312" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="MF Q Knob">
+		<bounds x="343" y="230" width="47" height="39"/>
+		<parameter id="bnd4"/>
+		<tooltip string=""/>
+		<image id="knob" src="knob_q/knob_q_%02d.png"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="MF Q Edit">
+		<bounds x="282" y="250" width="60" height="15"/>
+		<parameter id="bnd4"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="MF Q View">
+		<bounds x="360" y="269" width="11" height="9"/>
+		<parameter id="bnd4"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>			
+
+	
+	<!-- HMF filter -->
+	<view type="Button" id="HMF In button">
+		<parameter id="in 5"/>
+		<bounds x="510" y="269" width="21" height="21"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_in_off.png"/>
+			<image id="" src="button_in_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>	
+		
+	<view type="Knob" id="HMF Gain Knob">
+		<bounds x="473" y="317" width="57" height="50"/> 
+		<parameter id="gai5"/>
+		<image id="knob" src="knob_gain_green/knob_gain_green_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="28" y="25"/>
+	</view>
+
+	<view type="View" id="HMF Gain View">
+		<parameter id="gai5"/>
+		<bounds x="496" y="367" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_gain/black.png"/>
+			<image id="red" src="automation_gain/red.png"/>
+			<image id="blue" src="automation_gain/blue.png"/>
+			<image id="green" src="automation_gain/green.png"/>
+			<image id="yellow" src="automation_gain/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	<view type="EditText" id="HMF Gain Edit">
+		<parameter id="gai5"/>
+		<bounds x="413" y="348" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0 dB"/>
+	</view>			
+	
+	<view type="Knob" id="HMF Frequency Knob">
+		<parameter id="frq5"/>
+		<bounds x="409" y="273" width="45" height="39"/>
+		<image id="knob" src="knob_small/knob_small_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>	
+	
+	<view type="EditText" id="HMF Frequency Edit">
+		<parameter id="frq5"/>
+		<bounds x="455" y="293" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="20 Hz"/>
+	</view>		
+	
+	<view type="View" id="HMF Frequency View">
+		<parameter id="frq5"/>
+		<bounds x="426" y="312" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="HMF Q Knob">
+		<bounds x="475" y="230" width="47" height="39"/>
+		<parameter id="bnd5"/>
+		<tooltip string=""/>
+		<image id="knob" src="knob_q/knob_q_%02d.png"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="HMF Q Edit">
+		<bounds x="414" y="250" width="60" height="15"/>
+		<parameter id="bnd5"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	<view type="View" id="HMF Q View">
+		<bounds x="492" y="269" width="11" height="9"/>
+		<parameter id="bnd5"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>			
+	
+	<!-- HF filter -->
+	<view type="Button" id="HF Mode button">
+		<parameter id="hfrg"/>
+		<bounds x="565" y="219" width="45" height="24"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="hf_peak_on.png"/>
+			<image id="" src="hf_hishelf_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+		<range min="0" max="1" segments="2"/>
+	</view>	
+	
+	<view type="Button" id="HF In button">
+		<parameter id="in 6"/>
+		<bounds x="642" y="269" width="21" height="21"/>
+		<tooltip string=""/>
+		<font typeface="Arial" height="12" bold="0" italic="0" underlined="0"/>
+		<color id="text" red="0" green="0" blue="0" alpha="255"/>
+		<text string=""/>
+		<image_list id="state">
+			<image id="" src="button_in_off.png"/>
+			<image id="" src="button_in_on.png"/>
+		</image_list>
+		<toggles value="true"/>
+	    <highlight thickness="1"/>
+	</view>	
+		
+	<view type="Knob" id="HF Gain Knob">
+		<bounds x="605" y="317" width="57" height="50"/> 
+		<parameter id="gai6"/>
+		<image id="knob" src="knob_gain_blue/knob_gain_blue_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="28" y="25"/>
+	</view>
+
+	<view type="View" id="HF Gain View">
+		<parameter id="gai6"/>
+		<bounds x="628" y="367" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_gain/black.png"/>
+			<image id="red" src="automation_gain/red.png"/>
+			<image id="blue" src="automation_gain/blue.png"/>
+			<image id="green" src="automation_gain/green.png"/>
+			<image id="yellow" src="automation_gain/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	<view type="EditText" id="HF Gain Edit">
+		<parameter id="gai6"/>
+		<bounds x="545" y="348" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="0 dB"/>
+	</view>			
+	
+	<view type="Knob" id="HF Frequency Knob">
+		<parameter id="frq6"/>
+		<bounds x="541" y="273" width="45" height="39"/>
+		<image id="knob" src="knob_small/knob_small_%02d.png"/>
+		<range min="0" max="1.0" interval="0.01" minRad="1.2" maxRad="2.8"/>
+		<center x="22" y="20"/>
+	</view>	
+	
+	<view type="EditText" id="HF Frequency Edit">
+		<parameter id="frq6"/>
+		<bounds x="587" y="293" width="60" height="15"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string="20 Hz"/>
+	</view>		
+	
+	<view type="View" id="HF Frequency View">
+		<parameter id="frq6"/>
+		<bounds x="558" y="312" width="11" height="9"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>	
+	
+	<view type="Knob" id="HF Q Knob">
+		<bounds x="607" y="230" width="47" height="39"/>
+		<parameter id="bnd6"/>
+		<tooltip string=""/>
+		<image id="knob" src="knob_q/knob_q_%02d.png"/>
+		<range min="0" max="1.0" minRad="1.2" maxRad="2.0"/>
+		<center x="22" y="20"/>
+	</view>
+
+	
+	<view type="EditText" id="HF Q Edit">
+		<bounds x="546" y="250" width="60" height="15"/>
+		<parameter id="bnd6"/>
+		<tooltip string=""/>
+		<image id="hit_area" src="" x="0" y="0"/>
+		<font typeface="Arial" height="12" bold="1" italic="0" underlined="0"/>
+		<color id="text" red="90" green="255" blue="90" alpha="250"/>
+    		<color id="background" red="0" green="0" blue="0" alpha="255"/>
+		<justification horizontal="right" vertical="bottom"/>
+		<image id="background" src=""/>
+		<inset top="0" left="0" bottom="0" right="0"/>
+		<text string=""/>
+	</view>
+
+	
+	<view type="View" id="HF Q View">
+		<bounds x="624" y="269" width="11" height="9"/>
+		<parameter id="bnd6"/>
+		<image_list id="background">
+			<image id="" src="automation_type2/black.png"/>
+			<image id="red" src="automation_type2/red.png"/>
+			<image id="blue" src="automation_type2/blue.png"/>
+			<image id="green" src="automation_type2/green.png"/>
+			<image id="yellow" src="automation_type2/yellow.png"/>
+		</image_list>
+	</view>		
+	
+	
+	<view type="View" id="Paint View">
+		<bounds x="304" y="15" width="349" height="185"/>
+	</view>	
+
+	
+	<view type="Meter" id="InputMeter">
+		<meter id="inpM" type="full_on" peak="1"/>
+		<bounds x="48" y="14" width="197" height="7"/>
+		<image id="background" src="Meters/meter_unlit.png"/>
+		<image id="meter" src="Meters/meter_lit.png"/>
+		
+		<taper_delegate id="meter">
+			<taper input=  "0.0"    output="197"/>
+			<taper input= "-3.0"  	output="175"/>
+			<taper input= "-6.0"  	output="152"/>
+			<taper input="-10.0"  	output="126"/>
+			<taper input="-16.0"  	output="98"/>
+			<taper input="-22.0"  	output="69"/>
+			<taper input="-32.0"  	output="41"/>
+			<taper input="-60.0"  	output="13"/>
+			<taper input="-90.0"    output="0"/>
+		</taper_delegate>
+	</view>
+	
+	<view type="Meter" id="Input Clip In">
+		<meter id="inpM" type="clip_only"/>
+		<bounds x="245" y="14" width="11" height="7"/>
+		<image id="background" src="Meters/meter_clip_unlit.png"/>
+		<image id="clip_meter" src="Meters/meter_clip_lit1.png"/>
+	</view>
+
+
+	<view type="Meter" id="OutputMeter">
+		<meter id="outM" type="full_on" peak="1"/>
+		<bounds x="48" y="31" width="197" height="7"/>
+		<image id="background" src="Meters/meter_unlit.png"/>
+		<image id="meter" src="Meters/meter_lit.png"/>
+		
+		<taper_delegate id="meter">
+			<taper input=  "0.0"    output="197"/>
+			<taper input= "-3.0"  	output="175"/>
+			<taper input= "-6.0"  	output="152"/>
+			<taper input="-10.0"  	output="126"/>
+			<taper input="-16.0"  	output="98"/>
+			<taper input="-22.0"  	output="69"/>
+			<taper input="-32.0"  	output="41"/>
+			<taper input="-60.0"  	output="13"/>
+			<taper input="-90.0"    output="0"/>
+		</taper_delegate>
+	</view>
+
+	<view type="Meter" id="Output Clip In">
+		<meter id="outM" type="clip_only"/>
+		<bounds x="245" y="31" width="11" height="7"/>
+		<image id="background" src="Meters/meter_clip_unlit.png"/>
+		<image id="clip_meter" src="Meters/meter_clip_lit1.png"/>
+	</view>
+	
+</view>
